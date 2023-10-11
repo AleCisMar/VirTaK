@@ -1,0 +1,7 @@
+name: VirTaK
+dependencies:
+	- python=3.9.18
+	- biopython=1.81
+	- scipy=1.11.2
+	- numpy=1.25.2
+	- pandas=2.1.0
