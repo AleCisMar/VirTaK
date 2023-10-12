@@ -18,7 +18,7 @@ You can download the repository as a ZIP archive or clone the repository with:
 ```{bash, eval=FALSE, echo=TRUE}
 git clone https://github.com/AleCisMar/VirTaK.git
 ``` 
-
+Once unpacked, within the VirTak directory:
 ### Option 1 (recommended): create environment with all dependencies from environment.yml file:
 ```{bash, eval=FALSE, echo=TRUE}
 conda env create -f environment.yml
