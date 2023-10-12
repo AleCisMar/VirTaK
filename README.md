@@ -5,10 +5,11 @@ VirTaK is intended to quickly relate a virus with known taxonomy to a metagenomi
 ## Dependencies
 
 VirTaK codes where developed and tested with Python 3.9.18 using the following libraries:
-* Biopython 1.81
-* SciPy 1.11.2
-* NumPy 1.25.2
-* Pandas 2.1.0
+* Biopython 1.78
+* Matplotlib 3.7.2
+* NumPy 1.26.0
+* Pandas 2.0.3
+* SciPy 1.11.3
 
 ## Installation
 
@@ -26,13 +27,13 @@ conda env create -f environment.yml
 ### Option 2: create environment with all dependencies from a single command:
 
 ```{bash, eval=FALSE, echo=TRUE}
-conda create -n VirTaK python=3.9.18 biopython=1.81 scipy=1.11.2 numpy=1.25.2 pandas=2.1.0
+conda create -n VirTaK python=3.9 biopython matplotlib numpy pandas scipy
 ```
 
-### Option 3: create a conda environment and install further dependencies one at a time with pip:
+### Option 3: create a conda environment and install further dependencies one at a time:
 
 ```{bash, eval=FALSE, echo=TRUE}
-conda create -n VirTaK python=3.9.18
+conda create -n VirTaK python=3.9
 ```
 
 ```{bash, eval=FALSE, echo=TRUE}
@@ -40,7 +41,7 @@ conda activate VirTaK
 ```
 Example:
 ```{bash, eval=FALSE, echo=TRUE}
-pip install biopython=1.81
+conda install biopython=1.78
 ```
 
 ## Execution
