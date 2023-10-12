@@ -1,6 +1,6 @@
 # VirTaK (Virus Taxonomy from Kmers)
  
-VirTaK is intended to quickly relate a virus with known taxonomy to a metagenomic assemblied virus. It is based on a k-mer (default = 4-mer) profile database build from complete genomes within the ICTV Virus Metadata Resource (https://ictv.global/vmr). For each query assembly in fasta format it will calculate a k-mer (default = 4-mer) profile and search for the virus with the least dissimilar profile (Bray-Curtis dissimilarity) in the kmer profile database.
+VirTaK is intended to quickly relate a virus with known taxonomy to a metagenomic assembled virus. It is based on a k-mer (default = 4-mer) profile database build from complete genomes within the ICTV Virus Metadata Resource (https://ictv.global/vmr). For each query assembly in fasta format it will calculate a k-mer (default = 4-mer) profile and search for the virus with the least dissimilar profile (Bray-Curtis dissimilarity) in the kmer profile database.
 
 ## Dependencies
 
@@ -80,7 +80,7 @@ NOTE: a copy of database_name.fasta is used by PanPhylo. So, if we want to updat
 
 ### kmer_search.py:
 
-This is the code that will quickly relate a virus with known taxonomy to a metagenomic assemblied virus
+This is the code that will quickly relate a virus with known taxonomy to a metagenomic assemblied virus. It helps answering the question: to whom our assembled viruses are related to?
 
 ```{bash, eval=FALSE, echo=TRUE}
 usage: kmer_search.py [-h] -d DATABASE [-k KMER_LENGTH] -o OUTPUT
@@ -101,7 +101,7 @@ Additionally to the output results file it will create .kmer files for each .fas
 
 ### calculate_threshold.py:
 
-This is not compulsory but it will calculate the maximum distance between profiles in a specified taxonomic level. If kmer_search.py found that the least dissimilar virus to the query virus is a Coronavirus, we can calculate the maximum distance between all profiles belonging to the family Coronaviridae or to the order Nidovirales, etc. which will help us decide whether the query virus actually belongs to the given taxon or not.
+This is not compulsory but it will calculate the maximum distance between profiles in a specified taxonomic level. If kmer_search.py found that the least dissimilar virus to the query virus is a Coronavirus, we can calculate the maximum distance between all profiles belonging to the family Coronaviridae or to the order Nidovirales, etc. which will help us decide whether the query virus actually belongs to the given taxon or not. It helps answering the question: do assembled viruses belong to the taxon of their least dissimilar virus?, or how close may the relationship be?
 
 ```{bash, eval=FALSE, echo=TRUE}
 usage: calculate_threshold.py [-h] -i INPUT -o OUTPUT -d DATABASE -t {family,order,class,phylum,kingdom,realm}
@@ -122,7 +122,7 @@ optional arguments:
 
 ### generate_tree.py:
 
-This is not compulsory but it will merge the profile of viruses listed in an input list with the profiles of all viruses belonging to a specified taxon, perform an all vs all comparison to obtain a distance matrix and finally a distance tree. Such tree will be a proxy of the phylogenetic relationships within the taxon and how is the query virus related to other member viruses.
+This is not compulsory but it will merge the profile of viruses listed in an input list with the profiles of all viruses belonging to a specified taxon, perform an all vs all comparison to obtain a distance matrix and finally a distance tree. Such tree will be a proxy of the phylogenetic relationships within the taxon and how is the query virus related to other member viruses. It helps answering the questions: how are our assembled viruses related to other viruses belonging to the taxon of the least dissimilar virus?, do they represent a novel lineage?
 
 ```{bash, eval=FALSE, echo=TRUE}
 usage: generate_tree.py [-h] -d DATABASE -l LIST -s STRING -n NEWICK
