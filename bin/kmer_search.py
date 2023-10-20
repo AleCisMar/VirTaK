@@ -34,10 +34,10 @@ def calculate_bray_curtis(profile1, profile2):
     return 1.0 - (2.0 * numerator / (denominator1 + denominator2))
 
 def main():
-    parser = argparse.ArgumentParser(description="Calculate k-mer profiles for every .fasta file in the current directory and search for the virus with the least dissimilar (Bray-Curtis) k-mer profile in the input database")
-    parser.add_argument('-d', '--database', required=True, help='Input k-mer profile database')
+    parser = argparse.ArgumentParser(description="Calculates k-mer profiles for every file.fasta file in the current directory (creates file.kmer files) and searches for the n (default=10) viruses with the least dissimilar (Bray-Curtis) k-mer profiles in the input database. The results are written to files named file_matches.txt with 'profile names' in the first column, and 'dissimilarity values' in the second column")
+    parser.add_argument('-d', '--database', required=True, help='Input k-mer profile database. Example: db/VMR_MSL38_v1_complete_genomes.kmers')
     parser.add_argument('-k', '--kmer_length', type=int, default=4, help='OPTIONAL: Length of k-mers. Default = 4')
-    parser.add_argument('-o', '--output', required=True, help='Output file for results')
+    parser.add_argument('-n', '--n_matches', type=int, default=10, help='OPTIONAL: Number of top matches to display in output file. Default = 10')
     args = parser.parse_args()
 
     # Read the input k-mer profile database
@@ -79,19 +79,29 @@ def main():
 
             # Calculate Bray-Curtis dissimilarity to every k-mer profile in the database
             print(f"Comparing {kmer_file_name} profile with profiles in {args.database}")
-            best_match_name = None
-            best_match_value = float('inf')
-            for profile_name, profile_values in kmer_profiles.items():                
-                dissimilarity = calculate_bray_curtis(kmer_profile, profile_values)
-                if dissimilarity < best_match_value:
-                    best_match_name = profile_name
-                    best_match_value = dissimilarity
+            n = args.n_matches
+            top_n_matches = [(None, float('inf'))] * n
 
-            # Write results to the output file
-            with open(args.output, 'a') as output_file:
-                output_file.write(f"{kmer_file_name}\t{best_match_name}\t{best_match_value}\n")
-            print(f"Best match for {kmer_file_name}: {best_match_name} with a distance of {best_match_value}")
-    print(f"Results written to {args.output}")
+            for profile_name, profile_values in kmer_profiles.items():
+                dissimilarity = calculate_bray_curtis(kmer_profile, profile_values)
+
+                for i, (match_name, match_value) in enumerate(top_n_matches):
+                    if dissimilarity < match_value:
+                        top_n_matches.insert(i, (profile_name, dissimilarity))
+                        break
+            top_n_matches = top_n_matches[:n]
+
+            result_file_name = os.path.splitext(file_name)[0] + '_matches.txt'
+            with open(result_file_name, 'w') as output_file:
+                output_file.write(f"Top {n} matches for {kmer_file_name}:\n")
+                print(f"Top {n} matches for {kmer_file_name}:")
+                print("Profile Name\tDissimilarity Value")
+                for match in top_n_matches:
+                    profile_name, dissimilarity = match                    
+                    output_file.write(f"{profile_name}\t{dissimilarity}\n")
+                    print(f"{profile_name}\t{dissimilarity}")
+
+            print(f"Results written to {result_file_name}")
 
 if __name__ == "__main__":
     main()
