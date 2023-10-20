@@ -1,6 +1,6 @@
 # VirTaK (Virus Taxonomy from Kmers)
  
-VirTaK is intended to quickly relate a virus with known taxonomy to a metagenomic assembled virus. It is based on a k-mer (default = 4-mer) profile database build from complete genomes within the ICTV Virus Metadata Resource (https://ictv.global/vmr). For each query assembly in fasta format it will calculate a k-mer (default = 4-mer) profile and search for the virus with the least dissimilar profile (Bray-Curtis dissimilarity) in the kmer profile database.
+VirTaK is intended to quickly relate a virus with known taxonomy to a metagenomic assembled virus. It is based on a k-mer (default = 4-mer) profile database build from complete genomes within the ICTV Virus Metadata Resource (https://ictv.global/vmr). For each query assembly in fasta format it will calculate a k-mer (default = 4-mer) profile and search for the n (default = 10) viruses with the least dissimilar profiles (Bray-Curtis dissimilarity) in the kmer profile database.
 
 ## Dependencies
 
@@ -56,12 +56,13 @@ VirTaK is made up of four main codes: build_kmer_database.py, kmer_search.py, ca
 
 ### build_kmer_database.py (optional):
 
-A 4-mer database is already provided in db/VMR_MSL38_v1_complete_genomes.kmers. Execute this code only if you want to build an updated database or if you want to build a database with different k-mer length.
+A 4-mer database is already provided in db/VMR_MSL38_v1_complete_genomes.kmers, along with db/DNA.kmers and db/RNA.kmers. Execute this code only if you want to build an updated database or if you want to build a database with different k-mer length.
 
 ```{bash, eval=FALSE, echo=TRUE}
-usage: build_kmer_database.py [-h] -i INPUT_LIST -e EMAIL -o OUTPUT_PREFIX [-k KMER_LENGTH]
+usage: build_kmer_database.py [-h] -i INPUT_LIST -e EMAIL -o OUTPUT_PREFIX -a ANNOTATION_FILE [-k KMER_LENGTH]
 
-Download and process GenBank records from a list of accessions to obtain complete genomes in fasta format and create a kmer profile database.
+Download and process GenBank records from a list of accessions to obtain complete genomes in fasta format and create a kmer profile database. Will also generate a fasta file with complete genomes and
+separate .kmers files for DNA and RNA viruses.
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -70,54 +71,57 @@ optional arguments:
   -e EMAIL, --email EMAIL
                         Your email address for NCBI Entrez utilities
   -o OUTPUT_PREFIX, --output_prefix OUTPUT_PREFIX
-                        Prefix for the output files
+                        Prefix for the output files. Example: VMR_MSL38_v1_complete_genomes
+  -a ANNOTATION_FILE, --annotation_file ANNOTATION_FILE
+                        Annotation file needed to name fasta headers. Example: lists/VMR_MSL38_v1_complete_genomes.txt
   -k KMER_LENGTH, --kmer_length KMER_LENGTH
                         OPTIONAL: Length of k-mers. Default = 4
 ```
 
 The output consists of two files: database_name.fasta and database_name.kmers
-NOTE: a copy of database_name.fasta is used by PanPhylo. So, if we want to update the database used by PanPhylo we need to execute this code.
+NOTE: a copy of database_name.fasta is used by PanPhylo (available at https://drive.google.com/file/d/1C-zm-d9eTlarlSKQ_19eQTm-V7m_SNh_/view?usp=sharing). So, if we want to update the database used by PanPhylo we need to execute this code.
 
 ### kmer_search.py:
 
 This is the code that will quickly relate a virus with known taxonomy to a metagenomic assemblied virus. It helps answering the question: to whom our assembled viruses are related to?
 
 ```{bash, eval=FALSE, echo=TRUE}
-usage: kmer_search.py [-h] -d DATABASE [-k KMER_LENGTH] -o OUTPUT
+usage: kmer_search.py [-h] -d DATABASE [-k KMER_LENGTH] [-n N_MATCHES]
 
-Calculate k-mer profiles for every .fasta file in the current directory and search for the virus with the least dissimilar (Bray-Curtis) k-mer profile in the input database
+Calculates k-mer profiles for every file.fasta file in the current directory (creates file.kmer files) and searches for the n (default=10) viruses with the least dissimilar (Bray-Curtis) k-mer profiles
+in the input database. The results are written to files named file_matches.txt with 'profile names' in the first column, and 'dissimilarity values' in the second column
 
 optional arguments:
   -h, --help            show this help message and exit
   -d DATABASE, --database DATABASE
-                        Input k-mer profile database
+                        Input k-mer profile database. Example: db/VMR_MSL38_v1_complete_genomes.kmers
   -k KMER_LENGTH, --kmer_length KMER_LENGTH
                         OPTIONAL: Length of k-mers. Default = 4
-  -o OUTPUT, --output OUTPUT
-                        Output file for results
+  -n N_MATCHES, --n_matches N_MATCHES
+                        OPTIONAL: Number of top matches to display in output file. Default = 10
 ```
 
 Additionally to the output results file it will create .kmer files for each .fasta file in the current directory.
 
 ### calculate_threshold.py:
 
-This is not compulsory but it will calculate the maximum distance between profiles in a specified taxonomic level. If kmer_search.py found that the least dissimilar virus to the query virus is a Coronavirus, we can calculate the maximum distance between all profiles belonging to the family Coronaviridae or to the order Nidovirales, etc. which will help us decide whether the query virus actually belongs to the given taxon or not. It helps answering the question: do assembled viruses belong to the taxon of their least dissimilar virus?, or how close may the relationship be?
+This is not compulsory but it will calculate the maximum distance between profiles in a specified taxon. If kmer_search.py found that the least dissimilar viruses to the query virus are coronaviruses, we can calculate the maximum distance between all profiles belonging to the family Coronaviridae or to the order Nidovirales, etc. which will help us decide whether the query virus actually belongs to the given taxon or not. It helps answering the question: do assembled viruses belong to the taxon of their least dissimilar virus?, or how close may the relationship be?
 
 ```{bash, eval=FALSE, echo=TRUE}
-usage: calculate_threshold.py [-h] -i INPUT -o OUTPUT -d DATABASE -t {family,order,class,phylum,kingdom,realm}
+usage: calculate_threshold.py [-h] -i INPUT -d DATABASE -s STRING
 
-Given the taxonomy of the virus with the best-matching profile, calculate the Bray-Curtis threshold for the specified taxonomic rank
+Knowing the taxa associated to the least dissimilar viruses (in kmer_search.py output files), the user can calculate the threshold for a specific taxon (for example Coronaviridae). This code will search
+for the kmer profiles that match the user defined string (Coronaviridae, Nidovirales or whatever) in the kmer profile database, calculate all vs all Bray-Curtis dissimilarities and get the maximum value
+(threshold) for that specific taxon. Finally it will update the input file adding the columns 'taxon, threshold, and number of viruses' to the lines that match the string in the input file
 
 optional arguments:
   -h, --help            show this help message and exit
   -i INPUT, --input INPUT
-                        Input file. Is the output of kmer_search.py
-  -o OUTPUT, --output OUTPUT
-                        Output file
+                        Input file. Is the output of kmer_search.py. Example: file_matches.txt
   -d DATABASE, --database DATABASE
-                        Kmer profile database
-  -t {family,order,class,phylum,kingdom,realm}, --taxonomy {family,order,class,phylum,kingdom,realm}
-                        Suffix to search for (e.g., family, order, class, phylum, kingdom, realm)
+                        Kmer profile database. Example: db/VMR_MSL38_v1_complete_genomes.kmers
+  -s STRING, --string STRING
+                        String to search in input file. Example: Coronaviridae, or Nidovirales, etc.
 ```
 
 ### generate_tree.py:
