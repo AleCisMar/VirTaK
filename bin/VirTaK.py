@@ -92,8 +92,8 @@ def get_pfams(file_path):
     return list(pfams)
 
 def main():
-    parser = argparse.ArgumentParser(description="Calculates k-mer profiles for every file.fasta file in the current directory (creates file.kmer files) and searches for the n (default=10) viruses with the least dissimilar (Bray-Curtis) k-mer profiles in the input database. The results are written to files named file_matches.txt with 'profile names' in the first column, and 'dissimilarity values' in the second column")
-    parser.add_argument('-l', '--list', required=True, help='Input list of .fasta files to process')
+    parser = argparse.ArgumentParser(description="Calculates k-mer profiles for every file.fasta listed in an input list and searches for the n (default=10) viruses with the least dissimilar (Bray-Curtis) k-mer profiles in the input database. Finally, to test if the most similar viruses are actually related to the query virus it compares the genome length, number of coding sequences, and the similarity in domain content between each query genome and its corresponding most similar viruses")
+    parser.add_argument('-l', '--list', required=True, help='Input list of .fasta files to process. Example: list.txt')
     parser.add_argument('-d', '--database', required=True, help='Input k-mer profile database. Example: db/VMR_MSL38_v1_complete_genomes.kmers')
     parser.add_argument('-f', '--fasta_database', required=True, help='Input fasta database. Example: db/VMR_MSL38_v1_complete_genomes.fasta')
     parser.add_argument('-p', '--pfam_path', required=True, help='Path to directory where Pfam-A.hmm database is located. Example: db/')
