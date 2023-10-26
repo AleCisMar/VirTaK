@@ -1,2 +1,0 @@
-pangolinCoV.kmer
-ratg13CoV.kmer
