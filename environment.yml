@@ -1,4 +1,7 @@
 name: VirTaK
+channels:
+  - defaults
+  - bioconda
 dependencies:
   - python=3.9
   - biopython
@@ -6,3 +9,6 @@ dependencies:
   - numpy
   - pandas
   - scipy
+  - prodigal
+  - hmmer
+  - pfam_scan
