@@ -1,6 +1,6 @@
 # VirTaK (Virus Taxonomy from Kmers)
  
-VirTaK is intended to quickly relate a virus with known taxonomy to a metagenomic assembled virus. It is based on a k-mer (default = 4-mer) profile database build from complete genomes within the ICTV Virus Metadata Resource (https://ictv.global/vmr). For each query assembly in fasta format it will calculate a k-mer (default = 4-mer) profile and search for the n (default = 10) viruses with the least dissimilar profiles (Bray-Curtis dissimilarity) in the kmer profile database.
+VirTaK is intended to quickly relate a virus with known taxonomy to a metagenomic assembled virus. It is based on a k-mer (default = 4-mer) profile database build from complete genomes within the ICTV Virus Metadata Resource (https://ictv.global/vmr). For each query genome in fasta format listed in the input file, it will calculate a k-mer (default = 4-mer) profile and search for the n (default = 10) viruses with the least dissimilar profiles (Bray-Curtis dissimilarity) in the kmer profile database. Then, it will compare the genome length, the number of coding sequences, and the similarity in domain content between each query genome and its corresponding most similar viruses to calculate an overall score. In general, the virus with the highest overall score will be more likely to actually be related to the query virus.
 
 ## Dependencies
 
