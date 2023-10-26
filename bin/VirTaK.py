@@ -6,7 +6,6 @@ from collections import defaultdict, Counter
 from scipy.spatial import distance
 import subprocess
 import re
-from operator import itemgetter
 
 def generate_kmers(k):
     # Define the letters
