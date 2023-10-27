@@ -5,6 +5,7 @@ VirTaK is intended to quickly relate a virus with known taxonomy to a metagenomi
 ## Dependencies
 
 VirTaK codes where developed and tested with Python 3.9.18 using the following libraries:
+
 * Biopython 1.78
 * Matplotlib 3.7.2
 * NumPy 1.26.0
@@ -20,18 +21,22 @@ VirTaK codes where developed and tested with Python 3.9.18 using the following l
 
 ```{bash, eval=FALSE, echo=TRUE}
 git clone https://github.com/AleCisMar/VirTaK.git
-``` 
+```
+
 Once unpacked, within the VirTak directory: 
 
 ### Create VirTaK environment with all dependencies from environment.yml file:
+
 ```{bash, eval=FALSE, echo=TRUE}
 conda env create -f environment.yml
 ```
 ### Download databases:
+
 * The VMR complete genomes database is available at https://drive.google.com/file/d/1C-zm-d9eTlarlSKQ_19eQTm-V7m_SNh_/view?usp=sharing.
 * Pfam-A database. Download and decompress both Pfam-A.hmm.gz and Pfam-A.hmm.dat.gz from https://www.ebi.ac.uk/interpro/download/pfam/.
 
 ### Create index files for HMM database
+
 ```{bash, eval=FALSE, echo=TRUE}
 hmmpress Pfam-A.hmm
 ```
@@ -42,6 +47,38 @@ Make sure to activate VirTaK environment before executing its codes:
 
 ```{bash, eval=FALSE, echo=TRUE}
 conda activate VirTaK
+```
+
+### VirTaK.py:
+
+Create a list of files.fasta to process. Example:
+
+```{bash, eval=FALSE, echo=TRUE}
+ls *.fasta > list.txt
+```
+
+This code helps answering the question: to whom our assembled viruses are related to? 
+
+```{bash, eval=FALSE, echo=TRUE}
+usage: VirTaK.py [-h] -l LIST -d DATABASE -f FASTA_DATABASE -p PFAM_PATH -o OUTPUT_FILE [-k KMER_LENGTH] [-n N_MATCHES]
+
+Calculates k-mer profiles for every file.fasta listed in an input list and searches for the n (default=10) viruses with the least dissimilar (Bray-Curtis) k-mer profiles in the input database. Finally, to test if the most similar viruses are actually related to the query virus it compares the genome length, number of coding sequences, and the similarity in domain content between each query genome and its corresponding most similar viruses.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -l LIST, --list LIST  Input list of .fasta files to process
+  -d DATABASE, --database DATABASE
+                        Input k-mer profile database. Example: db/VMR_MSL38_v1_complete_genomes.kmers
+  -f FASTA_DATABASE, --fasta_database FASTA_DATABASE
+                        Input fasta database. Example: db/VMR_MSL38_v1_complete_genomes.fasta
+  -p PFAM_PATH, --pfam_path PFAM_PATH
+                        Path to directory where Pfam-A.hmm database is located. Example: db/
+  -o OUTPUT_FILE, --output_file OUTPUT_FILE
+                        Output file name. Example: results.txt
+  -k KMER_LENGTH, --kmer_length KMER_LENGTH
+                        OPTIONAL: Length of k-mers. Default = 4
+  -n N_MATCHES, --n_matches N_MATCHES
+                        OPTIONAL: Number of top matches to display in output file. Default = 10
 ```
 
 ### build_virtak_database.py (optional):
@@ -69,29 +106,3 @@ optional arguments:
 ```
 
 The output consists of two main files (database_name.fasta and database_name.kmers) and two additional files (DNA.kmers and RNA.kmers).
-
-### VirTaK.py:
-
-This code helps answering the question: to whom our assembled viruses are related to? 
-
-```{bash, eval=FALSE, echo=TRUE}
-usage: VirTaK.py [-h] -l LIST -d DATABASE -f FASTA_DATABASE -p PFAM_PATH -o OUTPUT_FILE [-k KMER_LENGTH] [-n N_MATCHES]
-
-Calculates k-mer profiles for every file.fasta listed in an input list and searches for the n (default=10) viruses with the least dissimilar (Bray-Curtis) k-mer profiles in the input database. Finally, to test if the most similar viruses are actually related to the query virus it compares the genome length, number of coding sequences, and the similarity in domain content between each query genome and its corresponding most similar viruses.
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -l LIST, --list LIST  Input list of .fasta files to process
-  -d DATABASE, --database DATABASE
-                        Input k-mer profile database. Example: db/VMR_MSL38_v1_complete_genomes.kmers
-  -f FASTA_DATABASE, --fasta_database FASTA_DATABASE
-                        Input fasta database. Example: db/VMR_MSL38_v1_complete_genomes.fasta
-  -p PFAM_PATH, --pfam_path PFAM_PATH
-                        Path to directory where Pfam-A.hmm database is located. Example: db/
-  -o OUTPUT_FILE, --output_file OUTPUT_FILE
-                        Output file name. Example: results.txt
-  -k KMER_LENGTH, --kmer_length KMER_LENGTH
-                        OPTIONAL: Length of k-mers. Default = 4
-  -n N_MATCHES, --n_matches N_MATCHES
-                        OPTIONAL: Number of top matches to display in output file. Default = 10
-```
