@@ -199,15 +199,18 @@ def main():
                                 blastp_dict[accessions] = (new_pident, count + 1)
                             else:
                                 blastp_dict[accessions] = (pident, 1)
-                #unique_blastp_matches = len(blastp_matches)
-                max_count = max(count for pident, count in blastp_dict.values())                
-                normalized_blastp_dict = {}
-                for accession, (pident, count) in blastp_dict.items():
-                    normalized_pident = (pident * count) / max_count
-                    normalized_blastp_dict[accession] = normalized_pident
-                unique_blastp_matches = len(normalized_blastp_dict)
-                print(f"Found {unique_blastp_matches} genomes with homologous proteins")
-                #print(blastp_matches)
+                if not blastp_dict:
+                    print(f"Found 0 genomes with homologous proteins")
+                else:
+                    #unique_blastp_matches = len(blastp_matches)
+                    max_count = max(count for pident, count in blastp_dict.values())                
+                    normalized_blastp_dict = {}
+                    for accession, (pident, count) in blastp_dict.items():
+                        normalized_pident = (pident * count) / max_count
+                        normalized_blastp_dict[accession] = normalized_pident
+                    unique_blastp_matches = len(normalized_blastp_dict)
+                    print(f"Found {unique_blastp_matches} genomes with homologous proteins")
+                    #print(blastp_matches)
 
                 # Run pfamscan to detect distantly related genomes
                 print("Searching for distantly related genomes")
