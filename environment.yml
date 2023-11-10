@@ -12,3 +12,4 @@ dependencies:
   - prodigal
   - hmmer
   - pfam_scan
+  - blast
