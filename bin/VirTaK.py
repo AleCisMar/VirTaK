@@ -294,7 +294,7 @@ def main():
                         sequence = line.strip()
                         sequence = sequence.upper()
                         reversed_sequence = sequence[::-1]
-                        complement_dict = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C', 'X': 'X', 'V': 'V', 'N': 'N', 'R': 'Y', 'Y': 'R', 'W': 'W', 'S': 'S'}
+                        complement_dict = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C', 'X': 'X', 'V': 'V', 'N': 'N', 'R': 'Y', 'Y': 'R', 'W': 'W', 'S': 'S', 'M': 'M', 'K': 'K', 'H': 'H', 'B': 'B', 'D': 'D'}
                         complement_sequence = ''.join([complement_dict[base] for base in reversed_sequence])
                         sequence_l += line.strip()
                         sequence_length = len(sequence_l)
