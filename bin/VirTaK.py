@@ -214,66 +214,68 @@ def main():
 
                 # Run pfamscan to detect distantly related genomes
                 print("Searching for distantly related genomes")
-                if not faa_file_name:
-                    print(f"{faa_file_name} is empty. Skipping pfamscan")
-                    query_pfams = ""
-                    pfam_count_similarities = {}
-                else:
-                    database_path = args.pfam_path
-                    pfamscan_out = os.path.splitext(faa_file_name)[0] + '.pfamscan'
-                    if os.path.exists(pfamscan_out):
-                        print(f"{pfamscan_out} already exists. Moving forward...")
+                with open(faa_file_name, 'r') as faa_file:
+                    first_char = faa_file.read(1)
+                    if not first_char:
+                        print(f"{faa_file_name} is empty. Skipping pfamscan")
+                        query_pfams = ""
+                        pfam_count_similarities = {}
                     else:
-                        print(f"Running pfamscan for {file_name}")
-                        run_pfamscan(faa_file_name, database_path)
-                    unique_pfams = get_pfams(pfamscan_out)
-                    #print(unique_pfams)
-                    query_pfams = ", ".join(unique_pfams)
-                    # Get list of genomes that share at least one domain
-                    pfamscan_database = f"{args.database}.pfamscan"
-                    matching_accessions = set()
-                    with open(pfamscan_database, 'r') as file:
-                        for line in file:
-                            line = line.strip()
-                            if not line.startswith('#'):
-                                line = re.sub(r' +', '\t', line)
-                                columns = line.split('\t')
-                                if len(columns) > 6:
-                                    pfam = columns[6]
-                                    accession = columns[0].split('|')[0]
-                                    if pfam in unique_pfams:
-                                        matching_accessions.add(accession)
-                    non_redundant_accessions = list(matching_accessions)
-                    n_matching_accessions = len(non_redundant_accessions)
-                    print(f"Found {n_matching_accessions} genomes that share at least one domain")
-                    #print(non_redundant_accessions)
-                    # Get all domains of genomes that share at leas one domain
-                    all_domains = {}
-                    for accession in non_redundant_accessions:
-                        all_domains[accession] = set()
-                    with open(pfamscan_database, 'r') as file:
-                        for line in file:
-                            line = line.strip()
-                            if not line.startswith('#'):
-                                line = re.sub(r' +', '\t', line)
-                                columns = line.split('\t')
-                                if len(columns) > 6:
-                                    pfam = columns[6]
-                                    accession = columns[0].split('|')[0]
-                                    if accession in non_redundant_accessions:
-                                        all_domains[accession].add(pfam)
-                    # Calculate domain count similarity
-                    pfam_count_similarities = {}
-                    for accession in all_domains:
-                        query_counts = Counter(unique_pfams)
-                        subject_counts = Counter(all_domains[accession])
-                        all_domains[accession] |= set(unique_pfams)
-                        all_pfams = list(all_domains[accession])
-                        query_array = [query_counts[pfam] for pfam in all_pfams]
-                        subject_array = [subject_counts[pfam] for pfam in all_pfams]
-                        pfam_count_dissimilarity = distance.braycurtis(query_array, subject_array)
-                        pfam_count_similarity = 1 - pfam_count_dissimilarity
-                        pfam_count_similarities[accession] = pfam_count_similarity
+                        database_path = args.pfam_path
+                        pfamscan_out = os.path.splitext(faa_file_name)[0] + '.pfamscan'
+                        if os.path.exists(pfamscan_out):
+                            print(f"{pfamscan_out} already exists. Moving forward...")
+                        else:
+                            print(f"Running pfamscan for {file_name}")
+                            run_pfamscan(faa_file_name, database_path)
+                        unique_pfams = get_pfams(pfamscan_out)
+                        #print(unique_pfams)
+                        query_pfams = ", ".join(unique_pfams)
+                        # Get list of genomes that share at least one domain
+                        pfamscan_database = f"{args.database}.pfamscan"
+                        matching_accessions = set()
+                        with open(pfamscan_database, 'r') as file:
+                            for line in file:
+                                line = line.strip()
+                                if not line.startswith('#'):
+                                    line = re.sub(r' +', '\t', line)
+                                    columns = line.split('\t')
+                                    if len(columns) > 6:
+                                        pfam = columns[6]
+                                        accession = columns[0].split('|')[0]
+                                        if pfam in unique_pfams:
+                                            matching_accessions.add(accession)
+                        non_redundant_accessions = list(matching_accessions)
+                        n_matching_accessions = len(non_redundant_accessions)
+                        print(f"Found {n_matching_accessions} genomes that share at least one domain")
+                        #print(non_redundant_accessions)
+                        # Get all domains of genomes that share at leas one domain
+                        all_domains = {}
+                        for accession in non_redundant_accessions:
+                            all_domains[accession] = set()
+                        with open(pfamscan_database, 'r') as file:
+                            for line in file:
+                                line = line.strip()
+                                if not line.startswith('#'):
+                                    line = re.sub(r' +', '\t', line)
+                                    columns = line.split('\t')
+                                    if len(columns) > 6:
+                                        pfam = columns[6]
+                                        accession = columns[0].split('|')[0]
+                                        if accession in non_redundant_accessions:
+                                            all_domains[accession].add(pfam)
+                        # Calculate domain count similarity
+                        pfam_count_similarities = {}
+                        for accession in all_domains:
+                            query_counts = Counter(unique_pfams)
+                            subject_counts = Counter(all_domains[accession])
+                            all_domains[accession] |= set(unique_pfams)
+                            all_pfams = list(all_domains[accession])
+                            query_array = [query_counts[pfam] for pfam in all_pfams]
+                            subject_array = [subject_counts[pfam] for pfam in all_pfams]
+                            pfam_count_dissimilarity = distance.braycurtis(query_array, subject_array)
+                            pfam_count_similarity = 1 - pfam_count_dissimilarity
+                            pfam_count_similarities[accession] = pfam_count_similarity
 
                 # Run kmer_search to detect genomes with similar kmer profile
                 print("Searching for genomes with similar kmer profiles")
