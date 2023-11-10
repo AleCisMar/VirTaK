@@ -31,7 +31,7 @@ Once unpacked, within the VirTak directory:
 ```{bash, eval=FALSE, echo=TRUE}
 conda env create -f environment.yml
 ```
-### Download databases:
+### Download VirTaK database:
 
 * The VMR complete genomes database is available at https://drive.google.com/file/d/1TqNQsjCyDSvLUAGJufLoHvBxwd91n04T/view?usp=sharing.
 
