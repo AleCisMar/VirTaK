@@ -7,14 +7,14 @@ VirTaK is intended to relate a virus with known taxonomy to a metagenomic assemb
 VirTaK codes where developed and tested with Python 3.9.18 using the following libraries:
 
 * Biopython 1.78
-* Matplotlib 3.7.2
-* NumPy 1.26.0
-* Pandas 2.0.3
-* SciPy 1.11.3
-* Prodigal 2.6.3
+* Blast 2.12.0
 * Hmmer 3.3.2
+* Matplotlib 3.8.0
+* NumPy 1.26.0
+* Pandas 2.1.1
 * Pfam_scan 1.6
-* Blast
+* Prodigal 2.6.3
+* SciPy 1.11.3
 
 ## Installation and setup
 
