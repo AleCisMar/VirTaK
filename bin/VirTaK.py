@@ -201,6 +201,7 @@ def main():
                                 blastp_dict[accessions] = (pident, 1)
                 if not blastp_dict:
                     print(f"Found 0 genomes with homologous proteins")
+                    normalized_blastp_dict = {}
                 else:
                     #unique_blastp_matches = len(blastp_matches)
                     max_count = max(count for pident, count in blastp_dict.values())                
