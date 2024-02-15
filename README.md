@@ -9,7 +9,6 @@ VirTaK codes where developed and tested with Python 3.9.18 using the following l
 * Biopython 1.78
 * Blast 2.12.0
 * Hmmer 3.3.2
-* Matplotlib 3.8.0
 * NumPy 1.26.0
 * Pandas 2.1.1
 * Pfam_scan 1.6
