@@ -30,6 +30,12 @@ Once unpacked, within the VirTak directory:
 ```{bash, eval=FALSE, echo=TRUE}
 conda env create -f environment.yml
 ```
+Installing pfam_scan may be problematic in some systems. If this is the case try removing pfam_scan from the environment.yml file and execute the above code. Activate the created environment and try:
+
+```{bash, eval=FALSE, echo=TRUE}
+conda install pfam_scan --channel Bioconda
+```
+
 ### Download VirTaK database:
 
 * The VMR complete genomes database is available at https://drive.google.com/file/d/1TqNQsjCyDSvLUAGJufLoHvBxwd91n04T/view?usp=sharing.
