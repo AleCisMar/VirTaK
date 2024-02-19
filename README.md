@@ -99,6 +99,26 @@ optional arguments:
                         OPTIONAL: Number of top matches to display in output file. Default = 10
 ```
 
+### PanPhylo.py:
+
+This code 
+
+```{bash, eval=FALSE, echo=TRUE}
+usage: PanPhylo.py [-h] -l LIST -d DATABASE [-s STRINGS_FILE] [-o OUTPUT_DIR] [-t THREADS]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -l LIST, --list LIST  Input list of query .fasta files
+  -d DATABASE, --database DATABASE
+                        Path to directory where VirTaK database is located. Must include database name without extension. Example: db/VMR_MSL38_v1_complete_genomes
+  -s STRINGS_FILE, --strings_file STRINGS_FILE
+                        Optional. File containing a list of strings to search in the VirTaK database. For example: Coronaviridae
+  -o OUTPUT_DIR, --output_dir OUTPUT_DIR
+                        Optional. Output directory name
+  -t THREADS, --threads THREADS
+                        Number of parallel CPU workers to use for HMMER (default=2)
+```
+
 ### build_virtak_database.py (optional):
 
 Execute this code only if you want to build an updated database (from an updated VMR) or if you want to build a database with different k-mer length. If the download process is unexpectedly interrupted we can resume the process by executing the same command.
