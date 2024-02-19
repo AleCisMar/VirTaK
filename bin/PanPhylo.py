@@ -394,7 +394,7 @@ def reorder_rows_based_on_tree(tree, data_file_path, output_file_path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="")
+    parser = argparse.ArgumentParser(description="PanPhylo (Pangenomic and Phylogenomic analysis) is intended to reconstruct the phylogenomic relationships between a group of assembled viruses (metagenomic) and a group of known viruses selected from previous knowledge of taxonomic membership. It takes the same input list.txt as VirTaK.py, aswell as the VirTaK database, and some files created during the taxonomic classification process. It creates a domain (and proteins without domain annotation) content table which is used to calculate a Bray-Curtis distance matrix. Distances are represented by a distance tree built with the neighbor joining algorithm")
     parser.add_argument('-l', '--list', required=True, help='Input list of query .fasta files')
     parser.add_argument('-d', '--database', required=True, help='Path to directory where VirTaK database is located. Must include database name without extension. Example: db/VMR_MSL38_v1_complete_genomes')
     parser.add_argument('-s', '--strings_file', required=False, help='Optional. File containing a list of strings to search in the VirTaK database. For example: Coronaviridae')
