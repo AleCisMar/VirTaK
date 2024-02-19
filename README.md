@@ -39,7 +39,7 @@ conda install pfam_scan --channel Bioconda
 ### Download VirTaK database:
 
 * The VMR complete genomes database is available at https://drive.google.com/file/d/1TqNQsjCyDSvLUAGJufLoHvBxwd91n04T/view?usp=sharing.
-This is a compressed directory that contains all files needed to execute VirTaK.py and build_virtak_database.py. It includes the Pfam-A database.
+This is a compressed directory that contains all files needed to execute VirTaK.py, PanPhylo.py, and build_virtak_database.py. It includes the Pfam-A database.
 
 ## Execution
 
