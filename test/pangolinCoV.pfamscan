@@ -1,0 +1,64 @@
+# pfam_scan.pl,  run at Thu Feb 15 19:45:26 2024
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: pangolinCoV.faa
+#        searching against: /home/cisnerazerx/db/virtak_db//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+OP288969_1     44    186     44    187 PF11501.12  bCoV_NSP1         Family     1   137   138    179.0   4.5e-53   1 No_clan  
+OP288969_1    219    462    218    462 PF19211.4   CoV_NSP2_N        Family     2   204   204    171.8   1.7e-50   1 No_clan  
+OP288969_1    736    869    736    869 PF19212.4   CoV_NSP2_C        Family     1   116   116     86.6   1.3e-24   1 No_clan  
+OP288969_1   1219   1321   1219   1326 PF01661.25  Macro             Domain     1   113   118     77.3   9.7e-22   1 CL0223   
+OP288969_1   1392   1473   1377   1478 PF11633.12  bCoV_SUD_M        Domain    56   137   143     30.3   3.3e-07   1 CL0223   
+OP288969_1   1561   1875   1557   1882 PF08715.14  CoV_peptidase     Family     5   313   320    158.9   2.2e-46   1 CL0125   
+OP288969_1   1943   2027   1900   2027 PF16251.9   bCoV_NAB          Domain    41   129   129     39.7   7.2e-10   1 No_clan  
+OP288969_1   2307   2801   2306   2802 PF19218.4   CoV_NSP3_C        Family     2   462   463    496.7  8.1e-149   1 No_clan  
+OP288969_1   2851   3203   2850   3204 PF19217.4   CoV_NSP4_N        Family     2   351   352    385.1  3.5e-115   1 No_clan  
+OP288969_1   3232   3323   3229   3324 PF16348.9   CoV_NSP4_C        Domain     4    95    96    109.5   1.2e-31   1 No_clan  
+OP288969_1   3354   3644   3354   3644 PF05409.17  Peptidase_C30     Family     1   288   288    382.2  1.7e-114   1 CL0124   
+OP288969_1   3660   3923   3659   3923 PF19213.4   CoV_NSP6          Family     2   263   263    227.9   2.8e-67   1 No_clan  
+OP288969_1   3924   4006   3924   4006 PF08716.14  CoV_NSP7          Domain     1    83    83    107.2   5.7e-31   1 No_clan  
+OP288969_1   4010   4204   4007   4204 PF08717.14  CoV_NSP8          Domain     4   197   197    241.9   5.8e-72   1 No_clan  
+OP288969_1   4206   4315   4206   4315 PF08710.14  CoV_NSP9          Domain     1   111   111    127.7   2.7e-37   1 CL0504   
+OP288969_1   4324   4445   4324   4445 PF09401.14  CoV_NSP10         Family     1   122   122    183.1   1.9e-54   1 No_clan  
+OP288969_2      6    308      1    308 PF06478.17  CoV_RPol_N        Domain    48   350   350    511.5  1.2e-153   1 No_clan  
+OP288969_2    439    727    409    756 PF00680.24  RdRP_1            Family    97   363   450     52.8     3e-14   1 CL0027   
+OP288969_2    876    968    876    968 PF20632.1   CoV_NSP13_ZBD     Domain     1    93    93    154.5   9.4e-46   1 No_clan  
+OP288969_2    971   1018    971   1018 PF20633.1   CoV_NSP13_stalk   Domain     1    48    48     79.8   1.6e-22   1 No_clan  
+OP288969_2   1021   1102   1021   1102 PF20631.1   CoV_NSP13_1B      Domain     1    82    82    143.4   2.3e-42   1 No_clan  
+OP288969_2   1151   1281   1143   1285 PF13604.10  AAA_30            Domain    20   130   191     35.1   1.2e-08   1 CL0023   
+OP288969_2   1302   1449   1297   1453 PF13087.10  AAA_12            Domain     9   191   195     38.9   7.2e-10   1 CL0023   
+OP288969_2   1476   1992   1475   1993 PF06471.16  CoV_ExoN          Family     2   512   513    815.8  1.5e-245   1 CL0063   
+OP288969_2   1996   2056   1996   2056 PF19219.4   CoV_NSP15_N       Domain     1    61    61    107.6     3e-31   1 No_clan  
+OP288969_2   2058   2176   2057   2176 PF19216.4   CoV_NSP15_M       Domain     2   118   118    143.8   2.9e-42   1 No_clan  
+OP288969_2   2182   2335   2182   2335 PF19215.4   CoV_NSP15_C       Domain     1   155   155    207.0   1.5e-61   1 CL0695   
+OP288969_2   2340   2635   2339   2636 PF06460.16  CoV_Methyltr_2    Domain     2   298   299    482.0  6.8e-145   1 CL0063   
+OP288969_3     43    380     41    380 PF16451.9   bCoV_S1_N         Domain     3   298   298    268.2     1e-79   1 CL0004   
+OP288969_3    390    582    390    582 PF09408.14  bCoV_S1_RBD       Domain     1   177   177    139.6   1.6e-40   1 No_clan  
+OP288969_3    597    653    597    654 PF19209.4   CoV_S1_C          Domain     1    57    58     56.9     2e-15   1 No_clan  
+OP288969_3    773   1309    771   1311 PF01601.20  CoV_S2            Family     3   524   525    652.7  4.8e-196   1 CL0595   
+OP288969_3   1311   1346   1311   1346 PF19214.4   CoV_S2_C          Domain     1    42    42     40.2   3.5e-10   1 No_clan  
+OP288969_7      2     82      2     82 PF02723.18  CoV_E             Family     1    75    75     90.6   6.2e-26   1 No_clan  
+OP288969_8     15    210     13    214 PF01635.22  CoV_M             Family     3   202   208    243.3   1.7e-72   1 No_clan  
+OP288969_9     33    386     32    398 PF00937.22  CoV_nucleocap     Family     2   332   344    338.5  4.9e-101   1 No_clan  

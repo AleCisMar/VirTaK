@@ -1,0 +1,69 @@
+# pfam_scan.pl,  run at Thu Feb 15 19:45:57 2024
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: ratg13CoV.faa
+#        searching against: /home/cisnerazerx/db/virtak_db//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+MN996532_1      9    143      7    144 PF11501.12  bCoV_NSP1         Family     3   137   138    111.8   2.4e-32   1 No_clan  
+MN996532_1    184    423    182    423 PF19211.4   CoV_NSP2_N        Family     3   204   204     70.4   1.9e-19   1 No_clan  
+MN996532_1    691    818    690    818 PF19212.4   CoV_NSP2_C        Family     2   116   116     27.6   2.6e-06   1 No_clan  
+MN996532_1    880    995    880   1008 PF12379.12  bCoV_NSP3_N       Family     1   117   149    133.4   7.1e-39   1 No_clan  
+MN996532_1   1009   1049    988   1050 PF12379.12  bCoV_NSP3_N       Family   108   148   149     30.7   3.3e-07   1 No_clan  
+MN996532_1   1057   1163   1057   1164 PF01661.25  Macro             Domain     1   117   118     65.1   5.8e-18   1 CL0223   
+MN996532_1   1350   1492   1350   1492 PF11633.12  bCoV_SUD_M        Domain     1   143   143    259.5   6.8e-78   1 CL0223   
+MN996532_1   1497   1560   1496   1560 PF12124.12  bCoV_SUD_C        Domain     2    66    66    104.2   2.5e-30   1 No_clan  
+MN996532_1   1563   1880   1563   1881 PF08715.14  CoV_peptidase     Family     1   319   320    428.6  1.8e-128   1 CL0125   
+MN996532_1   1906   2018   1906   2018 PF16251.9   bCoV_NAB          Domain     1   129   129    161.2   1.9e-47   1 No_clan  
+MN996532_1   2261   2747   2259   2748 PF19218.4   CoV_NSP3_C        Family     3   462   463    478.4  2.9e-143   1 No_clan  
+MN996532_1   2787   3140   2787   3141 PF19217.4   CoV_NSP4_N        Family     1   351   352    364.1    9e-109   1 No_clan  
+MN996532_1   3165   3260   3165   3261 PF16348.9   CoV_NSP4_C        Domain     1    95    96    134.4   2.1e-39   1 No_clan  
+MN996532_1   3291   3581   3291   3581 PF05409.17  Peptidase_C30     Family     1   288   288    446.3  4.9e-134   1 CL0124   
+MN996532_1   3597   3858   3596   3858 PF19213.4   CoV_NSP6          Family     2   263   263    195.4   2.3e-57   1 No_clan  
+MN996532_1   3859   3941   3859   3941 PF08716.14  CoV_NSP7          Domain     1    83    83    124.7   1.9e-36   1 No_clan  
+MN996532_1   3942   4138   3942   4138 PF08717.14  CoV_NSP8          Domain     1   197   197    317.2   5.2e-95   1 No_clan  
+MN996532_1   4140   4252   4140   4252 PF08710.14  CoV_NSP9          Domain     1   111   111    159.7   3.4e-47   1 CL0504   
+MN996532_1   4261   4383   4261   4383 PF09401.14  CoV_NSP10         Family     1   122   122    198.8   2.7e-59   1 No_clan  
+MN996532_2      2    336      1    336 PF06478.17  CoV_RPol_N        Domain    19   350   350    595.7    3e-179   1 No_clan  
+MN996532_2    467    753    436    762 PF00680.24  RdRP_1            Family    97   361   450     51.9   5.9e-14   1 CL0027   
+MN996532_2    904    996    904    996 PF20632.1   CoV_NSP13_ZBD     Domain     1    93    93    159.2     3e-47   1 No_clan  
+MN996532_2    999   1046    999   1046 PF20633.1   CoV_NSP13_stalk   Domain     1    48    48     85.3   3.2e-24   1 No_clan  
+MN996532_2   1050   1130   1049   1130 PF20631.1   CoV_NSP13_1B      Domain     2    82    82    138.4   8.1e-41   1 No_clan  
+MN996532_2   1176   1239   1161   1263 PF13086.10  AAA_11            Domain    16    86   257     27.0   3.9e-06   1 CL0023   
+MN996532_2   1337   1477   1324   1482 PF13087.10  AAA_12            Domain    17   191   195     32.5   6.8e-08   1 CL0023   
+MN996532_2   1507   2028   1506   2028 PF06471.16  CoV_ExoN          Family     2   513   513    899.1  8.5e-271   1 CL0063   
+MN996532_2   2031   2091   2031   2091 PF19219.4   CoV_NSP15_N       Domain     1    61    61     95.9   1.4e-27   1 No_clan  
+MN996532_2   2092   2214   2092   2215 PF19216.4   CoV_NSP15_M       Domain     1   117   118     89.7   1.7e-25   1 No_clan  
+MN996532_2   2222   2374   2221   2374 PF19215.4   CoV_NSP15_C       Domain     2   155   155    217.4   9.9e-65   1 CL0695   
+MN996532_2   2378   2673   2378   2674 PF06460.16  CoV_Methyltr_2    Domain     1   297   299    547.1    1e-164   1 CL0063   
+MN996532_3     31    337     29    337 PF16451.9   bCoV_S1_N         Domain     3   298   298    249.7   4.4e-74   1 CL0004   
+MN996532_3    348    526    348    526 PF09408.14  bCoV_S1_RBD       Domain     1   177   177    132.5   2.3e-38   1 No_clan  
+MN996532_3    536    592    536    594 PF19209.4   CoV_S1_C          Domain     1    56    58     31.6   1.5e-07   1 No_clan  
+MN996532_3    707   1228    706   1228 PF01601.20  CoV_S2            Family     2   525   525    681.1  1.1e-204   1 CL0595   
+MN996532_4      1    274      1    274 PF11289.12  bCoV_viroporin    Family     1   273   273    504.0  1.2e-151   1 No_clan  
+MN996532_5     16    213     14    217 PF01635.22  CoV_M             Family     3   204   208    223.4     2e-66   1 No_clan  
+MN996532_6      1     61      1     61 PF12133.12  bCoV_NS6          Family     1    61    62    108.2   1.6e-31   1 No_clan  
+MN996532_7     16    121     16    121 PF08779.14  bCoV_NS7A         Domain     1   107   107    214.7   2.1e-64   1 CL0159   
+MN996532_8      1    118      1    118 PF12093.12  bCoV_NS8          Family     1   126   126    142.7   7.9e-42   1 CL0159   
+MN996532_9     45    381     38    392 PF00937.22  CoV_nucleocap     Family     6   338   344    321.1   9.7e-96   1 No_clan  
