@@ -101,10 +101,15 @@ optional arguments:
 
 ### PanPhylo.py:
 
-This code 
+This code helps answering: how are query viruses related to other known viruses?, are they novel endemic viruses?, how many genes they share with their
+closest relatives? which genes support such relationships?
 
 ```{bash, eval=FALSE, echo=TRUE}
 usage: PanPhylo.py [-h] -l LIST -d DATABASE [-s STRINGS_FILE] [-o OUTPUT_DIR] [-t THREADS]
+
+PanPhylo (Pangenomic and Phylogenomic analysis) is intended to reconstruct the phylogenomic relationships between a group of assembled viruses (metagenomic) and a group of known viruses selected from previous knowledge
+of taxonomic membership. It takes the same input list.txt as VirTaK.py, aswell as the VirTaK database, and some files created during the taxonomic classification process. It creates a domain (and proteins without domain
+annotation) content table which is used to calculate a Bray-Curtis distance matrix. Distances are represented by a distance tree built with the neighbor joining algorithm
 
 optional arguments:
   -h, --help            show this help message and exit
