@@ -6,3 +6,9 @@ Seven files can be found:
 * reordered_distance_matrix.csv - rows and columns in distance_matrix.csv are reordered based on results_nj.tree. Can be used to see the distance between pairs of genomes
 * transposed_counts.txt - transposed version of reordered_counts.csv. Used to cluster domains with euclidean distance
 * reordered_transposed_counts.csv - rows in transposed_counts.txt are reordered based on euclidean distance. Can be used to visualize the similarities in domain content
+
+To get information about the domains in the dataset we can create a list of domains (e. g. from counts.txt) and execute the following command:
+```{bash, eval=FALSE, echo=TRUE}
+get_domain_info.sh domains.txt ~/db/virtak_db/Pfam-A.hmm.dat ~/db/virtak_db/pfam_gomf_most_specific.txt  ~/db/virtak_db/go.txt
+```
+Make sure to use the correct paths to Pfam-A.hmm.dat, pfam_gomf_most_specific.txt, and go.txt, all provided within the VirTaK database.
