@@ -1,0 +1,69 @@
+Pfam_ID	Accession	GO_ID	GO_name
+CoV_S2_C	PF19214	-	-
+CoV_NSP2_N	PF19211	-	-
+CoV_NSP13_stalk	PF20633	-	-
+CoV_S1_C	PF19209	-	-
+B-CoV_A_NSP1	PF11963	0004519;0008242;0004386;0004197;0016896;0003723;0003968;0008168;0036459;0008270	endonuclease activity;omega peptidase activity;helicase activity;cysteine-type endopeptidase activity;exoribonuclease activity, producing 5'-phosphomonoesters;RNA binding;RNA-dependent RNA polymerase activity;methyltransferase activity;0036459;zinc ion binding
+Spike_torovirin	PF17072	-	-
+CoV_Methyltr_2	PF06460	0004519;0008242;0003968;0004386;0004197;0016896;0008270;0008168;0036459;0005524;0003723	endonuclease activity;omega peptidase activity;RNA-dependent RNA polymerase activity;helicase activity;cysteine-type endopeptidase activity;exoribonuclease activity, producing 5'-phosphomonoesters;zinc ion binding;methyltransferase activity;0036459;ATP binding;RNA binding
+bCoV_S1_N	PF16451	0046789	host cell surface receptor binding
+AAA_19	PF13245	-	-
+dsrm	PF00035	0070878;0035198;0004525;0035197;0019843;0003726;0070883;0003725;0008047;0017150;0046872	primary miRNA binding;miRNA binding;ribonuclease III activity;siRNA binding;rRNA binding;double-stranded RNA adenosine deaminase activity;pre-miRNA binding;double-stranded RNA binding;enzyme activator activity;tRNA dihydrouridine synthase activity;metal ion binding
+AAA_12	PF13087	0051539;0003677;0043139;0005524	4 iron, 4 sulfur cluster binding;DNA binding;5'-3' DNA helicase activity;ATP binding
+bCoV_SUD_M	PF11633	0008242;0004386;0016896;0008270;0008168;0036459;0004519;0004197;0003723;0003968	omega peptidase activity;helicase activity;exoribonuclease activity, producing 5'-phosphomonoesters;zinc ion binding;methyltransferase activity;0036459;endonuclease activity;cysteine-type endopeptidase activity;RNA binding;RNA-dependent RNA polymerase activity
+CoV_NSP9	PF08710	0004519;0008242;0004386;0016896;0004197;0003968;0008270;0008168;0036459;0005524;0003723	endonuclease activity;omega peptidase activity;helicase activity;exoribonuclease activity, producing 5'-phosphomonoesters;cysteine-type endopeptidase activity;RNA-dependent RNA polymerase activity;zinc ion binding;methyltransferase activity;0036459;ATP binding;RNA binding
+CoV_NSP3_C	PF19218	-	-
+RdRP_1	PF00680	0033897;0004252;0008026;0005198;0004197;0070008;0046872;0005216;0005524;0004482;0004483;0008242;0050265;0016896;0036459;0003724;0003725;0003968	ribonuclease T2 activity;serine-type endopeptidase activity;0008026;structural molecule activity;cysteine-type endopeptidase activity;serine-type exopeptidase activity;metal ion binding;ion channel activity;ATP binding;mRNA (guanine-N7-)-methyltransferase activity;mRNA (nucleoside-2'-O-)-methyltransferase activity;omega peptidase activity;RNA uridylyltransferase activity;exoribonuclease activity, producing 5'-phosphomonoesters;0036459;RNA helicase activity;double-stranded RNA binding;RNA-dependent RNA polymerase activity
+CoV_S2	PF01601	-	-
+CoV_RPol_N	PF06478	0004519;0008242;0004386;0004197;0003968;0008270;0008168;0016896;0036459;0005524;0003723	endonuclease activity;omega peptidase activity;helicase activity;cysteine-type endopeptidase activity;RNA-dependent RNA polymerase activity;zinc ion binding;methyltransferase activity;exoribonuclease activity, producing 5'-phosphomonoesters;0036459;ATP binding;RNA binding
+Peptidase_C30	PF05409	0004519;0008242;0003968;0004386;0008270;0008168;0004197;0016896;0036459;0005524;0003723	endonuclease activity;omega peptidase activity;RNA-dependent RNA polymerase activity;helicase activity;zinc ion binding;methyltransferase activity;cysteine-type endopeptidase activity;exoribonuclease activity, producing 5'-phosphomonoesters;0036459;ATP binding;RNA binding
+bCoV_NSP1	PF11501	0004519;0008242;0004386;0004197;0003968;0003723;0016896;0036459;0008270	endonuclease activity;omega peptidase activity;helicase activity;cysteine-type endopeptidase activity;RNA-dependent RNA polymerase activity;RNA binding;exoribonuclease activity, producing 5'-phosphomonoesters;0036459;zinc ion binding
+CoV_NSP4_C	PF16348	0004519;0008242;0004386;0004197;0016896;0003723;0008168;0003968;0036459;0005524;0008270	endonuclease activity;omega peptidase activity;helicase activity;cysteine-type endopeptidase activity;exoribonuclease activity, producing 5'-phosphomonoesters;RNA binding;methyltransferase activity;RNA-dependent RNA polymerase activity;0036459;ATP binding;zinc ion binding
+CoV_ExoN	PF06471	0004519;0008242;0004386;0016896;0004197;0003968;0008270;0008168;0036459;0005524;0003723	endonuclease activity;omega peptidase activity;helicase activity;exoribonuclease activity, producing 5'-phosphomonoesters;cysteine-type endopeptidase activity;RNA-dependent RNA polymerase activity;zinc ion binding;methyltransferase activity;0036459;ATP binding;RNA binding
+CoV_NSP15_N	PF19219	-	-
+CoV_nucleocap	PF00937	0003723	RNA binding
+Hema_HEFG	PF02710	0001681;0046789	sialate O-acetylesterase activity;host cell surface receptor binding
+IBV_3B	PF03622	-	-
+LAP1_C	PF05609	0001671	ATPase activator activity
+CoV_E	PF02723	-	-
+bCoV_S1_RBD	PF09408	0046789	host cell surface receptor binding
+bCoV_NS6	PF12133	-	-
+CoV_NSP10	PF09401	0004519;0008242;0004386;0004197;0003968;0003723;0008168;0016896;0036459;0005524;0008270	endonuclease activity;omega peptidase activity;helicase activity;cysteine-type endopeptidase activity;RNA-dependent RNA polymerase activity;RNA binding;methyltransferase activity;exoribonuclease activity, producing 5'-phosphomonoesters;0036459;ATP binding;zinc ion binding
+AAA_30	PF13604	0003677;0043141	DNA binding;0043141
+CoV_M	PF01635	0039660	structural constituent of virion
+CoV_NSP15_C	PF19215	-	-
+Corona_NS2A	PF05213	-	-
+CoV_NSP7	PF08716	0004519;0008242;0004386;0016896;0004197;0003968;0008270;0008168;0036459;0005524;0003723	endonuclease activity;omega peptidase activity;helicase activity;exoribonuclease activity, producing 5'-phosphomonoesters;cysteine-type endopeptidase activity;RNA-dependent RNA polymerase activity;zinc ion binding;methyltransferase activity;0036459;ATP binding;RNA binding
+CoV_NSP13_ZBD	PF20632	-	-
+AAA_11	PF13086	0051539;0003677;0043139;0005524	4 iron, 4 sulfur cluster binding;DNA binding;5'-3' DNA helicase activity;ATP binding
+CoV_NSP6	PF19213	-	-
+CoV_peptidase	PF08715	0004519;0008242;0004197;0016896;0003723;0003968;0008168;0004386;0036459;0005524;0008270	endonuclease activity;omega peptidase activity;cysteine-type endopeptidase activity;exoribonuclease activity, producing 5'-phosphomonoesters;RNA binding;RNA-dependent RNA polymerase activity;methyltransferase activity;helicase activity;0036459;ATP binding;zinc ion binding
+CoV_NSP15_M	PF19216	-	-
+Hema_esterase	PF03996	0046789;0001681	host cell surface receptor binding;sialate O-acetylesterase activity
+PRK	PF00485	0043771;0008974;0050262;0004849;0004796;0004594;0005524	cytidine kinase activity;phosphoribulokinase activity;ribosylnicotinamide kinase activity;uridine kinase activity;thromboxane-A synthase activity;pantothenate kinase activity;ATP binding
+CoV_NSP4_N	PF19217	-	-
+IBV_3C	PF03620	-	-
+bCoV_NSP3_N	PF12379	0004519;0008242;0004386;0004197;0003968;0003723;0016896;0036459;0008270	endonuclease activity;omega peptidase activity;helicase activity;cysteine-type endopeptidase activity;RNA-dependent RNA polymerase activity;RNA binding;exoribonuclease activity, producing 5'-phosphomonoesters;0036459;zinc ion binding
+Viral_helicase1	PF01443	0004252;0008242;0004386;0016896;0008174;0070008;0036459;0004651;0004197;0003723;0003968;0046872;0005524	serine-type endopeptidase activity;omega peptidase activity;helicase activity;exoribonuclease activity, producing 5'-phosphomonoesters;mRNA methyltransferase activity;serine-type exopeptidase activity;0036459;polynucleotide 5'-phosphatase activity;cysteine-type endopeptidase activity;RNA binding;RNA-dependent RNA polymerase activity;metal ion binding;ATP binding
+Astro_capsid_p	PF12226	-	-
+NSP2_gammaCoV	PF17896	-	-
+bCoV_viroporin	PF11289	0005216	ion channel activity
+CoV_NSP2_C	PF19212	-	-
+bCoV_NS8	PF12093	-	-
+Corona_6B_7B	PF03262	-	-
+bCoV_SUD_C	PF12124	0004519;0004386;0036459;0004197;0003968;0003723;0016896;0008242;0008270	endonuclease activity;helicase activity;0036459;cysteine-type endopeptidase activity;RNA-dependent RNA polymerase activity;RNA binding;exoribonuclease activity, producing 5'-phosphomonoesters;omega peptidase activity;zinc ion binding
+CNV-Replicase_N	PF16688	0008242;0004386;0004197;0016896;0008270;0003968;0036459	omega peptidase activity;helicase activity;cysteine-type endopeptidase activity;exoribonuclease activity, producing 5'-phosphomonoesters;zinc ion binding;RNA-dependent RNA polymerase activity;0036459
+Peptidase_C16	PF01831	0004519;0008242;0004386;0004197;0016896;0008270;0008168;0003968;0036459;0003723	endonuclease activity;omega peptidase activity;helicase activity;cysteine-type endopeptidase activity;exoribonuclease activity, producing 5'-phosphomonoesters;zinc ion binding;methyltransferase activity;RNA-dependent RNA polymerase activity;0036459;RNA binding
+CoV_NSP13_1B	PF20631	-	-
+Corona_3	PF04694	0004637	phosphoribosylamine-glycine ligase activity
+Corona_NS12-7	PF04753	-	-
+Acc5b_avian_CoV	PF05528	-	-
+Corona_NS3b	PF03053	-	-
+Macro	PF01661	0000182;0008727;0031492;0008270;0003950;0001883;0008428;0004651;0005524;0008242;0047407;0061463;0004386;0016896;0008174;0030291;0036459;0010385;0004519;0004721;0004197;0003723;0003968;0000979	rDNA binding;GDP-mannose mannosyl hydrolase activity;nucleosomal DNA binding;zinc ion binding;NAD+ ADP-ribosyltransferase activity;purine nucleoside binding;ribonuclease inhibitor activity;polynucleotide 5'-phosphatase activity;ATP binding;omega peptidase activity;ADP-ribosyl-[dinitrogen reductase] hydrolase activity;O-acetyl-ADP-ribose deacetylase activity;helicase activity;exoribonuclease activity, producing 5'-phosphomonoesters;mRNA methyltransferase activity;protein serine/threonine kinase inhibitor activity;0036459;double-stranded methylated DNA binding;endonuclease activity;phosphoprotein phosphatase activity;cysteine-type endopeptidase activity;RNA binding;RNA-dependent RNA polymerase activity;RNA polymerase II core promoter sequence-specific DNA binding
+bCoV_NAB	PF16251	0004519;0008242;0004386;0004197;0016896;0008270;0003968;0008168;0036459;0003723	endonuclease activity;omega peptidase activity;helicase activity;cysteine-type endopeptidase activity;exoribonuclease activity, producing 5'-phosphomonoesters;zinc ion binding;RNA-dependent RNA polymerase activity;methyltransferase activity;0036459;RNA binding
+Corona_5a	PF06336	-	-
+CoV_S1	PF01600	0046789	host cell surface receptor binding
+Corona_7	PF02398	-	-
+CoV_NSP8	PF08717	0004519;0036459;0004197;0016896;0008270;0003968;0008168;0004386;0008242;0005524;0003723	endonuclease activity;0036459;cysteine-type endopeptidase activity;exoribonuclease activity, producing 5'-phosphomonoesters;zinc ion binding;RNA-dependent RNA polymerase activity;methyltransferase activity;helicase activity;omega peptidase activity;ATP binding;RNA binding
+Corona_NS4	PF03905	-	-
+bCoV_NS7A	PF08779	-	-
