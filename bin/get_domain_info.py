@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import argparse
 
 def extract_pfam_info(input_file, pfam_seed_file, output_file):
