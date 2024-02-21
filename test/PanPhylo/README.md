@@ -1,4 +1,4 @@
-Seven files can be found:
+Executing PanPhylo.py results in eight files:
 * counts.txt - Number of times each domain or unnanotated cluster is found in every genome
 * distance_matrix.csv - Distance matrix. Built from counts.txt. Used for distance tree construction
 * results_nj.tree - Neighbor joining tree in newick format. Built from distance_matrix.csv. 
