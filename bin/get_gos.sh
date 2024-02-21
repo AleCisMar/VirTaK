@@ -51,6 +51,7 @@ cat 1.tmp | while read line; do
 done > 2.tmp
 
 echo "Getting GO names..."
+echo -e "Pfam_ID\tAccession\tGO_ID\tGO_name" > domain_gos.tsv
 cat 2.tmp | while read line; do
     id=$(echo $line | cut -d',' -f1)
     acc=$(echo $line | cut -d',' -f2)
@@ -68,7 +69,7 @@ cat 2.tmp | while read line; do
     # Join the array elements with ';'
     joined_names=$(IFS=";"; echo "${names[*]}")
     echo -e "$id\t$acc\t$gos\t$joined_names"
-done > domain_gos.tsv
+done >> domain_gos.tsv
 rm 1.tmp 2.tmp
 echo "DONE!"
 echo "Domain Gene Ontologies written to domain_gos.tsv"
