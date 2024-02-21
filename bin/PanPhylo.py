@@ -65,6 +65,7 @@ def get_unannotated_proteins(faa_files, pfamscan_files, out_dir):
             for header in missing_headers:
                 output_file_path = os.path.join(out_dir, f"{header}.faa")
                 output_files.append(output_file_path)
+                print(f"Creating {output_file_path}")
                 with open(faa_file, 'r') as faa, open(output_file_path, 'w') as out_file:
                     record_lines = []
                     write_record = False
@@ -100,7 +101,6 @@ def create_temporal_database(original_database, faa_files, temporal_database):
                 header_parts = header_info.split('_')[1]
                 merged_header = f"{line.split('|')[0]}_{header_parts}"
                 header = merged_header.strip()[1:]
-
                 # Write the modified header to the new database file
                 td_file.write(f">{header}\n")
             else:
@@ -181,30 +181,30 @@ def run_jackhmmer(query_files, database, out_dir, threads):
         query_filename = os.path.splitext(os.path.basename(query))[0].strip()
         cluster_name = f"cluster{cluster_counter}"
         jh_out = os.path.join(out_dir, f"{cluster_name}.out")
-        jh_aln = os.path.join(out_dir, f"{cluster_name}.msa")
+        jh_aln = os.path.join(out_dir, f"{cluster_name}.sto")
         jh_tbl = os.path.join(out_dir, f"{cluster_name}.tbl")
 
-        # Check if any .msa file exists in the output directory
-        existing_msa_files = [f for f in os.listdir(out_dir) if f.endswith(".msa")]
-        if existing_msa_files:
-            print(f"Checking existing .msa files...")
-            matching_msa = next((msa for msa in existing_msa_files if query_filename in get_msa_content(os.path.join(out_dir, msa))), None)
-            if matching_msa:
-                print(f"{query} already represented in {matching_msa}. Skipping jackhmmer.")
+        # Check if any .sto file exists in the output directory
+        existing_sto_files = [f for f in os.listdir(out_dir) if f.endswith(".sto")]
+        if existing_sto_files:
+            print(f"Checking existing .sto files...")
+            matching_sto = next((sto for sto in existing_sto_files if query_filename in get_sto_content(os.path.join(out_dir, sto))), None)
+            if matching_sto:
+                print(f"{query} already represented in {matching_sto}. Skipping jackhmmer.")
                 continue
 
         print(f"Running jackhmmer for {query}...\nCreating {jh_aln}")
         subprocess.run(['jackhmmer', '-o', jh_out, '-A', jh_aln, '--tblout', jh_tbl, '--noali', '--cpu', threads, '-N', '10', query, database])
         cluster_counter += 1
 
-def get_msa_content(file_path):
-    with open(file_path, 'r') as msa_file:
-        return msa_file.read()
+def get_sto_content(file_path):
+    with open(file_path, 'r') as sto_file:
+        return sto_file.read()
 
 def process_intersecting_clusters(out_dir):
-    msa_files = [f for f in os.listdir(out_dir) if f.endswith(".msa")]
+    sto_files = [f for f in os.listdir(out_dir) if f.endswith(".sto")]
     clusters = {}
-    for file in msa_files:
+    for file in sto_files:
         cluster = os.path.splitext(file)[0]
         with open(os.path.join(out_dir, file), 'r') as f:
             content = f.read()
@@ -231,6 +231,7 @@ def process_intersecting_clusters(out_dir):
     for cluster_i, cluster_j in intersecting_clusters:
         if len(clusters[cluster_i]) == len(clusters[cluster_j]):
             representative_clusters.add(cluster_i)
+            dropped_clusters.add(cluster_j)
         else:
             max_len_cluster = max(cluster_i, cluster_j, key=lambda c: len(clusters[c]))
             min_len_cluster = min(cluster_i, cluster_j, key=lambda c: len(clusters[c]))
@@ -244,29 +245,29 @@ def process_intersecting_clusters(out_dir):
     print("\nDropped clusters:")
     for cluster in dropped_clusters:
         print(cluster)
-        # Rename corresponding .msa files to .dropped
-        msa_file_path = os.path.join(out_dir, f"{cluster}.msa")
+        # Rename corresponding .sto files to .dropped
+        sto_file_path = os.path.join(out_dir, f"{cluster}.sto")
         dropped_file_path = os.path.join(out_dir, f"{cluster}.dropped")
-        if os.path.exists(msa_file_path):
-            os.rename(msa_file_path, dropped_file_path)
+        if os.path.exists(sto_file_path):
+            os.rename(sto_file_path, dropped_file_path)
 
 def get_cluster_counts(ids_set, out_dir):
-    existing_msa_files = [f for f in os.listdir(out_dir) if f.endswith(".msa")]
-    counts_dict = {id.split('|')[0]: {os.path.splitext(cluster)[0]: 0 for cluster in existing_msa_files} for id in ids_set}
+    existing_sto_files = [f for f in os.listdir(out_dir) if f.endswith(".sto")]
+    counts_dict = {id.split('|')[0]: {os.path.splitext(cluster)[0]: 0 for cluster in existing_sto_files} for id in ids_set}
 
-    for msa_file in existing_msa_files:
-        msa_path = os.path.join(out_dir, msa_file)
-        with open(msa_path, 'r') as msa:
-            for line in msa:
+    for sto_file in existing_sto_files:
+        sto_path = os.path.join(out_dir, sto_file)
+        with open(sto_path, 'r') as sto:
+            for line in sto:
                 if line.startswith('#=GS'):
                     parts = line.split()
                     if len(parts) >= 3:
                         # Extracting ID and cluster from the line
-                        msa_id = parts[1].split('_')[0]
-                        cluster = os.path.splitext(msa_file)[0]
+                        sto_id = parts[1].split('_')[0]
+                        cluster = os.path.splitext(sto_file)[0]
                         # Updating the counts if id is in ids_set
-                        if msa_id in counts_dict:
-                            counts_dict[msa_id][cluster] += 1
+                        if sto_id in counts_dict:
+                            counts_dict[sto_id][cluster] += 1
                             #for id, counts in counts_dict.items():
                             #    print(f"ID: {id}, Counts: {counts}")
 
@@ -374,7 +375,6 @@ def reorder_matrix_sym_with_tree(tree, matrix_file_path, output_file_path):
 def compute_distance_tree(distance_matrix, ids):
     # Create a DistanceMatrix object
     dist_matrix = DistanceMatrix(ids, matrix=distance_matrix)
-    #print(dist_matrix)
     # Use the NeighborJoining algorithm
     constructor = DistanceTreeConstructor()
     tree = constructor.nj(dist_matrix)
@@ -414,7 +414,7 @@ def main():
         print(f"\t{search_files}\n")
     q_domain_profiles = get_query_domain_profiles(files)
 
-    hmm_directory = f"{output_directory}/HMMER"
+    hmm_directory = f"{output_directory}/HMM"
     print(f"Creating {hmm_directory}/ directory")
     create_directory(hmm_directory)
 
@@ -427,8 +427,6 @@ def main():
     faa_database = f"{args.database}.faa"
     unannotated_files = get_unannotated_proteins(faa_files, files, hmm_directory)
     if unannotated_files:
-        u_files = ", ".join(unannotated_files)
-        print(f"\nFiles created:\n\t{u_files}")
         tmp_db = os.path.join(hmm_directory, "tmp_db.faa")
         print(f"\nCreating temporal database:\n\t{tmp_db}")
         create_temporal_database(faa_database, unannotated_files, tmp_db)
@@ -461,8 +459,11 @@ def main():
 ###################################################################
     
     domain_set = set(column.split('\t')[6] for column in domain_profiles)
-    domains = ", ".join(domain_set)
-    print(f"\n{len(domain_set)} domains identified in the dataset:\n\n{domains}")
+    domain_list_path = os.path.join(output_directory, "domains.txt")
+    with open(domain_list_path, 'w') as domain_list:
+        for domain in domain_set:
+            domain_list.write(f"{domain}\n")
+    print(f"\n{len(domain_set)} domains identified in the dataset.\nList of domains identified in the dataset written to: {domain_list_path}")
     ids_set = set(column.split('\t')[0].rsplit('_', 1)[0] for column in domain_profiles)
 
     print(f"\nGetting domain counts for every genome ({len(ids_set)} genomes)\n")
@@ -471,10 +472,6 @@ def main():
         id, domain = entry.split('\t')[0].rsplit('_', 1)[0], entry.split('\t')[6]
         domain_counts[id][domain] += 1
 
-    #print("Domain Counts:")
-    #for id, counts in domain_counts.items():
-    #    print(f"ID: {id}, Counts: {counts}")
-
     if all_unannotated_files:
         run_jackhmmer(all_unannotated_files, tmp_db, hmm_directory, args.threads)
         print("\nSearching for intersecting clusters...")
@@ -482,10 +479,6 @@ def main():
         counts = get_cluster_counts(ids_set, hmm_directory)
         ids_mapping = {original_id: original_id.split('|')[0] for original_id in ids_set}
         cluster_counts = rename_ids(counts, ids_mapping)
-
-        #print("Cluster Counts:")
-        #for id, counts in cluster_counts.items():
-        #    print(f"ID: {id}, Counts: {counts}")
 
         merged_counts = {}
         # Iterate over keys in both domain_counts and cluster_counts
@@ -497,10 +490,6 @@ def main():
             # Update counts for clusters
             for cluster, count in cluster_counts.get(id_key, {}).items():
                 merged_counts[id_key][cluster] = count
-        # Print the merged counts
-        #print("Merged Counts:")
-        #for id, counts in merged_counts.items():
-        #    print(f"ID: {id}, Counts: {counts}")
     else:
         merged_counts = domain_counts
     
