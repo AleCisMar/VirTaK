@@ -13,3 +13,9 @@ To get annotations related to the domains identified in the dataset we can execu
 get_domain_info.py domains.txt ~/db/virtak_db/Pfam-A.seed
 ```
 Make sure to use the correct paths to Pfam-A.seed. This will create a tab delimited file named domain_info.tsv
+
+To get Gene Ontologies associated to the Pfam accessions we can execute the following command:
+```{bash, eval=FALSE, echo=TRUE}
+get_gos.sh domain_info.tsv ~/db/virtak_db/pfam_gomf_most_specific.txt ~/db/virtak_db/go.txt
+```
+This will create a tab delimited file named domain_gos.tsv
