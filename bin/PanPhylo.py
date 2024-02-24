@@ -32,11 +32,14 @@ def get_query_domain_profiles(files):
     domain_profiles = []
     for file in files:
         with open(file, 'r') as f:
+            line_count = 0
             for line in f:
                 # Remove lines starting with '#' and empty lines
                 if not line.startswith('#') and line.strip():
                     line = re.sub(r' +', '\t', line)
                     domain_profiles.append(line.strip())
+                    line_count += 1
+            print(f"{line_count} domains found in {file}")
 
     return domain_profiles
 
@@ -59,6 +62,7 @@ def get_unannotated_proteins(faa_files, pfamscan_files, out_dir):
 
         missing_headers = faa_headers - found_headers
         print(f"found {len(missing_headers)} unnanotated proteins in {faa_file}")
+        ids = {header.rsplit('_', 1)[0] for header in missing_headers}
         
         if missing_headers:
             # Extract and save unannotated proteins
@@ -83,7 +87,7 @@ def get_unannotated_proteins(faa_files, pfamscan_files, out_dir):
                             record_lines.append(line)
                     if record_lines:
                         out_file.write(''.join(record_lines))
-    return output_files
+    return output_files, ids
 
 def create_temporal_database(original_database, faa_files, temporal_database):
     shutil.copyfile(original_database, temporal_database)
@@ -129,6 +133,7 @@ def get_s_unnanotated_proteins(faa_database, strings, s_domain_profiles, out_dir
     annotated_proteins = set(column.split('\t')[0] for column in s_domain_profiles)
     unannotated_proteins = set(matching_lines) - annotated_proteins
     print(f"Found {len(unannotated_proteins)} unnanotated proteins")
+    ids = {protein.rsplit('_', 1)[0] for protein in unannotated_proteins}
 
     if unannotated_proteins:
         print(f"Writting unnanotated proteins to {out_dir}")
@@ -172,7 +177,7 @@ def get_s_unnanotated_proteins(faa_database, strings, s_domain_profiles, out_dir
                 if output_file_path:
                     output_files.append(output_file_path)
 
-    return output_files
+    return output_files, ids
 
 def run_jackhmmer(query_files, database, out_dir, threads):
     cluster_counter = 1  # Initialize the cluster counter
@@ -253,7 +258,7 @@ def process_intersecting_clusters(out_dir):
 
 def get_cluster_counts(ids_set, out_dir):
     existing_sto_files = [f for f in os.listdir(out_dir) if f.endswith(".sto")]
-    counts_dict = {id.split('|')[0]: {os.path.splitext(cluster)[0]: 0 for cluster in existing_sto_files} for id in ids_set}
+    counts_dict = {id: {os.path.splitext(cluster)[0]: 0 for cluster in existing_sto_files} for id in ids_set}
 
     for sto_file in existing_sto_files:
         sto_path = os.path.join(out_dir, sto_file)
@@ -263,25 +268,15 @@ def get_cluster_counts(ids_set, out_dir):
                     parts = line.split()
                     if len(parts) >= 3:
                         # Extracting ID and cluster from the line
-                        sto_id = parts[1].split('_')[0]
+                        sto_id = parts[5].split('_')[0]
+                        #print(sto_id)
                         cluster = os.path.splitext(sto_file)[0]
-                        # Updating the counts if id is in ids_set
-                        if sto_id in counts_dict:
-                            counts_dict[sto_id][cluster] += 1
-                            #for id, counts in counts_dict.items():
-                            #    print(f"ID: {id}, Counts: {counts}")
+                        # Updating the counts if sto_id is part of any key in ids_set
+                        for id_key in ids_set:
+                            if sto_id in id_key:
+                                counts_dict[id_key][cluster] += 1
 
     return counts_dict
-
-def rename_ids(counts_dict, ids_mapping):
-    renamed_dict = {}
-    for key_in_counts, counts in counts_dict.items():
-        for original_id, truncated_id in ids_mapping.items():
-            if key_in_counts == truncated_id:
-                renamed_dict[original_id] = counts
-                break
-    
-    return renamed_dict
 
 def filter_rows_with_zero_sum(input_file_path, output_file_path):
     # Read the file into a DataFrame
@@ -418,14 +413,14 @@ def main():
     print(f"Creating {hmm_directory}/ directory")
     create_directory(hmm_directory)
 
-    print(f"Looking for proteins without domain annotation. faa files:")
+    print(f"Looking for proteins without domain annotation in .faa files:")
     with open(list_file, 'r') as lf:
         faa_files = [line.strip().replace('.fasta', '.faa') for line in lf.readlines()]
         search_faa_files = ", ".join(faa_files)
         print(f"\t{search_faa_files}\n")
 
     faa_database = f"{args.database}.faa"
-    unannotated_files = get_unannotated_proteins(faa_files, files, hmm_directory)
+    unannotated_files, q_u_ids = get_unannotated_proteins(faa_files, files, hmm_directory)
     if unannotated_files:
         tmp_db = os.path.join(hmm_directory, "tmp_db.faa")
         print(f"\nCreating temporal database:\n\t{tmp_db}")
@@ -444,7 +439,7 @@ def main():
         domain_profiles = q_domain_profiles + s_domain_profiles
 
         print(f"Searching for unannotatd proteins of viruses matching \n\t{search_strings} \nin: \n\t{faa_database} and {pfamscan_database}\n")
-        s_unannotated_files = get_s_unnanotated_proteins(faa_database, strings, s_domain_profiles, hmm_directory)
+        s_unannotated_files, s_u_ids = get_s_unnanotated_proteins(faa_database, strings, s_domain_profiles, hmm_directory)
         if s_unannotated_files:
             tmp_db = os.path.join(hmm_directory, "tmp_db.faa")
             if os.path.exists(tmp_db):
@@ -453,9 +448,11 @@ def main():
                 print(f"\nCreating temporal database:\n\t{tmp_db}")
                 create_temporal_database(faa_database, unannotated_files, tmp_db)
         all_unannotated_files = unannotated_files + s_unannotated_files
+        u_ids = q_u_ids | s_u_ids
     else:
         domain_profiles = q_domain_profiles
         all_unannotated_files = unannotated_files
+        u_ids = q_u_ids
 ###################################################################
     
     domain_set = set(column.split('\t')[6] for column in domain_profiles)
@@ -466,7 +463,7 @@ def main():
     print(f"\n{len(domain_set)} domains identified in the dataset.\nList of domains identified in the dataset written to: {domain_list_path}")
     ids_set = set(column.split('\t')[0].rsplit('_', 1)[0] for column in domain_profiles)
 
-    print(f"\nGetting domain counts for every genome ({len(ids_set)} genomes)\n")
+    print(f"\nGetting domain counts for every genome ({len(ids_set)} genomes with domain annotations)\n")
     domain_counts = {id: {domain: 0 for domain in domain_set} for id in ids_set}
     for entry in domain_profiles:
         id, domain = entry.split('\t')[0].rsplit('_', 1)[0], entry.split('\t')[6]
@@ -476,20 +473,32 @@ def main():
         run_jackhmmer(all_unannotated_files, tmp_db, hmm_directory, args.threads)
         print("\nSearching for intersecting clusters...")
         process_intersecting_clusters(hmm_directory)
-        counts = get_cluster_counts(ids_set, hmm_directory)
-        ids_mapping = {original_id: original_id.split('|')[0] for original_id in ids_set}
-        cluster_counts = rename_ids(counts, ids_mapping)
+        cluster_counts = get_cluster_counts(u_ids, hmm_directory)
 
         merged_counts = {}
-        # Iterate over keys in both domain_counts and cluster_counts
-        for id_key in set(domain_counts.keys()) | set(cluster_counts.keys()):
-            merged_counts[id_key] = {}
+        if len(ids_set) == 0:
+            # If domain_counts is empty, set merged_counts to cluster_counts
+            print("There are no genomes with annotated proteins... ")
+            merged_counts = cluster_counts
+        else:
+            # Include all keys from both domain_counts and cluster_counts
+            all_keys = set(domain_counts.keys()) | set(cluster_counts.keys())
+            # Find all unique domains from both domain_counts and cluster_counts
+            all_domains = set()
+            for id_key in all_keys:
+                all_domains.update(domain_counts.get(id_key, {}).keys())
+            # Initialize counts for all domains to zero
+            for id_key in all_keys:
+                merged_counts[id_key] = {domain: 0 for domain in all_domains}
             # Update counts for domains
-            for domain, count in domain_counts.get(id_key, {}).items():
-                merged_counts[id_key][domain] = count
-            # Update counts for clusters
-            for cluster, count in cluster_counts.get(id_key, {}).items():
-                merged_counts[id_key][cluster] = count
+            for id_key in all_keys:
+                merged_counts[id_key].update(domain_counts.get(id_key, {}))
+            # Update counts for clusters (including keys not present in domain_counts)
+            for id_key in cluster_counts.keys():
+                if id_key not in merged_counts:
+                    merged_counts[id_key] = {}            
+                for cluster, count in cluster_counts[id_key].items():
+                    merged_counts[id_key][cluster] = count
     else:
         merged_counts = domain_counts
     
