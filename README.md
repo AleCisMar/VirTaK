@@ -98,6 +98,7 @@ optional arguments:
   -n N_MATCHES, --n_matches N_MATCHES
                         OPTIONAL: Number of top matches to display in output file. Default = 10
 ```
+![](images/virtak.png)
 
 ### PanPhylo.py:
 
@@ -123,6 +124,7 @@ optional arguments:
   -t THREADS, --threads THREADS
                         Number of parallel CPU workers to use for HMMER (default=2)
 ```
+![](images/panphylo.png)
 
 ### build_virtak_database.py (optional):
 
@@ -151,3 +153,4 @@ optional arguments:
 ```
 
 The output consists of four main files (database_name.fasta, database_name.faa, database_name.kmers, and database_name.pfamscan) and associated blast database files.
+![](images/build_virtak_db.png)
