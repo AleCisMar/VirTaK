@@ -1,3 +1,4 @@
+![](images/logo.png)
 # VirTaK (Virus Taxonomy from Kmers)
  
 VirTaK is intended to relate a virus with known taxonomy to a metagenomic assembled virus. It is based on a k-mer (default = 4-mer) profile database build from complete genomes within the ICTV Virus Metadata Resource (https://ictv.global/vmr). For each query genome in fasta format listed in the input file, it will calculate a k-mer (default = 4-mer) profile and compare it to the k-mer profile of viruses in the k-mer profile database. Then, it will evaluate nucleotide, amino acid, domain content, number of coding sequences, and genome length similarities to calculate an overall score. In general, the virus with the highest overall score will be more likely to actually be related to the query virus.
