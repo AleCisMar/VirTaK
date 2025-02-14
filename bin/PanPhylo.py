@@ -264,7 +264,8 @@ def get_cluster_counts(ids_set, out_dir):
         sto_path = os.path.join(out_dir, sto_file)
         with open(sto_path, 'r') as sto:
             for line in sto:
-                if line.startswith('#=GS'):
+                #if line.startswith('#=GS'):
+                if line.startswith('#=GR'):
                     parts = line.split()
                     if len(parts) >= 3:
                         # Extracting ID and cluster from the line
