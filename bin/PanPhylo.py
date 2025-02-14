@@ -268,7 +268,8 @@ def get_cluster_counts(ids_set, out_dir):
                     parts = line.split()
                     if len(parts) >= 3:
                         # Extracting ID and cluster from the line
-                        sto_id = parts[5].split('_')[0]
+                        #sto_id = parts[5].split('_')[0]
+                        sto_id = parts[1].split('/')[0].split('_')[0]
                         #print(sto_id)
                         cluster = os.path.splitext(sto_file)[0]
                         # Updating the counts if sto_id is part of any key in ids_set
