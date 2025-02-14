@@ -65,6 +65,7 @@ def get_unannotated_proteins(faa_files, pfamscan_files, out_dir):
         ids = {header.rsplit('_', 1)[0] for header in missing_headers}
         
         if missing_headers:
+            header_id = header.split()[0]  # Keep only the ID part (before any space)
             # Extract and save unannotated proteins
             for header in missing_headers:
                 output_file_path = os.path.join(out_dir, f"{header}.faa")
@@ -78,7 +79,9 @@ def get_unannotated_proteins(faa_files, pfamscan_files, out_dir):
                             if record_lines:
                                 out_file.write(''.join(record_lines))
                                 record_lines = []
-                            if line.strip()[1:] == header:
+                            line_id = line.strip()[1:].split()[0]  # Extract only the ID from FASTA header
+                            if line_id == header_id:
+                            #if line.strip()[1:] == header:
                                 write_record = True
                                 out_file.write(line)
                             else:
