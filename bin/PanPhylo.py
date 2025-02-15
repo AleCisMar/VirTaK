@@ -45,6 +45,7 @@ def get_query_domain_profiles(files):
 
 def get_unannotated_proteins(faa_files, pfamscan_files, out_dir):
     output_files = []
+    all_ids = set()
     for faa_file, file in zip(faa_files, pfamscan_files):
         faa_headers = set()
         with open(faa_file, 'r') as faa:
@@ -63,6 +64,7 @@ def get_unannotated_proteins(faa_files, pfamscan_files, out_dir):
         missing_headers = faa_headers - found_headers
         print(f"found {len(missing_headers)} unnanotated proteins in {faa_file}")
         ids = {header.rsplit('_', 1)[0] for header in missing_headers}
+        all_ids.update(ids)
         
         if missing_headers:
             # Extract and save unannotated proteins
@@ -90,7 +92,7 @@ def get_unannotated_proteins(faa_files, pfamscan_files, out_dir):
                             record_lines.append(line)
                     if record_lines:
                         out_file.write(''.join(record_lines))
-    return output_files, ids
+    return output_files, all_ids
 
 def create_temporal_database(original_database, faa_files, temporal_database):
     shutil.copyfile(original_database, temporal_database)
