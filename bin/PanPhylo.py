@@ -270,12 +270,13 @@ def get_cluster_counts(ids_set, out_dir):
         with open(sto_path, 'r') as sto:
             for line in sto:
                 #if line.startswith('#=GS'):
-                if line.startswith('#=GR'):
+                if line.startswith('#=GS'):
                     parts = line.split()
-                    if len(parts) >= 3:
+                    #if len(parts) >= 3:
+                    if any("subseq" in word for word in parts):
                         # Extracting ID and cluster from the line
                         #sto_id = parts[5].split('_')[0]
-                        sto_id = parts[1].split('/')[0].split('_')[0]
+                        sto_id = "_".join(parts[1].split('/')[0].split('_')[:-1])
                         #print(sto_id)
                         cluster = os.path.splitext(sto_file)[0]
                         # Updating the counts if sto_id is part of any key in ids_set
