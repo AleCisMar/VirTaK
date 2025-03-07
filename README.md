@@ -18,6 +18,7 @@ VirTaK codes where developed and tested with Python 3.9.18 using the following l
 
 ## Installation and setup
 
+### Clone or download the repository
 Clone the repository with `git clone`. Alternatively you can download the repository as a ZIP archive and unpack it with `unzip`.
 
 ```{bash, eval=FALSE, echo=TRUE}
@@ -28,6 +29,7 @@ or
 unzip VirTaK-master.zip
 ```
 
+### Create VirTaK environment
 Once unpacked, within the VirTak directory, create the VirTaK environment with all dependencies from environment.yml file:
 
 ```{bash, eval=FALSE, echo=TRUE}
@@ -40,7 +42,9 @@ Then, activate the VirTaK environment and install pfam_scan:
 conda activate VirTaK
 conda install pfam_scan --channel Bioconda
 ```
-Add execution permissions to VirTaK scripts:
+
+### Prepare VirTaK scripts
+To add execution permissions to VirTaK scripts:
 
 ```{bash, eval=FALSE, echo=TRUE}
 chmod 755 bin/*
