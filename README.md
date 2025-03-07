@@ -18,10 +18,14 @@ VirTaK codes where developed and tested with Python 3.9.18 using the following l
 
 ## Installation and setup
 
-Clone the repository with `git clone`. Alternatively you can download the repository as a ZIP archive and unpack it.
+Clone the repository with `git clone`. Alternatively you can download the repository as a ZIP archive and unpack it with `unzip`.
 
 ```{bash, eval=FALSE, echo=TRUE}
 git clone https://github.com/AleCisMar/VirTaK.git
+```
+or
+```{bash, eval=FALSE, echo=TRUE}
+unzip VirTaK-master.zip
 ```
 
 Once unpacked, within the VirTak directory, create the VirTaK environment with all dependencies from environment.yml file:
