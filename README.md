@@ -67,7 +67,7 @@ Then
 source ~/.bashrc
 ```
 
-### Download VirTaK database:
+### Download the VirTaK database:
 
 * The VirTaK database is available at https://drive.google.com/file/d/1VLRQnxTf5QJCJ8oPgL2LKA7u8vHnnEQZ/view?usp=sharing.
 This is a compressed directory that contains all files needed to execute VirTaK.py, PanPhylo.py, get_domain_info.py, get_gos.sh, and build_virtak_database.py. It includes a copy of the Pfam-A database.
