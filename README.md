@@ -40,6 +40,11 @@ Then, activate the VirTaK environment and install pfam_scan:
 conda activate VirTaK
 conda install pfam_scan --channel Bioconda
 ```
+Add execution permissions to VirTaK scripts:
+
+```{bash, eval=FALSE, echo=TRUE}
+chmod 755 bin/*
+```
 
 You may want to add VirTaK scripts to the PATH variable. If your ~/.profile or ~/.bashrc adds your ~/bin directory to PATH you can simply create a bin directory at HOME (if not already created) and move or create symbolic links of the VirTaK scripts to ~/bin. Example:
 ```{bash, eval=FALSE, echo=TRUE}
@@ -49,10 +54,13 @@ or
 ```{bash, eval=FALSE, echo=TRUE}
 ln -s $(pwd)/bin/* ~/bin/
 ```
-Also, it may be necessary to activate execution permissions:
-
+Alternatively, you can modify your ~/.bashrc to add the path of the VirTaK bin directory to PATH:
 ```{bash, eval=FALSE, echo=TRUE}
-chmod 755 /path/to/VirTaK.py
+export PATH="/full/path/to/VirTaK/bin:$PATH"
+```
+Then
+```{bash, eval=FALSE, echo=TRUE}
+source ~/.bashrc
 ```
 
 ### Download VirTaK database:
