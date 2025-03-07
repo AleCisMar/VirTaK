@@ -31,9 +31,10 @@ Once unpacked, within the VirTak directory:
 ```{bash, eval=FALSE, echo=TRUE}
 conda env create -f environment.yml
 ```
-Installing pfam_scan may be problematic in some systems. If this is the case try removing pfam_scan from the environment.yml file and execute the above code. Then, activate the created environment and try:
+Then, activate the VirTaK environment and install pfam_scan:
 
 ```{bash, eval=FALSE, echo=TRUE}
+conda activate VirTaK
 conda install pfam_scan --channel Bioconda
 ```
 
@@ -42,13 +43,8 @@ conda install pfam_scan --channel Bioconda
 * The VirTaK database is available at https://drive.google.com/file/d/1VLRQnxTf5QJCJ8oPgL2LKA7u8vHnnEQZ/view?usp=sharing.
 This is a compressed directory that contains all files needed to execute VirTaK.py, PanPhylo.py, get_domain_info.py, get_gos.sh, and build_virtak_database.py. It includes a copy of the Pfam-A database.
 
-## Execution
-
-Make sure to activate VirTaK environment before executing its codes:
-
-```{bash, eval=FALSE, echo=TRUE}
-conda activate VirTaK
-```
+### Add VirTaK scripts to PATH variable
+If your ~/.profile or ~/.bashrc adds your ~/bin directory to PATH you can simply create a bin directory at HOME (if not already created) and move VirTaK scripts to ~/bin
 
 Also, it may be necessary to activate execution permissions:
 
@@ -56,17 +52,12 @@ Also, it may be necessary to activate execution permissions:
 chmod 755 /path/to/VirTaK.py
 ```
 
-Additionally it may be confortable to create a symbolic link within the bin directory:
+## Execution
 
-If bin directory does not exist:
+Make sure to activate VirTaK environment before executing its codes:
+
 ```{bash, eval=FALSE, echo=TRUE}
-cd
-mkdir bin
-```
-Then:
-```{bash, eval=FALSE, echo=TRUE}
-cd bin
-ln -s /path/to/VirTaK.py .
+conda activate VirTaK
 ```
 
 ### VirTaK.py:
