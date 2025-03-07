@@ -31,6 +31,7 @@ unzip VirTaK-master.zip
 Once unpacked, within the VirTak directory, create the VirTaK environment with all dependencies from environment.yml file:
 
 ```{bash, eval=FALSE, echo=TRUE}
+cd VirTaK
 conda env create -f environment.yml
 ```
 Then, activate the VirTaK environment and install pfam_scan:
@@ -40,19 +41,24 @@ conda activate VirTaK
 conda install pfam_scan --channel Bioconda
 ```
 
-### Download VirTaK database:
-
-* The VirTaK database is available at https://drive.google.com/file/d/1VLRQnxTf5QJCJ8oPgL2LKA7u8vHnnEQZ/view?usp=sharing.
-This is a compressed directory that contains all files needed to execute VirTaK.py, PanPhylo.py, get_domain_info.py, get_gos.sh, and build_virtak_database.py. It includes a copy of the Pfam-A database.
-
-### Add VirTaK scripts to PATH variable
-If your ~/.profile or ~/.bashrc adds your ~/bin directory to PATH you can simply create a bin directory at HOME (if not already created) and move VirTaK scripts to ~/bin
-
+You may want to add VirTaK scripts to the PATH variable. If your ~/.profile or ~/.bashrc adds your ~/bin directory to PATH you can simply create a bin directory at HOME (if not already created) and move or create symbolic links of the VirTaK scripts to ~/bin. Example:
+```{bash, eval=FALSE, echo=TRUE}
+mv bin/* ~/bin
+```
+or
+```{bash, eval=FALSE, echo=TRUE}
+ln -s $(pwd)/bin/* ~/bin/
+```
 Also, it may be necessary to activate execution permissions:
 
 ```{bash, eval=FALSE, echo=TRUE}
 chmod 755 /path/to/VirTaK.py
 ```
+
+### Download VirTaK database:
+
+* The VirTaK database is available at https://drive.google.com/file/d/1VLRQnxTf5QJCJ8oPgL2LKA7u8vHnnEQZ/view?usp=sharing.
+This is a compressed directory that contains all files needed to execute VirTaK.py, PanPhylo.py, get_domain_info.py, get_gos.sh, and build_virtak_database.py. It includes a copy of the Pfam-A database.
 
 ## Execution
 
