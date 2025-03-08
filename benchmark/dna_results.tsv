@@ -1,0 +1,642 @@
+# Query: AB063393.fasta
+# Domains: HTH_3, AAA_22, Mrr_cat, HTH_17, Peptidase_S24, Phage_int_SAM_5, Peptidase_M23, Phage_integrase, SLT
+# Top 2 matches for AB063393.fasta (19604 bp, 42 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AB063393|Thermus_phage_IN93-Hukuchivirus_IN93-Hukuchivirus-Matshushitaviridae-Halopanivirales-Laserviricetes-Dividoviricota-Helvetiavirae-Varidnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+GQ403789|Thermus_phage_P23_77-Hukuchivirus_P2377-Hukuchivirus-Matshushitaviridae-Halopanivirales-Laserviricetes-Dividoviricota-Helvetiavirae-Varidnaviria-Viruses-dsDNA	0.78023	0.38094690476190474	0.4285714285714286	0.9143964623027788	0.8571428571428571	0.869006325239747	0.6488991271224921	Related
+# Query: AB972940.fasta
+# Domains: Polyoma_coat2, T_Ag_DNA_bind, Polyoma_coat, Polyoma_lg_T_C, Papo_T_antigen
+# Top 2 matches for AB972940.fasta (5040 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AB972940|bat_polyomavirus_5b2-Alphapolyomavirus_acelebensis-Alphapolyomavirus-Polyomaviridae-Sepolyvirales-Papovaviricetes-Cossaviricota-Shotokuvirae-Monodnaviria-Viruses-dsDNA	1.0	0.8	1.0	1.0	1	1	0.9523809524	Closely related
+AB972944|bat_polyomavirus_5b1-Alphapolyomavirus_ptevampyrus-Alphapolyomavirus-Polyomaviridae-Sepolyvirales-Papovaviricetes-Cossaviricota-Shotokuvirae-Monodnaviria-Viruses-dsDNA	0.89042	0.9276880000000001	1.0	0.9530800515821843	0.8	0.9986130374479889	0.925657771072849	Closely related
+# Query: AF036092.fasta
+# Domains: Adeno_PVIII, Adeno_hexon_C, Adeno_VII, Viral_DNA_Zn_bi, Adeno_PX, Adeno_hexon, Peptidase_C5, Viral_DNA_bi, Adeno_shaft, DNA_pol_B_2, Fiber_head_BAdV-4, MCPVI, Adeno_IVa2, Adeno_terminal, Adeno_Penton_B, Adeno_52K, Hex_IIIa, Adeno_100
+# Top 2 matches for AF036092.fasta (31301 bp, 30 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AF036092|bovine_adenovirus_4-Bovine_atadenovirus_D-Atadenovirus-Adenoviridae-Rowavirales-Tectiliviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	1.0	0.8422661904761904	1.0	1.0	1	1	0.9624443310807818	Closely related
+JQ345700|bovine_adenovirus_6-Bovine_atadenovirus_E-Atadenovirus-Adenoviridae-Rowavirales-Tectiliviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.8015866666666667	0.6001440476190477	0.9473684210526316	0.967302141261273	0.9333333333333333	0.9592025813871762	0.8251185521041826	Closely related
+# Query: AF189021.fasta
+# Domains: HTH_39, MazG, DNA_pol_A, Head-tail_con, RNR_Alpha, Glutaredoxin, DUF1127, Acetyltransf_1, Phage_endo_I, PhoH, Phage_tail_APC, Toprim_2, Thy1, DnaB_C
+# Top 2 matches for AF189021.fasta (39898 bp, 56 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AF189021|Roseobacter_phage_SIO1-Siovirus_americense-Siovirus-Zobellviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.991704	1.0	1.0	1.0	1	1	0.9976297142833439	Closely related
+MF431617|Lentibacter_phage_vB_LenP_ICBM1-Siovirus_germanense-Siovirus-Zobellviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.8614921428571428	0.6703667741935484	0.896551724137931	0.9674509264928217	0.9642857142857143	0.993401887309215	0.8538723676624892	Closely related
+# Query: AF332093.fasta
+# Domains: ATP-cone, Collagen, Endonuclease_NS, PIF1, WSS_VP, DNA_pol_B_exo1, Ribonuc_red_lgN, DUF1335, Helicase_C_4, zf-RING_2, Ribonuc_red_sm, Thymidylate_kin, Ribonuc_red_lgC, Fic, dUTPase, TK, VP9, Thymidylat_synt
+# Top 2 matches for AF332093.fasta (305119 bp, 167 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AF332093|white_spot_syndrome_virus-White_spot_syndrome_virus-Whispovirus-Nimaviridae--Naldaviricetes----Viruses-dsDNA	0.8744999143672699	0.42859138157894755	1.0	1.0	1	1	0.828093161642294	Closely related
+KT995472|white_spot_syndrome_virus-White_spot_syndrome_virus-Whispovirus-Nimaviridae--Naldaviricetes----Viruses-dsDNA	0.8755971615720521	0.42686956140350873	1.0	0.99293781402639	0.9709302325581395	0.986527033231378	0.8235777008234716	Closely related
+# Query: AF428260.fasta
+# Domains: Zot
+# Top 2 matches for AF428260.fasta (5804 bp, 10 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AF428260|Propionibacterium_phage_B5-Bifilivirus_B5-Bifilivirus-Paulinoviridae-Tubulavirales-Faserviricetes-Hofneiviricota-Loebvirae-Monodnaviria-Viruses-ssDNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+AB937974|Ralstonia_phage_RS603-Habenivirus_RS603-Habenivirus-Inoviridae-Tubulavirales-Faserviricetes-Hofneiviricota-Loebvirae-Monodnaviria-Viruses-ssDNA	0	0	0.6666666666666667	0.7954292498330489	0.7692307692307693	0.7558275817163693	0.34986873972684807	Distantly related
+# Query: AJ414696.fasta
+# Domains: 117-like_vir, Sulf_coat_C, Hjc, DUF2341, STIV_B116-like, PDDEXK_1, DUF1374, DUF5461, PHA01746, RHH_1, Glycos_transf_1, BrxL_ATPase, dUTPase, 56B_RHH
+# Top 2 matches for AJ414696.fasta (32308 bp, 47 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AJ414696|Sulfolobus_islandicus_rod_shaped_virus_1-Icerudivirus_SIRV1-Icerudivirus-Rudiviridae-Ligamenvirales-Tokiviricetes-Taleaviricota-Zilligvirae-Adnaviria-Viruses-dsDNA	0.9956	0.978160754716981	1.0	1.0	1	1	0.9935430368381992	Closely related
+AJ344259|Sulfolobus_islandicus_rod_shaped_virus_2-Icerudivirus_SIRV2-Icerudivirus-Rudiviridae-Ligamenvirales-Tokiviricetes-Taleaviricota-Zilligvirae-Adnaviria-Viruses-dsDNA	0.8798454545454546	0.7532901886792451	0.9655172413793104	0.9474166198930608	0.8703703703703703	0.9113681241184767	0.876283398124917	Closely related
+# Query: AJ416153.fasta
+# Domains: RNA_helicase, Viral_Rep
+# Top 2 matches for AJ416153.fasta (1360 bp, 1 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AJ416153|Ageratum_yellow_vein_Singapore_alphasatellite-Ageratum_yellow_vein_Singapore_alphasatellite-Ageyesisatellite-Alphasatellitidae------Viruses-ssDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+HG530543|cotton_leaf_curl_Saudi_Arabia_alphasatellite-Cotton_leaf_curl_Saudi_Arabia_alphasatellite-Ageyesisatellite-Alphasatellitidae------Viruses-ssDNA	0.8074899999999999	0.82432	1.0	0.8861039439734612	0.5	0.9948792977322605	0.8390348157602996	Closely related
+# Query: AJ632304.fasta
+# Domains: rve, Lectin_C, BEN, Ribonuclease_T2, Phospholip_A2_4, Ank_5, Ank, Y_phosphatase, Endonuclease_7, CENP-T_C, DNA_pol_B_2, RVT_1, Cystatin, Ank_2, Pox_A32
+# Top 2 matches for AJ632304.fasta (567699 bp, 274 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AJ632304|AJ632305|AJ632306|AJ632307|AJ632308|AJ632309|AJ632310|AJ632311|AJ632312|AJ632313|AJ632314|AJ632315|AJ632316|AJ632317|AJ632318|AJ632319|AJ632320|AJ632321|AJ632322|AJ632323|AJ632324|AJ632325|AJ632326|AJ632327|AJ632328|AJ632329|AJ632330|AJ632331|AJ632332|AJ632333|Cotesia_congregata_bracovirus-Bracoviriform_congregatae-Bracoviriform-Polydnaviriformidae------Viruses-dsDNA	0.9187147026022298	0.5826394483985764	1.0	1.0	1	1	0.8774040694263461	Closely related
+AY556383|AB291165|AB291166|AY935249|AB291167|AB291168|AB291169|AB291170|AB291171|AY563518|AY597814|AB291172|AB291173|AY570798|AB291174|AB291175|AB291176|AB291177|AB291178|AY577428|AB291179|AB291180|AY570799|AB291181|AB291182|AB291183|AB291184|AB291185|AB291186|AB291187|AY577429|AB291188|AY556384|AB291189|AB291190|AB291191|AY547319|AB291192|AB291193|AB291194|AB291195|AB291196|AB291197|AB291198|AB291199|AY563519|AB291200|AB291201|AB291202|AB291203|AB291204|AB291205|AB291206|AB291207|AB291208|AB291209|Hyposoter_fugitivus_ichnovirus-Ichnoviriform_fugitivi-Ichnoviriform-Polydnaviriformidae------Viruses-dsDNA	0.8375	0.013542855871886113	0.2857142857142857	0.6040934234787954	0.7299270072992701	0.43358716502935535	0.4733948988596651	Distantly related
+# Query: AJ635161.fasta
+# Domains: DUF5608, DUF5658, DUF5607
+# Top 2 matches for AJ635161.fasta (28337 bp, 49 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AJ635161|Pyrobaculum_spherical_virus-Alphaglobulovirus_PSV-Alphaglobulovirus-Globuloviridae------Viruses-dsDNA	0.978365	0.9510154716981134	1.0	1.0	1	1	0.9821555884980344	Closely related
+MK542821|Escherichia_phage_HZP2-Teseptimavirus_HZP2-Teseptimavirus-Autographiviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0	0	0	0.8008690070606823	0.9795918367346939	0.8733049802761341	0.24929027044850743	Similar genomes
+# Query: AM398843.fasta
+# Domains: Patatin, DUF3627, Ribonuclease_3, PIF1, COesterase, DUF5862, GIY-YIG, AcMNPV_Orf17, Peptidase_C1, T5orf172, RNA_pol_Rpb1_5, Peptidase_M10, OrfB_Zn_ribbon, DUF5757, Thioredoxin, RNA_pol_Rpb1_1, ELO, XPG_N, Pox_VLTF3, RNA_pol_Rpb2_7, Acyltransferase, RNA_pol_Rpb2_6, RNA_pol_Rpb1_2, RNA_pol_Rpb1_4, DEAD, TFIIS_C, RNA_pol_Rpb2_3, XPG_I, Capsid_NCLDV, S1-P1_nuclease, dNK, D5_N, DUF5895, zf-C3HC4_3, Peptidase_C14, DNA_pol_B_exo1, RNA_pol_Rpb2_1, Pkinase, Capsid_N, Diedel, Glyco_transf_90, Bro-N, Metallophos, NIF, zf-RING_2, PriCT_2, RNA_pol_Rpb1_3, Evr1_Alr, RNA_pol_Rpb2_4, AAA_23, DNA_pol_B
+# Top 2 matches for AM398843.fasta (156922 bp, 171 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AM398843|Spodoptera_frugiperda_ascovirus_1a-Ascovirus_sfav1a-Ascovirus-Ascoviridae-Pimascovirales-Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.8685734709677425	0.8949938666666688	1.0	1.0	1	1	0.937448102788631	Closely related
+EF133465|Heliothis_virescens_ascovirus_3a-Ascovirus_tnav2a-Ascovirus-Ascoviridae-Pimascovirales-Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.8355114999999997	0.23166567999999985	0.9532710280373832	0.8848364047510812	0.9884393063583815	0.8424799476006914	0.7361118707709241	Closely related
+# Query: AM419438.fasta
+# Domains: AbiEi_4, Phage_tube_2, MCM, MCM_N, MCM_OB, HHH_5, MCM_lid, Phage_portal, AAA_16, PadR, Glyco_transf_8, Phage_integrase, KTSC, Peptidase_S78_2
+# Top 2 matches for AM419438.fasta (42271 bp, 64 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AM419438|Halorubrum_virus_BJ1-Beejeyvirus_BJ1-Beejeyvirus-Graaviviridae-Kirjokansivirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+HQ332141|Halorubrum_virus_CGphi46-Seejivirus_CGphi46-Seejivirus-Graaviviridae-Kirjokansivirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.8055366666666667	0.20010453125000005	0.4444444444444444	0.9460688125388488	0.90625	0.9411653379385394	0.6287329626384623	Related
+# Query: AP006270.fasta
+# Domains: DUF3627, AcMNPV_Orf17, Baculo_DNA_bind, Baculo_E66, Baculo_ME53, Baculo_IE-1, Ac81, Inhibitor_I29, BIR, FtsJ, CBM_14, TATR, Sod_Cu, DUF816, NPV_P10, AcMNPV_Ac75, Baculo_VP39, zf-C3HC4_3, Baculo_p26, Baculo_LEF5, Viral_alk_exo, Peptidase_C1, Glyco_transf_8, DUF884, Baculo_LEF5_C, Orf78, Baculo_p33, LEF-4, AcMNPV_P18, OTU, Baculo_PEP_C, RRM_1, AcMNPV_Ac109, UDPGT, DUF5470, Baculo_helicase, PIF, Baculo_gp41, ChaB, DNA_pol_B, PIF3, Baculo_E25, Baculo_p47, Pkip-1, AcMNPV_Orf101, Baculo_p48, Lyase_8_N, Polyhedrin, Baculo_VP1054, Baculo_Y142, Baculo_PEP_N, Baculo_p74, DUF2719, Ac76, Baculo_PP31, LEF-9, Baculo_FP, Baculo_p24, DUF705, Pkinase, Baculo_p74_N, AcMNPV_Orf18, ubiquitin, DUF1477, Nucleo_LEF-12, Baculo_LEF-3, Phage_integrase, Baculo_Ac102, Baculo_F, DUF1247, LEF-8, Baculo_E56, Baculo_ODV-E27, Nucleo_P87, Baculo_RING, PIF2, Baculo_19, DNA_primase_S, DUF919, DNA_pol_B_exo1, Bro-N, Baculo_LEF-2, Baculo_VP91_N
+# Top 2 matches for AP006270.fasta (113220 bp, 107 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AP006270|Adoxophyes_honmai_nucleopolyhedrovirus-Alphabaculovirus_adhonmai-Alphabaculovirus-Baculoviridae-Lefavirales-Naldaviricetes----Viruses-dsDNA	0.9530133333333329	0.9827696363636363	1.0	1.0	1	1	0.9824727705509866	Closely related
+MH394321|Cryptophlebia_peltastica_nucleopolyhedrovirus-Alphabaculovirus_crypeltasicae-Alphabaculovirus-Baculoviridae-Lefavirales-Naldaviricetes----Viruses-dsDNA	0.77058	0.46144309090909086	0.8901098901098901	0.9429637200688384	0.8842975206611571	0.9783284944006636	0.7650928434260968	Closely related
+# Query: AP018495.fasta
+# Domains: Glyco_hydro_1, Thymidylat_synt, DUF6081, PROPPIN, MT-A70, Exo_endo_phos, SNF2-rel_dom, BTB_2, Nudix_hydro, Thioredoxin, Thymidylate_kin, PCNA_C, dUTPase, HYPK_UBA, BRCT, Homeodomain, PARP_regulatory, PIN_4, RNase_H, TFIIS_C, Endonuclease_5, zf-C3HC4_3, MORN, Peptidase_C14, YAcAr, PP2C, Ribonuc_red_lgC, RNA_ligase, YqaJ, BTB, Lipase_3, DHFR_1, Ribonuc_red_lgN, RFC1, DSPc, DUF5906, zf-PARP, SUI1, AAA, DUF5881, DUF4326, DNA_pol_A_exo1, DNA_pol_B, zf-MYND, Histone, FG-GAP_2, PIF1, Cyclin_N, UDPG_MGDP_dh_N, GIY-YIG, BCS1_N, Ribonuc_red_sm, Guanylate_cyc, HMG_box, TFIIS_M, Cyclin_C, DUF5860, AAA_28, Pox_VLTF3, LAGLIDADG_3, DUF5832, Ras, cpYpsA, Capsid_NCLDV, PCNA_N, Pkinase, Capsid_N, RNase_HII, DUF4804, Kdo, FSH1, DUF5845, HhH-GPD, Helicase_C, Pif1_2B_dom, PK_Tyr_Ser-Thr, ATP-cone, PAN_4, PPL4, NUDIX, Ank_2, F-box-like, UDPG_MGDP_dh, UDPG_MGDP_dh_C, DUF5767, DNA_pol_B_exo1, dCMP_cyt_deam_1, Rho_N, PRDM2_PR
+# Top 2 matches for AP018495.fasta (381277 bp, 455 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AP018495|Acanthamoeba_castellanii_medusavirus_J1-Medusavirus_medusae-Medusavirus-Mamonoviridae--Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.8177185714285713	0.8361571316614428	1.0	1.0	1	1	0.9089093850529828	Closely related
+MW018138|Medusavirus_stheno_T3-Medusavirus_sthenus-Medusavirus-Mamonoviridae--Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.8241789781021903	0.5079037931034477	0.8314606741573034	0.9699979303356351	0.9230769230769231	0.9515680201008715	0.7865786280734776	Closely related
+# Query: AY190604.fasta
+# Domains: DUF6378, Terminase_6N, ResIII, Phage_integrase, Terminase_6C, Band_7, TaqI_C, ERCC4, Ribonuc_red_lgN, Helicase_C_2, dUTPase, HalOD1, Baseplate_J, Thy1, DNA_pol_B, RtcB, DUF6610, DNA_pol_B_exo1, PDDEXK_1, N6_Mtase, Ribonuc_red_lgC, Eco57I
+# Top 2 matches for AY190604.fasta (75898 bp, 112 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AY190604|Halophage_HF1-Haloferacalesvirus_HF1-Haloferacalesvirus-Hafunaviridae-Thumleimavirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KC292022|Halorubrum_tailed_phage_5-Haloferacalesvirus_HRTV5-Haloferacalesvirus-Hafunaviridae-Thumleimavirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.8792976923076924	0.8104566071428568	1.0	0.979753463223396	0.9821428571428571	0.9969002022749363	0.9156435950214236	Closely related
+# Query: AY318871.fasta
+# Domains: DUF3627, Phosphodiest, Pox_A31, Pox_E10, Glrx-like, Pox_polyA_pol_C, ResIII, SNF2-rel_dom, DUF5890, Pox_polyA_pol_N, 3Beta_HSD, Pox_A30L_A26L, Pox_VP8_L4R, Pox_L5, Thymidylate_kin, Pox_ser-thr_kin, dUTPase, ig, Endonuclease_NS, PARP_regulatory, DUF678, Serpin, Ank_3, DEAD, TFIIS_C, RNA_pol_Rpb2_3, PTH2, D5_N, Sema, A2L_zn_ribbon, Pox_A22, DNA_pol_B_3, Lectin_C, Vac_Fusion, Ank, KilA-N, Pox_F15, UL45, 2_5_RNA_ligase2, zf-ANAPC11, TANGO2, Poxvirus_B22R_C, FPV060, Chordopox_RPO7, RNA_pol_Rpb1_3, Pox_J1, Pox_RNA_Pol_22, VirDNA-topo-I_N, Pox_D2, 7tm_1, TNFR_c6, Viral_Rep, Bcl-2, Poxvirus_B22R, Pox_polyA_pol, Pox_I3, RNA_pol_Rpb2_5, DNA_ligase_A_M, rpo132, Chordopox_A20R, RNA_helicase, Pox_G7, NGF, Pox_int_trans, Flavoprotein, RNA_pol_Rpb2_7, Pox_E8, RNA_pol_Rpb2_6, Pox_RNA_pol, DSPc, I-set, Pox_A32, Pox_C4_C10, Peptidase_C57, Pox_Ag35, MCEL_TPase, Pox_G9-A16, Pox_G5, Pox_P35, Pox_A9, Chordopox_E11, mRNA_G-N7_MeTrfase, Pox_F12L, PLDc_3, IL8, Pox_A11, DNA_pol_B, PP1c_bdg, Pox_A8, Pox_I1, L1R_F9L, Ank_5, Pox_LP_H2, Pox_Rif, Chordopox_G3, Chordopox_A30L, Ribonuc_red_sm, Pox_E2-like, MCEL_GT_NTPase, zf-FCS, Pox_VERT_large, NPH-II, GSHPx, Topoisom_I, DUF1029, ELO, NPHI_C, Pox_VLTF3, Pox_RNA_pol_35, Pox_P21, Pox_A3L, Pox_TAP, Pox_L3_FP4, zf-C3HC4, Pox_A12, Pox_F17, Arrestin_C, Pox_A14, Chordopox_A15, Pox_P4A, DNA_ligase_A_N, TK, rpo30_N, Pox_D5, Chordopox_L2, Pox_E6, Pkinase, ubiquitin, DNAP_B_exo_N, UDG, Poxvirus_B22R_N, DFP, Pox_F11, Chordopox_G2, zf-CCCH, Pox_D3, Helicase_C, RNA_pol_Rpb1_5, PK_Tyr_Ser-Thr, PSI, NUDIX, SNAP, Pox_Rap94, Chordopox_A13L, Pox_I6_C, MCEL_GT_OB, Pox_P4B, TGF_beta, Ank_2, Pox_H7, RNA_pol_Rpb1_2, Pox_I6, Pox_TAA1, RNA_pol_Rpb1_4, PRANC, Pox_A28, Peptidase_C92, Arrestin_N, dNK, Pox_A6, TspO_MBR, Pox_mRNA-cap, Pox_EPC_I2-L1, Ank_4, DNase_II, Pox_RNA_Pol_19, Peptidase_M44, DNA_pol_B_exo1, DNA_ligase_A_C, PLDc, Pox_I5, DNA_photolyase
+# Top 2 matches for AY318871.fasta (359853 bp, 320 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AY318871|canarypox_virus-Canarypox_virus-Avipoxvirus-Poxviridae-Chitovirales-Pokkesviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.854742218844986	0.4076297042716317	1.0	1.0	1	1	0.8174572302257745	Closely related
+KJ859677|penguinpox_virus-Penguinpox_virus-Avipoxvirus-Poxviridae-Chitovirales-Pokkesviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.8026965714285713	0.26329923694779095	0.9349112426035503	0.9204615506915311	0.94375	0.8527426476922522	0.7320927563474511	Closely related
+# Query: AY569307.fasta
+# Domains: Zot, RHH_1, STIV_B116-like
+# Top 2 matches for AY569307.fasta (17663 bp, 37 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AY569307|Sulfolobus_turreted_icosahedral_virus_1-Sulfolobus_turreted_icosahedral_virus_1-Alphaturrivirus-Turriviridae-Belfryvirales-Tectiliviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.980232	1.0	1.0	1.0	1	1	0.994351999994352	Closely related
+GU080336|Sulfolobus_turreted_icosahedral_virus_2-Sulfolobus_turreted_icosahedral_virus_2-Alphaturrivirus-Turriviridae-Belfryvirales-Tectiliviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.740635	0.4424116216216217	0.8	0.9452306614922238	0.8648648648648649	0.9410632395402819	0.7315406220692215	Closely related
+# Query: AY848686.fasta
+# Domains: Tecti-min-caps, DUF1970, PRD1_P5_C, PRD1_DD, Muramidase, Phage_Capsid_P3, DNA_pol_B_2, PRD1_P5_spike_N, Prd1-P2, Phage_holin_3_3, SLT
+# Top 2 matches for AY848686.fasta (14954 bp, 26 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AY848686|Enterobacteria_phage_PR4-Alphatectivirus_PR4-Alphatectivirus-Tectiviridae-Kalamavirales-Tectiliviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	1.0	0.9436058620689656	1.0	1.0	1	1	0.9865728243075054	Closely related
+AY848689|Enterobacteria_phage_PRD1-Alphatectivirus_PRD1-Alphatectivirus-Tectiviridae-Kalamavirales-Tectiliviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.920485	0.9090593103448277	1.0	0.9758661087866108	1	0.9981944630199278	0.9520952067010402	Closely related
+# Query: BK011003.fasta
+# Domains: rve, DJR_capsid, Phospholip_A2_4, Pox_A32
+# Top 2 matches for BK011003.fasta (12571 bp, 12 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+BK011003|Mayetiola_barley_midge_adintovirus-Alphadintovirus_mayetiola-Alphadintovirus-Adintoviridae-Orthopolintovirales-Polintoviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+BK010890|Terrapene_box_turtle_adintovirus-Betadintovirus_terrapene-Betadintovirus-Adintoviridae-Orthopolintovirales-Polintoviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0	0.03440833333333333	0.2857142857142857	0.7336782653343339	0.9230769230769231	0.9856515602948095	0.30227328640573187	Distantly related
+# Query: BK013338.fasta
+# Domains: Sigma70_r4_2, SWIM, PGDYG
+# Top 2 matches for BK013338.fasta (17189 bp, 35 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+BK013338|Haloterrigena_jeotgali_icosahedral_virus_1-Yingchengvirus_HJIV1-Yingchengvirus-Simuloviridae-Halopanivirales-Laserviricetes-Dividoviricota-Helvetiavirae-Varidnaviria-Viruses-dsDNA	0.9133840000000001	1.0	1.0	1.0	1	1	0.975252571403824	Closely related
+BK013337|Natrinema_versiforme_icosahedral_virus_1-Yingchengvirus_NVIV1-Yingchengvirus-Simuloviridae-Halopanivirales-Laserviricetes-Dividoviricota-Helvetiavirae-Varidnaviria-Viruses-dsDNA	0.835256	0.491708	0.33333333333333337	0.9419519220117426	0.9142857142857143	0.9082694848084544	0.6841002866173245	Related
+# Query: BK062752.fasta
+# Domains: MarR
+# Top 2 matches for BK062752.fasta (11465 bp, 25 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+BK062752|Lokiarchaeia_virus_SkuldV3-Delusorvirus_cascadiense-Delusorvirus-Skuldviridae-Atroposvirales-Tectiliviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+OK558607|Lokiarchaeia_virus_SkuldV1-Delusorvirus_hikurangiense-Delusorvirus-Skuldviridae-Atroposvirales-Tectiliviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.8905030000000002	0.5093296296296296	0	0.961185107037672	0.92	0.9847361535106847	0.6475217920598882	Related
+# Query: DQ163914.fasta
+# Domains: DNA_pol_A, AAA_24, UvrD_C_2, DUF3987, Peptidase_M15_4, PDDEXK_1, AAA_30, Rv2179c-like
+# Top 2 matches for DQ163914.fasta (43365 bp, 51 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+DQ163914|Pseudomonas_phage_119X-Jamesmcgillvirus_jv119X-Jamesmcgillvirus-Fredfastierviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KU884563|Pseudomonas_phage_PaMx41-Jamesmcgillvirus_PaMx41-Jamesmcgillvirus-Fredfastierviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9519500000000001	0.9346545098039215	1.0	0.9874379670462526	0.9807692307692307	0.997125776040469	0.966950032743579	Closely related
+# Query: DQ665917.fasta
+# Domains: AAA_19, Pkinase, DNA_pol_B_exo1, DNA_pack_C, DNA_methylase, V-set, Spike_torovirin, dsrm, US22, DNA_pol_B
+# Top 2 matches for DQ665917.fasta (220859 bp, 171 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+DQ665917|Luck_tumor_herpesvirus__ranid_herpesvirus_1-Batravirus_ranidallo1-Batravirus-Alloherpesviridae-Herpesvirales-Herviviricetes-Peploviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.97322544217687	0.8794498550724639	1.0	1.0	1	1	0.9636477108811423	Closely related
+DQ665652|frog_virus_4__ranid_herpesvirus_2-Batravirus_ranidallo2-Batravirus-Alloherpesviridae-Herpesvirales-Herviviricetes-Peploviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0	0.029661835748792272	0.5454545454545454	0.8717651893057391	0.9239766081871345	0.9527957170158886	0.3688653267606393	Distantly related
+# Query: EF101928.fasta
+# Domains: Pyr_excise, Ribonuclease_3, Orn_DAP_Arg_deC, DUF5763, Glyco_transf_4, ResIII, SNF2-rel_dom, DUF5901, Toprim, MIP, Glutaredoxin, Thioredoxin, CBM_14, PCNA_C, dUTPase, CBAH, Herpes_UL52, DNA_topoisoIV, Glyco_hydro_18, Glyco_hydro_16, NUMOD1, Sod_Cu, 2-Hacid_dh_C, RNase_H, DEAD, TFIIS_C, 2OG-FeII_Oxy_3, HTH_3, D5_N, Glyco_trans_2_3, Peptidase_G2, Pox_A22, Lipase_GDSL_2, RNR_Alpha, APH, DUF5899, HNH_3, Polysacc_lyase_14, Ribonuc_red_lgC, Methyltransf_24, Exostosin, YqaJ, GIY_YIG_domain, GDP_Man_Dehyd, CBM_2, Sacchrp_dh_NADP, DUF5872, DUF5762, Ribonuc_red_lgN, DUF1390, DUF5856, DSPc, DUF5759, DUF5906, Ion_trans_2, Thy1, DUF5654, DUF5853, mRNA_cap_enzyme, Glyco_hydro_46, ABC_tran, DUF5883, DSHCT, Evr1_Alr, DNA_pol_B, Acetyltransf_1, Skp1_POZ, UDPG_MGDP_dh_N, GIY-YIG, Ribonuc_red_sm, NAD_binding_8, Epimerase, Orn_Arg_deC_N, TOPRIM_C, ATP_bind_3, TBP, DUF2177, DNA_methylase, Sacchrp_dh_C, ABC1, MC1, DNA_ligase_OB_2, Pox_VLTF3, Peptidase_S74, UCH, DUF5832, Capsid_NCLDV, ADPrib_exo_Tox, dsrm, NFACT-R_1, K_trans, PCNA_N, Pkinase, Capsid_N, DNA_gyraseB, PBCV_basic_adap, ubiquitin, Glycos_transf_2, Hydrolase_4, Patatin, Barwin, 2-Hacid_dh, HATPase_c, Helicase_C, ATP-cone, DUF5764, CN_hydrolase, DUF5874, Polysacc_lyase, DUF5760, NUMOD3, mRNA_cap_C, DUF5771, MannoseP_isomer, Skp1, DUF5871, Pyridoxal_deC, PAD_porph, UDPG_MGDP_dh, UDPG_MGDP_dh_C, dNK, DUF5767, mRNA_triPase, SET, DUF5754, DNA_pol_B_exo1, dCMP_cyt_deam_1, GDPD, Chlorovi_GP_rpt
+# Top 2 matches for EF101928.fasta (288047 bp, 353 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+EF101928|Acanthocystis_turfacea_Chlorella_virus_1-Acanthocystis_turfacea_chlorella_virus_1-Chlorovirus-Phycodnaviridae-Algavirales-Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.8726674193548388	0.8230284082397001	1.0	1.0	1	1	0.9214831693770229	Closely related
+JF411744|Paramecium_bursaria_Chlorella_virus_1-Paramecium_bursaria_Chlorella_virus_1-Chlorovirus-Phycodnaviridae-Algavirales-Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.8259000000000001	0.31827116104868913	0.7898550724637681	0.8249182087390567	0.9751381215469613	0.8712565522623265	0.7144030246505411	Closely related
+# Query: EF432053.fasta
+# Domains: DNA_pol_B_2, VapE-like_dom
+# Top 2 matches for EF432053.fasta (23814 bp, 45 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+EF432053|Acidianus_bottle_shaped_virus-Bottigliavirus_ABV-Bottigliavirus-Ampullaviridae------Viruses-dsDNA	0.99548	1.0	1.0	1.0	1	1	0.9987085714272799	Closely related
+KP282673|Acidianus_bottle_shaped_virus_2_strain_ABV2-Bottigliavirus_ABV2-Bottigliavirus-Ampullaviridae------Viruses-dsDNA	0.750065	0.5427757777777777	0.6666666666666667	0.9319225050104519	0.9777777777777777	0.9495674813135131	0.7419917195098842	Closely related
+# Query: EF546812.fasta
+# Domains: RNA_helicase, Nanovirus_coat, Nanovirus_C8, Viral_Rep, Clink, Babuvirus_MP
+# Top 2 matches for EF546812.fasta (6427 bp, 8 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+EF546812|EF546811|EF546808|EF546813|EF546810|EF546809|abaca_bunchy_top_virus-Abaca_bunchy_top_virus-Babuvirus-Nanoviridae-Mulpavirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA	0.9420439999999999	0.9712483333333334	1.0	1.0	1	1	0.9765955079226871	Closely related
+EF546806|EF546805|EF546802|EF546807|EF546804|EF546803|abaca_bunchy_top_virus-Abaca_bunchy_top_virus-Babuvirus-Nanoviridae-Mulpavirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA	0.8546587499999999	0.4361441666666667	1.0	0.9296281800391389	1	0.9979772833359266	0.8140731027054783	Closely related
+# Query: EF568108.fasta
+# Domains: PIF3, AAA_19, Thymidylat_synt, Ac81, F-box, PP1c_bdg, LCAT, Peptidase_M10, zf-C3HC4_2, Lyase_8_N, Baculo_p74, Glyco_hydro_18, TFIIS_C, AAA, PIF2, MSV199, DNA_pol_B_exo1, Baculo_p74_N, PDDEXK_1, zf-RING_2, PIF, DNA_pol_B
+# Top 2 matches for EF568108.fasta (190032 bp, 174 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+EF568108|Glossina_pallidipes_salivary_gland_hypertrophy_virus-Glossinavirus_glopallidipedis-Glossinavirus-Hytrosaviridae-Lefavirales-Naldaviricetes----Viruses-dsDNA	0.865981101694915	0.8012143686006822	1.0	1.0	1	1	0.9143789739412551	Closely related
+KY608910|Esparto_virus-Alphanudivirus_tertidromelanogasteris-Alphanudivirus-Nudiviridae-Lefavirales-Naldaviricetes----Viruses-dsDNA	0	0.0009598976109215017	0.3589743589743589	0.8917053098554195	0.6954022988505747	0.9643691588785047	0.3081422196866357	Distantly related
+# Query: EU273818.fasta
+# Domains: Gemini_AL1, Gemini_coat, Gemini_AL1_M, Curto_V2
+# Top 2 matches for EU273818.fasta (2845 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+EU273818|beet_curly_top_Iran_virus-Beet_curly_top_Iran_virus-Becurtovirus-Geminiviridae-Geplafuvirales-Repensiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+JX131633|beet_curly_top_Iran_virus-Beet_curly_top_Iran_virus-Becurtovirus-Geminiviridae-Geplafuvirales-Repensiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA	0.9043800000000001	0.925105	1.0	0.941942294159043	1	1	0.9465538991370965	Closely related
+# Query: FJ373894.fasta
+# Domains: Beta_helix, dUTPase_2, Zn-ribbon_8, ADDT, Trans_coact, NAPRTase, NT5C, Muramidase, DUF4815, PG_binding_1, GIY-YIG, Terminase_6N, Ribonuc_red_sm, Gp23, DNA_ligase_A_M, bPH_2, ResIII, Helicase_C, Terminase_6C, Toprim, Big_2, TOPRIM_C, RuvC, ATP-cone, Tn7_TnsA-like_N, Glutaredoxin, DUF6527, Pribosyltran_N, Ribonuc_red_lgN, UvsW_N, Translat_reg, Peptidase_S77, Ig_3, Helicase_C_2, T4_UVSX_C, DUF5856, HMUD2, DnaB_C, Portal_Gp20, DNA_topoisoIV, Tail_spike_N, gp32, RNase_H, RecA, PhoH, Gp5_OB, PspA_IM30, Phage_clamp_A, AAA, UvsY, DNA_Packaging, GPW_gp25, HMUDK_hel, DNA_pol_B, T4_tail_cap, HMUDK_HMUD1, Gp44_lid, PP-binding, Bac_DNA_binding, DNA_pol_B_exo1, T4-gp15_tss, HTH_23, DNA_gyraseB, CHAP, DUF4326, YAcAr, dCMP_cyt_deam_1, PDDEXK_1, Phage_gp49_66, Phage_sheath_1C, T4_neck-protein, Ribonuc_red_lgC, AAA_23, Thymidylat_synt, T4_baseplate
+# Top 2 matches for FJ373894.fasta (158006 bp, 208 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+FJ373894|Shigella_phage_phiSboM_AG3-Agtrevirus_AG3-Agtrevirus-Ackermannviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	0.9700943255813953	1.0	1.0	1	1	0.9928796013317518	Closely related
+MT078988|Salmonella_phage_P46FS4-Agtrevirus_P46FS4-Agtrevirus-Ackermannviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9558341025641024	0.8618485116279078	0.974025974025974	0.9925040889657916	0.9765258215962441	0.9955893286958275	0.9460240147021135	Closely related
+# Query: FR717140.fasta
+# Domains: Pathogen_betaC1
+# Top 2 matches for FR717140.fasta (1259 bp, 1 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+FR717140|Ageratum_leaf_curl_Buea_betasatellite-Ageratum_leaf_curl_Buea_betasatellite-Betasatellite-Tolecusatellitidae------Viruses-ssDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KT454829|Momordica_yellow_mosaic_betasatellite-Momordica_yellow_mosaic_betasatellite-Betasatellite-Tolecusatellitidae------Viruses-ssDNA	0.89944	0.8559300000000001	1.0	0.8068702290076336	1	0.9209948792977323	0.9056140745139991	Closely related
+# Query: GU071086.fasta
+# Domains: Pyr_excise, DUF6081, PROPPIN, ResIII, SNF2-rel_dom, Toprim, Thioredoxin, D123, DUF72, DUF5774, DUF262, DNA_topoisoIV, MUG113, zf-C2H2_2, RNase_H, Gly_transf_sug, TFIIS_C, RNA_pol_Rpb2_3, GTP_EFTU_D3, D5_N, DUF5766, GTP_EFTU, DUF5891, APH, DUF5905, UvrD_C_2, RNA_pol_Rpb2_1, Ank, YAcAr, HNH_3, RNA_pol_Rpb1_3, XRN_M, Ribonuc_red_lgC, 2OG-FeII_Oxy_2, RNA_pol_Rpb2_5, Peptidase_C1, DNA_ligase_A_M, DUF4379, F-box, DUF5762, Lipase_3, DUF5893, DHFR_1, DUF5757, Ribonuc_red_lgN, RNA_pol_Rpb2_7, RNA_pol_Rpb2_6, DSPc, Pox_A32, DUF5906, SUI1, MethyltransfD12, XRN_N, AAA, HD, AP_endonuc_2, mRNA_G-N7_MeTrfase, zf-met, Evr1_Alr, AP2, AAA_23, DNA_pol_B, eRF1_1, DUF5857, DUF5869, Histone, DUF559, Ribonuc_red_sm, T5orf172, DUF5772, TOPRIM_C, RNA_pol_Rpb5_C, RNA_pol_Rpb1_1, DNA_ligase_OB_2, Pox_VLTF3, Peptidase_S74, DUF5832, eIF-5_eIF-2B, zf-C3HC4, XPG_I, Capsid_NCLDV, PAN_1, TK, PCNA_N, Pkinase, Amino_oxidase, Capsid_N, DNA_gyraseB, Metallophos, ubiquitin, 2C_adapt, DUF5850, PriCT_2, UDG, Patatin, Peripla_BP_6, DUF5858, AAA_19, eRF1_3, DUF5845, Herpes_ori_bp, DUF5765, Helicase_C, RNA_pol_Rpb1_5, PK_Tyr_Ser-Thr, WLM, NUDIX, DUF5882, XPG_N, Ank_2, mRNA_cap_C, RNA_pol_Rpb1_2, F-box-like, NUMOD4, RNA_pol_Rpb1_4, Peptidase_C92, Intein_splicing, DnaJ, Ank_4, DUF5661, eRF1_2, DUF5754, DNA_pol_B_exo1, DUF5896, RNA_pol_Rpb2_2, dCMP_cyt_deam_1, zf-RING_2, RNA_pol_Rpb2_4, Thymidylat_synt
+# Top 2 matches for GU071086.fasta (368454 bp, 487 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+GU071086|Marseillevirus_marseillevirus-Marseillevirus_marseillevirus-Marseillevirus-Marseilleviridae-Pimascovirales-Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.7962555555555553	0.772904649681529	1.0	1.0	1	1	0.8877169800463189	Closely related
+KF483846|Tunisvirus-Tunisvirus--Marseilleviridae-Pimascovirales-Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.7611764705882353	0.3636334777070065	0.933852140077821	0.9390734829830358	0.941972920696325	0.9695877224606656	0.7519708945496896	Closely related
+# Query: GU244497.fasta
+# Domains: Hint_2, Peptidase_M13, Glyco_trans_1_2, Thymidylat_synt, Orn_DAP_Arg_deC, Topo_C_assoc, RecQ_Zn_bind, Glyco_tranf_2_4, ResIII, RNase_T, SNF2-rel_dom, Exo_endo_phos, Peptidase_M16_M, Toprim, GTP_EFTU_D4, DNA_ligase_OB, RNB, Peptidase_S41, OrfB_Zn_ribbon, DUF4419, Glutaredoxin, tRNA-synt_1, Thioredoxin, FtsJ, PTS_2-RNA, MutS_I, tRNA_anti_2, PCNA_C, TPR_6, dUTPase, BRCT, DNA_topoisoIV, DNA_ligase_aden, MUG113, MscL, DNA_photolyase, RNase_H, DEAD, Ank_3, TFIIS_C, RNA_pol_Rpb2_3, 2OG-FeII_Oxy_3, Rep_fac_C, Fapy_DNA_glyco, D5_N, TFIIB, SIS, zf-C3HC4_3, APMV_polyA_pol_cat_2nd, Topoisom_bac, Methyltransf_11, GTP_EFTU, RNA_pol_Rpb2_1, Ank, GATase_7, TylF, Hom_end, RNA_pol_Rpb1_6, PP2C, RNA_pol_Rpb1_3, XRN_M, Ribonuc_red_lgC, HSP70, Exostosin, CTP_transf_3, 2OG-FeII_Oxy_2, Peptidase_M16_C, YqaJ, 5_3_exonuc_N, GDP_Man_Dehyd, DUF5915, DpnI, FAD_binding_7, DUF5672, Resolvase, DndB, DNA_pol_B_palm, Toprim_C_rpt, DUF5762, DnaJ_CXXCXGXG, Poly_A_pol_cat, DHFR_1, Band_7, Ribonuc_red_lgN, SBP_bac_3, UBA_E1_SCCH, RFC1, RNA_pol_Rpb2_7, RNA_pol_Rpb2_6, Pox_A32, Sel1, RNase_H_2, eIF2_C, RNA_pol_L, DUF5759, DUF5906, SUI1, OrfB_IS605, AAA, XRN_N, MethyltransfD12, DPRP, TPR_8, ThiF, HD, RRM_1, Ribonucleas_3_3, MerR, DNMK, mRNA_G-N7_MeTrfase, Topoisom_I_N, DSHCT, Evr1_Alr, DNA_pol_A_exo1, DNA_pol_B, NTP_transferase, Acetyltransf_1, Branch, CBS, UDPG_MGDP_dh_N, DNA_pol3_delta2, GIY-YIG, Methyltransf_23, Glycos_transf_1, T5orf172, NAD_binding_8, Ribonuc_red_sm, Asn_synthase, Orn_Arg_deC_N, RraA-like, TOPRIM_C, IF4E, TFIIS_M, RNA_pol_Rpb6, ATP_bind_3, Topoisom_I, TBP, Rhamno_transf, H2TH, DUF2177, RNA_pol_Rpb5_C, DNA_pol_lambd_f, MutS_III, zf-C3HC4_2, RNA_pol_Rpb1_1, zf-Nse, NPHI_C, RNA_pol_N, Pox_VLTF3, DUF5761, UCH, HNH_5, DUF5832, PCIF1_WW, Exonuc_VII_L, FNIP, eIF-5_eIF-2B, Peptidase_M16, Mito_carr, FA_hydroxylase, XPG_I, Capsid_NCLDV, UQ_con, Mrr_cat, Anticodon_1, dsrm, Lon_C, Peptidase_C48, TK, ATPgrasp_YheCD, PCNA_N, Pkinase, DnaJ_C, Collar, Capsid_N, Glyco_transf_61, DNA_gyraseB, RNase_HII, Metallophos, ubiquitin, N6_Mtase, 2C_adapt, Glycos_transf_2, DUF1796, PriCT_2, Patatin, Eco57I, AAA_19, Radical_SAM, UvrD-helicase, Lactamase_B_2, Helicase_C, RNA_pol_Rpb1_5, ATP-cone, Glyco_transf_25, DUF5764, DUF2828, DUF2341, NUDIX, TruB_N, Hom_end_hint, DUF5760, XPG_N, ADP_ribosyl_GH, Pox_P4B, Ank_2, UvrD_C, DNA_pol_B_thumb, CDO_I, RNA_pol_Rpb1_2, Peptidase_M13_N, DAHP_synth_1, O-FucT, RNA_pol_Rpb1_4, DUF924, Intein_splicing, UDPG_MGDP_dh, DnaJ, DUF5767, Methylase_S, RNA_pol_L_2, zf-RING_UBOX, SET, DNA_pol_B_exo1, DUF5755, RNA_pol_Rpb2_2, dCMP_cyt_deam_1, Hydrolase_3, zf-RING_2, MutS_V, RNA_pol_Rpb2_4, His_Phos_1
+# Top 2 matches for GU244497.fasta (617453 bp, 569 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+GU244497|Cafeteria_roenbergensis_virus-Rheavirus_sinusmexicani-Rheavirus-Mimiviridae-Imitervirales-Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.8297069024856593	0.43729538186812894	1.0	1.0	1	1	0.8173675392551547	Closely related
+MH046811|Megavirus_baoshan-Megavirus_baoshanense-Megavirus-Mimiviridae-Imitervirales-Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.75693	0.3925454958791219	0.5400372439478585	0.6702412111908792	0.5342723004694836	0.5041095197001402	0.583230200529864	Related
+# Query: GU321093.fasta
+# Domains: DUF1424
+# Top 2 matches for GU321093.fasta (8082 bp, 10 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+GU321093|Haloarcula_hispanica_pleomorphic_virus_1-Alphapleolipovirus_HHPV1-Alphapleolipovirus-Pleolipoviridae-Haloruvirales-Huolimaviricetes-Saleviricota-Trapavirae-Monodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KF056323|Haloarcula_hispanica_pleomorphic_virus_2-Alphapleolipovirus_HHPV2-Alphapleolipovirus-Pleolipoviridae-Haloruvirales-Huolimaviricetes-Saleviricota-Trapavirae-Monodnaviria-Viruses-ssDNA	0.826735	0.6104700000000001	1.0	0.9175486094019197	1	0.9885029354207436	0.8454242268107924	Closely related
+# Query: GU799606.fasta
+# Domains: RNA_helicase, Viral_Rep
+# Top 2 matches for GU799606.fasta (1957 bp, 1 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+GU799606|barbel_circovirus-Circovirus_barbel-Circovirus-Circoviridae-Cirlivirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA	1.0	0.5	1.0	1.0	1	1	0.880952381	Closely related
+MH545516|soft_spider_associated_circular_virus_1-Cyclovirus_aasiak-Cyclovirus-Circoviridae-Cirlivirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA_+___	0	0.47311000000000003	1.0	0.8302469135802469	0.3333333333333333	0.9897802759325498	0.500606556244574	Related
+# Query: HG424323.fasta
+# Domains: Gly_kinase, ZoocinA_TRD, DUF1694, Enolase_C, DUF1366, Terminase_6N, Phage_TAC_12, Phage_rep_org_N, DUF4355, Phage_integrase, SSB, Terminase_6C, DUF1642, Enolase_N, Shikimate_dh_N, Lipoprotein_Ltp, YopX, Sulfatase, Phage_connect_1, Phage_prot_Gp6, Methyltrans_SAM, Prophage_tail, Amidase_5, Phage_holin_1, Phage_Mu_F, HTH_3, DUF1340, DUF859, RusA, DnaB_2, Phage_cap_E, Sipho_tail, DUF1372, DUF1351, ORF6C, TMP_3, Phage_tail_2, PUA_3, DUF3102, ERF, Peptidase_M78, DHquinase_I, IstB_IS21, Terminase_2
+# Top 2 matches for HG424323.fasta (48800 bp, 68 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+HG424323|Streptococcus_phage_20617-Brussowvirus_20617-Brussowvirus-Aliceevansviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+HE861935|Streptococcus_phage_TP_J34-Brussowvirus_TPJ34-Brussowvirus-Aliceevansviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.8326283333333334	0.5924798529411762	0.7380952380952381	0.9561652542372882	0.8676470588235294	0.9345491803278688	0.7832804419147685	Closely related
+# Query: HG999358.fasta
+# Domains: Beta_helix, Carboxyl_trans, Cytochrom_C, Exo_endo_phos, DNA_ligase_OB, Inhibitor_I29, PTS_2-RNA, Myb_DNA-bind_7, MutS_I, Sdh_cyt, BRCT, Ceramidase, DNA_ligase_aden, Thr_dehydrat_C, Sod_Cu, zf-C2H2, Memo, IlvN, DEAD, YHYH, PEP-utilizers, D5_N, Fapy_DNA_glyco, GTP_EFTU, MORN, HSP90, HNH, PARG_cat_microb, YqaJ, NTF2, Multi_Drug_Res, DUF285, DUF1810, Caps_synth, Toprim_C_rpt, DnaJ_CXXCXGXG, Transket_pyr, AMG1_III, DUF5759, DUF5906, DUF4246, XRN_N, DUF3431, ABC_tran, Acyl-CoA_dh_N, Acyl-CoA_dh_M, Collagen, Acetyltransf_1, CBS, Branch, DUF92, DNA_pol3_delta2, Vwaint, YABBY, Methyltransf_23, NAD_binding_8, Arginase, Amidohydro_2, TTL, RNA_pol_Rpb5_C, Cauli_VI, adh_short_C2, ATP_bind_3, DNA_pol_lambd_f, UCH, STPPase_N, RNA_pol_N, tRNA-synt_2, Chloroa_b-bind, AAA_lid_3, eIF-1a, MIOX, FA_hydroxylase, UQ_con, Anticodon_1, ADPrib_exo_Tox, Peptidase_C48, Lon_C, HtrL_YibB, RelA_SpoT, ELFV_dehydrog_N, DDE_3, RNA_pol_Rpb1_7, PriCT_2, Patatin, SWIM, ABC_membrane, GFO_IDH_MocA_C, ketoacyl-synt, Pif1_2B_dom, RNA_pol_Rpb1_5, Glyco_transf_25, PAN_4, ACDH_C, IMPDH, PhyH, Ank_2, F-box-like, DNA_pol3_alpha, MannoseP_isomer, PI-PLC-X, Pyr_redox_2, DUF5767, DUF2237, GDPD, Trypsin_2, RNA_pol_Rpb2_4, Thymidylat_synt, DNA_photolyase, Epimerase_2, SNF2-rel_dom, Thioredoxin, DNA_pol3_finger, Carb_anhydrase, DNA_topoisoIV, GTP_EFTU_D3, PALP, 2OG-FeII_Oxy_3, Succ_DH_flav_C, CSD, TPP_enzyme_M, GATase_7, PRA-PH, OB_Dis3, Glyco_transf_7C, GDP_Man_Dehyd, TPP_enzyme_C, DUF5762, TOP_N, EBP, Ribonuc_red_lgN, Hepar_II_III, RNA_pol_Rpb2_6, Pox_A32, Fer4_17, RNA_pol_L, NYN, AAA, DPRP, Actin, Aminotran_5, MS_channel_1st, Methyltransf_21, NTP_transferase, Serinc, zf-RING_11, UDPG_MGDP_dh_N, AA_permease_2, GATase_4, Peptidase_C1_2, RNA_pol_Rpb6, PMM, IF4E, Radical_SAM_C, DNA_methylase, Xlink, PK, Pox_VLTF3, DUF5761, DUF5792, Methyltransf_25, ATG8, Acyl_transf_1, CLP_protease, Peptidase_M3, NFACT-R_1, TK, Pkinase, Capsid_N, CCDC53, ubiquitin, Glycos_transf_2, PGM_PMM_IV, XendoU, AA_kinase, Pyrid_oxidase_2, CMAS, Lipocalin_2, ATP-cone, DAGAT, NUDIX, CDO_I, Acyl-CoA_dh_1, DUF5871, CTP_transf_like, Aldo_ket_red, HMG_box_2, eRF1_2, DNA_pol_B_exo1, ADH_zinc_N_2, RNA_pol_Rpb2_2, ACBP, His_Phos_1, DUF3303, SWIB, Pro_isomerase, tRNA-synt_1, FtsJ, ERCC4, PCNA_C, Semialdhyde_dhC, GCS, TRAM_LAG1_CLN8, 2OG-Fe_Oxy_2, Gly_transf_sug, TFIIS_C, AAA_11, HHH_8, Bax1-I, zf-C3HC4_3, Methyltransf_11, PP-binding, RNA_pol_Rpb2_1, DUF2589, DUF5899, RNA_pol_Rpb1_6, RNA_pol_Rpb1_3, zf-RING_5, Exostosin, Pyr_redox_dim, 2OG-FeII_Oxy_2, PRORP, Transketolase_C, 5_3_exonuc_N, GlcNAc, FAD_binding_7, Peptidase_C1, F-box, Glyco_transf_8, Lipase_3, Band_7, DnaJ-X, ADH_zinc_N, RFC1, KR, AAA_12, PNK3P, HTH_28, mRNA_cap_enzyme, S1, Peptidase_S51, PPDK_N, HMGL-like, DNA_pol_B, Abhydrolase_3, PPI_Ypi1, Methyltransf_31, PIF1, Cyclin_N, Rieske, CoA_transf_3, KTI12, Ribonuc_red_sm, Asn_synthase, Cupin_8, TOPRIM_C, DUF2358, Peptidase_M10, H2TH, Rhamno_transf, MS_channel_2nd, RNA_pol_Rpb1_1, ABC1, Abhydrolase_1, DUF2452, DUF5832, DUF2608, dsrm, DnaJ_C, DNA_gyraseB, Hydrolase_4, SNase, SNARE, Radical_SAM, MOSC, eRF1_3, PGM_PMM_I, RINGv, DUF2828, WLM, NifU_N, Abhydrolase_6, NADAR, Glyco_transf_6, UvrD_C, Aminotran_3, Biotin_carb_N, RNA_pol_Rpb1_4, Cyt-b5, O-FucT, DUF924, Rce1-like, VIT1, dNK, EamA, Tcp11, zf-RING_UBOX, dCMP_cyt_deam_1, MutS_V, FMN_dh, Ribonuclease_3, GFO_IDH_MocA, DHDPS, Glyco_tranf_2_4, ResIII, PBP, Toprim, MIP, Semialdhyde_dh, RNB, ELFV_dehydrog, Glutaredoxin, DUF4419, VWA, Glyco_hydro_45, FA_desaturase, Abhydrolase_2, TPP_enzyme_N, DUF273, Glyco_hydro_16, NUMOD1, RNase_H, RNA_pol_Rpb2_3, Vint, Rep_fac_C, HTH_3, TFIIB, SIS, Topoisom_bac, GST_C_3, SLFN_AlbA_2, AMP-binding, XRN_M, Ribonuc_red_lgC, Galactosyl_T, HSP70, NMT1_3, HATPase_c_3, RNA_pol_Rpb2_5, Endonuclease_1, Peptidase_M41, DNA_pol_B_palm, DHFR_1, RNA_pol_Rpb2_7, Acyltransferase, DSPc, OTU, Ion_trans_2, HD, Aminotran_1_2, GATase_6, mRNA_G-N7_MeTrfase, Glyco_transf_90, zf-met, DSHCT, Evr1_Alr, MatE, eRF1_1, TIR_2, Glycos_transf_1, HMG_box, TFIIS_M, Mrr_cat_2, Fe-S_biosyn, Fer2_3, MutS_III, PEP-utilizers_C, AMMECR1, ELO, Polysacc_deac_1, NMT, Ras, CBM_1, Capsid_NCLDV, Isochorismatase, TauD, Pro_dh, Recep_L_domain, 6PF2K, CPSase_L_D2, PCNA_N, Glyco_transf_7N, Amino_oxidase, RNase_HII, Metallophos, zf-AN1, WW, UDG, DJ-1_PfpI, SfsA, Far-17a_AIG1, Transketolase_N, UvrD-helicase, Helicase_C, U-box, DUF5764, FAD_binding_2, BET, DUF5760, DNA_pol_B_thumb, RNA_pol_Rpb1_2, Biotin_carb_C, HGSNAT_cat, Glyco_transf_29, Laminin_G_3, UDPG_MGDP_dh, DnaJ, Stealth_CR2, RNA_pol_L_2, Ketoacyl-synt_C, DUF5755, NIF, KAsynt_C_assoc, zf-RING_2, AMG1_II
+# Top 2 matches for HG999358.fasta (1421182 bp, 1333 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+HG999358|Prymnesium_kappa_virus-Biavirus_raunefjordenense-Biavirus-Schizomimiviridae-Imitervirales-Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.8944945905707202	0.8510278568192091	1.0	1.0	1	1	0.9343860393897752	Closely related
+MF405918|Tupanvirus_deep_ocean-Tupanvirus_altamarinense-Tupanvirus-Mimiviridae-Imitervirales-Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.7939700000000001	0.05971282283642955	0.4395857307249712	0.8310222658796674	0.9572393098274569	0.9872692614421038	0.5816924629367435	Related
+# Query: HQ224500.fasta
+# Domains: DUF2523, Zot, Enterotoxin_a, CTX_RstB, Enterotoxin_b, CTXphi_pIII-N1, HTH_3, Rep_trans, DUF3653
+# Top 2 matches for HQ224500.fasta (10638 bp, 15 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+HQ224500|Vibrio_phage_CTXphi-Affertcholeramvirus_CTXphi-Affertcholeramvirus-Inoviridae-Tubulavirales-Faserviricetes-Hofneiviricota-Loebvirae-Monodnaviria-Viruses-ssDNA_+_	0.9972	0.9975580952380954	1.0	1.0	1	1	0.9986185941037409	Closely related
+KT728930|Vibrio_phage_pre_CTX-Affertcholeramvirus_preCTX2-Affertcholeramvirus-Inoviridae-Tubulavirales-Faserviricetes-Hofneiviricota-Loebvirae-Monodnaviria-Viruses-ssDNA_+_	0.99392	0.3778242857142857	0.8	0.6577901180034076	0.5333333333333333	0.4902237262643354	0.6944239131404294	Related
+# Query: HQ335082.fasta
+# Domains: TT_ORF2, TT_ORF1
+# Top 2 matches for HQ335082.fasta (2336 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+HQ335082|mosquito_VEM_Anellovirus_SDBVL-Aleptorquevirus_culic1-Aleptorquevirus-Anelloviridae------Viruses-ssDNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MN994854|Lepus_torque_teno_virus_1-Aleptorquevirus_lepor1-Aleptorquevirus-Anelloviridae------Viruses-ssDNA___	0	0.1335125	1.0	0.8715824357912179	0.75	0.9306772908366534	0.4625231949644498	Distantly related
+# Query: HQ712116.fasta
+# Domains: rve, UPF0227, FNIP, GIY-YIG, Peptidase_S74
+# Top 2 matches for HQ712116.fasta (19063 bp, 21 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+HQ712116|Maverick_related_virus-Cafeteriavirus_dependent_mavirus-Mavirus-Lavidaviridae-Priklausovirales-Maveriviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	1.0	0.17391304347826086	1.0	1.0	1	1	0.8033126294782609	Closely related
+KJ528544|Lactococcus_phage_WP_2-Negarvirus_WP2-Negarvirus-Rountreeviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0	0	0.19999999999999996	0.8548846032247865	0.875	0.9913969469653255	0.29076432194097684	Distantly related
+# Query: JN564907.fasta
+# Domains: Phage_portal_2, DUF1441, GpA_ATPase, DUF4879, SNF2-rel_dom, Peptidase_S49, Phage_integrase, Helicase_C, DUF2800, PyocinActivator, DNA_methylase, DUF2793, Enc34_ssDNA-bd, HDPD, GpA_nuclease, DUF5906, HTH_3, Minor_tail_Z, Phage_cap_E, gpW, TMP_3, Prim-Pol, PriCT_2, Phage_BR0599, Vsr
+# Top 2 matches for JN564907.fasta (58065 bp, 78 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+JN564907|Burkholderia_phage_vB_BceS_AH2-Burkholderia_virus_AH2-Ahduovirus-Casjensviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+AY357582|Burkholderia_phage_BcepNazgul-Burkholderia_virus_BcepNazgul-Nazgulvirus-Casjensviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.7907649999999999	0.15881705128205123	0.7555555555555555	0.9502571116920893	0.9102564102564102	0.9894945319900111	0.6772226747284963	Related
+# Query: JX238501.fasta
+# Domains: Beta_helix, PcfJ, G1_gp67_N, Thymidylat_synt, RNR_N, DUF4815, NosD, Ribonuc_red_sm, Peptidase_M23, ResIII, Helicase_C, HTH_Crp_2, Holin_SPP1, Amidase_2, Peptidase_S78, zf-CHC2, DNA_pol_A, Flavodoxin_NdrI, DHFR_1, Ribonuc_red_lgN, DNA_methylase, Gamma_PGA_hydro, DUF6847, LAGLIDADG_3, dUTPase, DnaB_C, NLPC_P60, ALP_N, RecA, Baseplate_J, Sigma70_r2, PhoH, Intein_splicing, MreB-like_C, Phage_portal, Phage_lysozyme2, G1_gp67_C, HTH_3, DUF859, FtsK_SpoIIIE, Sigma70_r4, HNH_3, Metallophos, Rv2179c-like, DNA_pol_A_exo1, Ribonuc_red_lgC, 3D, AAA_23, HTH_26, DUF3603
+# Top 2 matches for JX238501.fasta (149844 bp, 215 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+JX238501|Bacillus_phage_phiAGATE-Agatevirus_agate-Agatevirus-Herelleviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9831559999999999	0.9885113419913419	1.0	1.0	1	1	0.9924520338037439	Closely related
+KJ010547|Bacillus_phage_Bp8p_C-Agatevirus_Bp8pC-Agatevirus-Herelleviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.8439090196078429	0.6279248484848485	0.9306930693069306	0.9803322766427113	0.9388646288209607	0.9896114703104671	0.8444851521830373	Closely related
+# Query: JX453331.fasta
+# Domains: Guanylate_kin, Ribonuc_red_sm, Herpes_ori_bp, DNA_ligase_A_M, ResIII, OrfB_Zn_ribbon, BIR, Ribonuc_red_lgN, dUTPase, eIF-5_eIF-2B, DNA_ligase_A_N, HTH_OrfB_IS605, MCLC, RNA_lig_T4_1, DNA_pol_B_exo1, DNA_pack_N, DNA_ligase_A_C, PDDEXK_1, Ribonuc_red_lgC, DNA_pol_B
+# Top 2 matches for JX453331.fasta (211518 bp, 132 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+JX453331|abalone_herpesvirus__haliotid_herpesvirus_1-Aurivirus_haliotidmalaco1-Aurivirus-Malacoherpesviridae-Herpesvirales-Herviviricetes-Peploviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.8596368027210887	0.8500233870967743	1.0	1.0	1	1	0.9241875119651513	Closely related
+AY509253|oyster_herpesvirus__ostreid_herpesvirus_1-Ostreavirus_ostreidmalaco1-Ostreavirus-Malacoherpesviridae-Herpesvirales-Herviviricetes-Peploviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0	0.07042499999999999	0.5853658536585367	0.7993154330697385	0.8627450980392157	0.9807155892169933	0.3713209761463916	Distantly related
+# Query: KC292024.fasta
+# Domains: DUF6735, Phage_tube_2, AAA_5, TAGT, Hjc, Laminin_G_3, ParBc, Band_7, Phage_portal, PadR, Terminase_3, Peptidase_S78_2
+# Top 2 matches for KC292024.fasta (52643 bp, 82 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KC292024|Haloarcula_hispanica_tailed_virus_2-Halohivirus_HHTV2-Halohivirus-Saparoviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KC292028|Haloarcula_californiae_tailed_virus_2-Samsavirus_HCTV2-Samsavirus-Saparoviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.7675525	0.19799121951219517	0.6153846153846154	0.7971345204249588	0.9146341463414634	0.9696450608756516	0.6308155465506557	Related
+# Query: KC292029.fasta
+# Domains: Acetyltransf_1, NT5C, Vut_1, Terminase_6N, Rad51, DUF5802, QueF, AAA_5, Phage_tube_2, VWA, ERCC4, Ribonuc_red_lgN, Gamma_PGA_hydro, QueC, Thymidylate_kin, RVT_3, dUTPase, DUF5049, PTPS, HHH_5, Zeta_toxin, AAA, Phage_Mu_F, DUF6744, Rep_fac_C, Thy1, GTP_cyclohydroI, RtcB, DUF6610, DNA_pol_B_exo1, PRA-PH, HNH, PDDEXK_1, SprT-like, Ribonuc_red_lgC, DNA_pol_B
+# Top 2 matches for KC292029.fasta (103257 bp, 147 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KC292029|Haloarcula_californiae_tailed_virus_1-Hacavirus_HCTV1-Hacavirus-Druskaviridae-Thumleimavirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	0.9832901960784314	1.0	1.0	1	1	0.9960214752583607	Closely related
+KC117377|Haloarcula_vallismortis_tailed_virus_1-Tredecimvirus_HVTV1-Tredecimvirus-Druskaviridae-Thumleimavirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.7970179166666668	0.3968005228758172	0.7466666666666666	0.9390377973439704	0.91875	0.990915870110501	0.7332526688505092	Closely related
+# Query: KC662249.fasta
+# Domains: Ribonuclease_3, ResIII, RNase_T, Exo_endo_phos, SNF2-rel_dom, GATase, SWIB, Toprim, Kinesin, IQ, DNA_ligase_OB, Thioredoxin, FtsJ, ERCC4, MutS_I, PCNA_C, DUF5824, TauE, dUTPase, BRCT, DNA_topoisoIV, RNase_H, zf-C2H2, TFIIS_C, RNA_pol_Rpb2_3, HHH_8, 2OG-FeII_Oxy_3, Rep_fac_C, D5_N, TFIIB, SIS, CSD, Topoisom_bac, Methyltransf_11, RNA_pol_Rpb2_1, Ydc2-catalyt, GATase_7, HNH, HNH_3, Hom_end, RNA_pol_Rpb1_6, RNA_pol_Rpb1_3, XRN_M, Ribonuc_red_lgC, Glyco_transf_7C, zf-C2H2_6, YqaJ, N6_N4_Mtase, MutS_V, 5_3_exonuc_N, Viral_Rep, RNA_pol_Rpb2_5, Peptidase_M41, DUF5762, DNA_pol_B_palm, Poly_A_pol_cat, DHFR_1, Ribonuc_red_lgN, RNA_pol_Rpb2_7, RNA_pol_Rpb2_6, Pox_A32, RNA_pol_L, PNK3P, DUF5759, DUF5906, HTH_28, AAA, XRN_N, GATase_6, mRNA_cap_enzyme, ABC_tran, mRNA_G-N7_MeTrfase, Evr1_Alr, DNA_pol_B, Rhodanese, Methyltransf_21, Methyltransf_31, PI-PLC-Y, PIF1, GIY-YIG, Ribonuc_red_sm, Peptidase_C1_2, Asn_synthase, RNA_pol_Rpb6, TOPRIM_C, Glyco_transf_15, IF4E, TFIIS_M, Cupin_8, Cauli_VI, RNA_pol_Rpb5_C, ATP_bind_3, Radical_SAM_C, DUF2177, MutS_III, DNA_pol_lambd_f, AAA_33, RNA_pol_Rpb1_1, Xlink, ABC1, UCH, Pox_VLTF3, Peptidase_S74, DUF2452, DUF5761, RNA_pol_N, Methyltransf_25, AAA_lid_3, DUF5832, zf-C3HC4, HHH_5, F5_F8_type_C, Capsid_NCLDV, UQ_con, ADPrib_exo_Tox, Peptidase_C48, TK, PCNA_N, Pkinase, Glyco_transf_7N, DnaJ_C, Capsid_N, Amino_oxidase, DNA_gyraseB, RNase_HII, DDE_3, RNA_pol_Rpb1_7, zf-AN1, Glycos_transf_2, PriCT_2, ADI, Patatin, Eco57I, Radical_SAM, Big_12, Helicase_C, U-box, Pif1_2B_dom, RNA_pol_Rpb1_5, ATP-cone, Glyco_transf_25, DUF5764, PK_Tyr_Ser-Thr, NUDIX, IMPDH, Hom_end_hint, Bac_rhodopsin, DUF5760, Ank_2, DNA_pol_B_thumb, RNA_pol_Rpb1_2, Glyco_transf_10, SAP, NUMOD4, RNA_pol_Rpb1_4, VWA_2, Laminin_G_3, ICEA, DnaJ, dNK, EamA, TspO_MBR, DUF5767, DNA_pol_B_exo1, DUF5755, RNA_pol_Rpb2_2, dCMP_cyt_deam_1, zf-RING_2, DUF1599, PAP2, RNA_pol_Rpb2_4, Thymidylat_synt
+# Top 2 matches for KC662249.fasta (459984 bp, 445 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KC662249|Phaeocystis_globosa_virus_PgV_16T-Tethysvirus_hollandense-Tethysvirus-Mesomimiviridae-Imitervirales-Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.8645755617977526	0.8176505508474572	1.0	1.0	1	1	0.9178907678369501	Closely related
+MH918795|Chrysochromulina_parva_virus_BQ2-Tethysvirus_ontarioense-Tethysvirus-Mesomimiviridae-Imitervirales-Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.74572	0.22096559322033882	0.7409638554216867	0.8604944312124052	0.9258426966292135	0.9505874117360604	0.6631790232666601	Related
+# Query: KC821618.fasta
+# Domains: PG_binding_3, NUMOD1, Bac_DnaA_C, YqaJ, N6_N4_Mtase, DUF3127, Glyco_hydro_108, HK97-gp10_like, Phage_tail_2, Phage_H_T_join, Toprim_2, Phage_portal, YopX, MethyltransfD12, NinG, Phage_capsid, Terminase_3, Phage_connect_1
+# Top 2 matches for KC821618.fasta (53664 bp, 105 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KC821618|Cellulophaga_phage_phi10_1-Cebadecemvirus_phi10una-Cebadecemvirus-Assiduviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KC821607|Cellulophaga_phage_phi19_1-Cellubavirus_phi19una-Cellubavirus-Assiduviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9442017647058824	0.3300097142857143	0.5	0.9589847441609288	0.9545454545454546	0.9341479972844535	0.715973919243077	Closely related
+# Query: KC821622.fasta
+# Domains: RusA, PG_binding_3, Bac_DnaA_C, Cadherin_4, Glyco_hydro_108, DUF3127, HNH, Cpn10, AAA_29, Phage_int_SAM_5, HTH_3, Phage_integrase, KTSC, RecT
+# Top 2 matches for KC821622.fasta (72961 bp, 111 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KC821622|Cellulophaga_phage_phi46_3-Bacelvirus_phi46tres-Bacelvirus-Pachyviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KC821633|Cellulophaga_phage_phi13_2-Baltivirus_phi13duo-Baltivirus-Pachyviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9514140540540542	0.6611398198198197	0.75	0.9835402273540502	0.9173553719008265	0.9918860761228602	0.8472095680283439	Closely related
+# Query: KC821624.fasta
+# Domains: Glyco_hydro_19, NUMOD1, AAA_24, UDG, Ribonuc_red_lgN, GATase_6, Metallophos, Ribonuc_red_sm, dGTP_diPhyd_N, GGACT, ResIII, Ribonuc_red_lgC, Helicase_C, COOH-NH2_lig, OmpA, Thymidylat_synt, Cpn60_TCP1
+# Top 2 matches for KC821624.fasta (100418 bp, 118 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KC821624|Cellulophaga_phage_phi14_2-Akihdevirus_balticus-Akihdevirus-Steigviridae-Crassvirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KC821632|Cellulophaga_phage_phi4_1-Lightbulbvirus_Cba41-Lightbulbvirus---Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.956166	0.0669379661016949	0.31999999999999995	0.8094462739110838	0.6051282051282051	0.6884310835361465	0.556129150159407	Related
+# Query: KF156340.fasta
+# Domains: Pyr_excise, Gly_rich_2, ResIII, Sm_like, Terminase_6C, Amidase_2, 2OG-FeII_Oxy_5, gp45-slide_C, YHYH, Phage_clamp_A, DNA_Packaging, 2OG-FeII_Oxy_3, GPW_gp25, Phage_sheath_1, DUF6450, Ribonuc_red_lgC, Photo_RC, N6_N4_Mtase, Terminase_6N, Gp23, DUF3110, AAA_5, Ribonuc_red_lgN, DnaB_C, Portal_Gp20, DUF2973, gp32, CbbQ_C, CP12, Phage_lysozyme2, AAA, MethyltransfD12, Thy1, DUF3310, Gp6-like_1st, AAA_23, DNA_pol_B, MazG, Mtd_N, Ribonuc_red_sm, DUF1825, Tn7_TnsA-like_N, TAL_FSA, CpeT, AIRS_C, PurS, RecA, PhoH, Gp44_lid, DoxX, Phage_gp53, T4-gp15_tss, Metallophos, PDDEXK_1, T4_neck-protein, Phage_sheath_1C, SNase, Phage-Gp8, T4_baseplate, DUF6267, DUF4815, Fer2, AIRS, DUF6561, Helicase_C, HSP20, ATP-cone, DUF6433, UvsW_N, Translat_reg, Peptidase_S77, NAD_binding_2, SAICAR_synt, Laminin_G_3, Copper-bind, CTP_transf_like, UvsY, DNA_pol_B_exo1, T4_gp9_10, SegE_GIY-YIG
+# Top 2 matches for KF156340.fasta (170438 bp, 196 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KF156340|Synechococcus_phage_S_MbCM100-Acionnavirus_monteraybay-Acionnavirus-Kyanoviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	0.9695603883495146	1.0	1.0	1	1	0.9927524734194499	Closely related
+KJ019133|Synechococcus_phage_ACG_2014b-Nereusvirus_tusconc4-Nereusvirus-Kyanoviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.8671113333333333	0.6592755339805827	0.9135802469135803	0.9782176833495482	0.9289099526066351	0.9859088121984798	0.853892782187777	Closely related
+# Query: KJ473423.fasta
+# Domains: DNA_pol_A, Head-tail_con, AAA_25, RNA_pol, Toprim_2, Endonuclease_7, Metallophos, DNA_ligase_A_M, Tube
+# Top 2 matches for KJ473423.fasta (42654 bp, 52 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KJ473423|Acinetobacter_phage_vB_AbaP_Acibel007-Daemvirus_acibel007-Daemvirus-Autographiviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MH800200|Acinetobacter_phage_vB_AbaP_46_62_Aci07-Friunavirus_Aci07-Friunavirus-Autographiviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9342100000000001	0.2445086538461539	0.8	0.9364541410718068	0.9807692307692307	0.9924039949359966	0.7519575310419827	Closely related
+# Query: KP966108.fasta
+# Domains: Phage_GPD, N6_N4_Mtase, ParE_toxin, Muramidase, Phage_TAC_7, PG_binding_1, Phage_tail_APC, Terminase_6N, Terminase_5, Phage_base_V, Phage_P2_GpU, Phage_integrase, Terminase_6C, Phage_GPL, Tail_P2_I, Glyco_transf_25, SRAP, Phage_term_smal, Toprim_3, Baseplate_J, Ogr_Delta, Phage_tail_S, Phage_tube, Gp34_C, GPW_gp25, Phage_sheath_1, P2_Phage_GpR, Phage_GPO, Phage_tail_X, Phage_holin_3_7, Phage_P2_GpE, Phage_cap_P2, Phage_sheath_1C, HTH_31, Phage_holin_8
+# Top 2 matches for KP966108.fasta (36499 bp, 46 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KP966108|Burkholderia_phage_AP3-Aptresvirus_AP3-Aptresvirus-Peduoviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MT701591|Burkholderia_phage_Mana-Aptresvirus_mana-Aptresvirus-Peduoviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9122322222222223	0.7626606521739131	0.8857142857142857	0.9713273671358227	0.8846153846153846	0.9595404595404595	0.8796336699284236	Closely related
+# Query: KR134312.fasta
+# Domains: Gemini_coat, Viral_Rep
+# Top 2 matches for KR134312.fasta (3442 bp, 5 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KR134312|temperate_fruit_decay_associated_virus-Temfrudevirus_temperatum-Temfrudevirus-Amesuviridae-Mulpavirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA_+___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+JQ948091|Digitaria_ciliaris_striate_mosaic_virus-Digitaria_ciliaris_striate_mosaic_virus-Mastrevirus-Geminiviridae-Geplafuvirales-Repensiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA	0	0	0.6666666666666667	0.7811145013650233	1	0.8108657757117955	0.37242266398272067	Distantly related
+# Query: KT809302.fasta
+# Domains: DUF4326, HHH_5, Sigma70_r4_2
+# Top 2 matches for KT809302.fasta (31314 bp, 45 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KT809302|Haloarcula_californiae_icosahedral_virus_1-Alphasphaerolipovirus_HCIV1-Alphasphaerolipovirus-Sphaerolipoviridae-Halopanivirales-Laserviricetes-Dividoviricota-Helvetiavirae-Varidnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KC252997|Haloarcula_hispanica_PH1_virus-Alphasphaerolipovirus_PH1-Alphasphaerolipovirus-Sphaerolipoviridae-Halopanivirales-Laserviricetes-Dividoviricota-Helvetiavirae-Varidnaviria-Viruses-dsDNA	0.8121411111111111	0.5027791111111112	1.0	0.9235432805658471	0.9555555555555556	0.8964680334674586	0.8078548194062007	Closely related
+# Query: KU307456.fasta
+# Domains: Big_1, Cas_Cas4, Lectin_C_term
+# Top 2 matches for KU307456.fasta (17714 bp, 40 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KU307456|Pyrobaculum_filamentous_virus_1-Alphatristromavirus_PFV1-Alphatristromavirus-Tristromaviridae-Primavirales-Tokiviricetes-Taleaviricota-Zilligvirae-Adnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MN876844|Pyrobaculum_filamentous_virus_2-Alphatristromavirus_PFV2-Alphatristromavirus-Tristromaviridae-Primavirales-Tokiviricetes-Taleaviricota-Zilligvirae-Adnaviria-Viruses-dsDNA	0.9855	0.894302	0.8	0.9736052109883886	1	0.9936773173760867	0.9285239501112325	Closely related
+# Query: KU356689.fasta
+# Domains: Acetyltransf_1, ADDT, Ribonuc_red_sm, AAA_30, DUF4055, DUF3489, Phage_capsid, SNF2-rel_dom, Helicase_C, Phage_tube_2, DNA_pol_A, QSregVF_b, Ribonuc_red_lgN, DnaT_2, DUF2793, AAA_33, YfbR-like, DNA_ligase_OB_2, DUF5906, YuA_Gp49, PhoH, Phage_Mu_F, DAO, HMUDK_hel, Phage-tail_3, UvrD_C_2, TMP_3, PRA-PH, CHAP, DUF4326, dCMP_cyt_deam_1, HTH_31, DUF4128, Ribonuc_red_lgC, Phage_BR0599, Thymidylat_synt
+# Top 2 matches for KU356689.fasta (57061 bp, 77 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KU356689|Pseudomonas_phage_ZC01-Abidjanvirus_ZC01-Abidjanvirus-Mesyanzhinovviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9043933333333333	1.0	1.0	1.0	1	1	0.9726838094964931	Closely related
+LN610577|Pseudomonas_phage_vB_PaeS_PAO1_Ab18-Pseudomonas_virus_Ab18-Abidjanvirus-Mesyanzhinovviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9459428571428571	0.9285740259740263	0.9722222222222222	0.989939460260868	0.987012987012987	0.9908168451306496	0.9591465410291887	Closely related
+# Query: KX349899.fasta
+# Domains: DUF3310, dUTPase_2, Beta_helix, phi29_gp9_C, Glutaredoxin, Phi-29_GP3, Phage_connector, CBD_PlyG, Lysozyme_like, Caud_tail_N, Podovirus_Gp16, DNA_pol_B_2, Glyco_hydro_25, Phi-29_GP16_7, SSB
+# Top 2 matches for KX349899.fasta (25905 bp, 41 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KX349899|Bacillus_phage_Aurora-Claudivirus_aurora-Claudivirus-Salasmaviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KX961631|Bacillus_phage_QCM11-Claudivirus_QCM11-Claudivirus-Salasmaviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9332153333333332	0.7680312195121951	1.0	0.976344003233692	0.9761904761904762	0.99428110846703	0.9197686746750281	Closely related
+# Query: KY052047.fasta
+# Domains: RNA_helicase
+# Top 2 matches for KY052047.fasta (3018 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KY052047|human_respiratory_associated_brisavirus-Brisavirus-Torbevirus-Redondoviridae-Recrevirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MK059766|human_lung_associated_vientovirus-Vientovirus-Torbevirus-Redondoviridae-Recrevirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA	0.9566899999999999	0.673165	1.0	0.926072607260726	1	0.9888597640891219	0.898716313616867	Closely related
+# Query: KY442063.fasta
+# Domains: Beta_helix, Lipase_GDSL_2, CHAP, Caud_tail_N, Phage_holin_4_1, Phage_connector, Amidase_2
+# Top 2 matches for KY442063.fasta (18546 bp, 21 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KY442063|Staphylococcus_phage_Andhra-Andhravirus_andhra-Andhravirus-Rountreeviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9647733333333334	1.0	1.0	1.0	1	1	0.9899352380851734	Closely related
+KY471386|Staphylococcus_phage_St_134-Andhravirus_St134-Andhravirus-Rountreeviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9131516666666668	0.9077342857142857	1.0	0.971560505228847	0.9523809523809523	0.985387684675941	0.9439244063521494	Closely related
+# Query: KY457233.fasta
+# Domains: PIF3, Thymidylat_synt, Ribonuc_red_sm, Ac81, DNA_ligase_A_M, Phage_integrase, Trypsin, BIR, NUDIX, CBM_14, Baculo_p74, DUF705, PIF2, zf-C3HC4_3, Pkinase, Baculo_p74_N, Metallophos, PIF, Ribonuc_red_lgC, Patatin
+# Top 2 matches for KY457233.fasta (112307 bp, 96 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KY457233|Tomelloso_virus-Alphanudivirus_alterdromelanogasteris-Alphanudivirus-Nudiviridae-Lefavirales-Naldaviricetes----Viruses-dsDNA	0.9338657142857142	1.0	1.0	1.0	1	1	0.9811044897770227	Closely related
+EU747721|Oryctes_rhinoceros_nudivirus-Alphanudivirus_oryrhinocerotis-Alphanudivirus-Nudiviridae-Lefavirales-Naldaviricetes----Viruses-dsDNA	0	0.46614531249999996	0.7619047619047619	0.836962865384936	0.8495575221238938	0.8800454492026799	0.4984949855464975	Related
+# Query: L63545.fasta
+# Domains: Collagen, L1R_F9L, Ribonuclease_3, CBFD_NFYB_HMF, Peptidase_C1, Ribonuc_red_sm, ResIII, Helicase_C, DUF2738, RNA_pol_Rpb1_5, zf-FCS, PPL4, 3Beta_HSD, DUF5757, NUDIX, RNA_pol_Rpb1_1, XPG_N, Pox_VLTF3, RNA_pol_Rpb2_7, RNA_pol_Rpb2_6, Pox_A32, RNA_pol_Rpb1_2, SAP, DUF5832, RNA_pol_Rpb1_4, DUF5850, TFIIS_C, RNA_pol_Rpb2_3, DUF5770, DUF5877, Capsid_NCLDV, XPG_I, dNK, DUF5876, DUF5767, D5_N, Gal-bind_lectin, Pkinase, RNA_pol_Rpb2_1, DNA_pol_B_exo1, DUF5875, Insulin, Capsid_N, RNA_pol_Rpb2_2, CUB, Glyco_transf_90, NIF, RNA_pol_Rpb1_3, 2C_adapt, Evr1_Alr, Ribonuc_red_lgC, PriCT_2, DNA_pol_B
+# Top 2 matches for L63545.fasta (102653 bp, 110 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+L63545|lymphocystis_disease_virus_1-Lymphocystis_disease_virus_1-Lymphocystivirus-Iridoviridae-Pimascovirales-Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.9396145454545454	0.8446175177304964	1.0	1.0	1	1	0.9457511838727717	Closely related
+AY380826|lymphocystis_disease_virus_2__lymphocystis_disease_virus_China-Lymphocystis_disease_virus_2-Lymphocystivirus-Iridoviridae-Pimascovirales-Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.77372	0.4955010638297874	0.875	0.6980411703825239	0.7236842105263158	0.5511570469798658	0.7005940141007276	Related
+# Query: LC386204.fasta
+# Domains: 
+# Top 2 matches for LC386204.fasta (2766 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+LC386204|Papio_cynocephalus_associated_smacovirus-Babosmacovirus_babas1-Babosmacovirus-Smacoviridae-Cremevirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA_+___	1.0	1.0	0	1.0	1	1	0.80952381	Closely related
+MH616866|macaque_stool_associated_virus_11-Porprismacovirus_macas5-Porprismacovirus-Smacoviridae-Cremevirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA_+___	0	0.30711999999999995	0	0.8664901664145235	1	0.9139551699204628	0.3356678892124241	Distantly related
+# Query: LC389584.fasta
+# Domains: RNA_helicase, Viral_Rep
+# Top 2 matches for LC389584.fasta (2046 bp, 3 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+LC389584|Feline_stool_associated_circular_virus_KU14-Andurilvirus_erebor-Andurilvirus-Vilyaviridae-Cirlivirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA_+___	1.0	0.75	1.0	1.0	1	1	0.9404761904999999	Closely related
+KY487991|uncultured_virus-Aranruthvirus_numenor-Aranruthvirus-Vilyaviridae-Cirlivirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA_+___	0.7881100000000001	0.2721575	1.0	0.8420033873699492	1	0.9775441949354993	0.7425238979321931	Closely related
+# Query: LC711080.fasta
+# Domains: Endonuclease_7, KTSC
+# Top 2 matches for LC711080.fasta (20488 bp, 44 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+LC711080|Lokiarchaeia_virus_VerdaV4-Dolusvirus_pacificense-Dolusvirus-Verdandiviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+LC711078|Thorarchaeia_virus_VerdaV2-Tonitrusvirus_shimokitaense-Tonitrusvirus-Verdandiviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.81095	0.11544863636363636	0.6666666666666667	0.8685006121480149	0.7727272727272727	0.953777821163608	0.6292544788517749	Related
+# Query: MF448340.fasta
+# Domains: PolyA_pol, Gp6_C-I, NAPRTase, ResIII, LprI, T4_Rnl2_C, LPAM_1, SH3_14, Terminase_6C, DUF2654, Pribosyltran_N, MTS, AsiA, RyR, dUTPase, DNA_topoisoIV, gp45-slide_C, PolyA_pol_RNAbd, Gp5_OB, Phage_clamp_A, DNA_Packaging, GPW_gp25, T4_tail_cap, Phage_head_chap, PP-binding, Phage_sheath_1, HTH_23, Rv2179c-like, Ribonuc_red_lgC, Pribosyl_synth, Gp7_helical, RNA_ligase, 5_3_exonuc_N, Gp5_C, Terminase_6N, AAA_30, Gp23, DNA_ligase_A_M, zf-dskA_traR, Phage_lysozyme, NRDD, DHFR_1, YqeY, Ribonuc_red_lgN, Phage_DsbA, DUF5856, Phage_30_3, DnaB_C, Portal_Gp20, RNase_H_2, gp32, gp6_C-domII, AAA, WYL_2, T4_Rnl1_C, RNA_lig_T4_1, DNMK, Gp6-like_1st, DUF4326, SprT-like, AAA_23, DNA_pol_B, CapR, Ribonuc_red_sm, RlaP, Tn7_TnsA-like_N, UvsW-1, AAA_33, T4_UVSX_C, GP11, Gp6_2nd, RecA, TK, Gp44_lid, Phage_gp53, T4-gp15_tss, DNA_gyraseB, Metallophos, N6_Mtase, T4_neck-protein, T4_Gp59_N, Phage_sheath_1C, Phage-Gp8, T4_baseplate, Fer4_12, HAD_SAK_2, Trans_coact, HATPase_c, DUF3307, Helicase_C, ATP-cone, DUF2685, T4_Gp59_C, UvsW_N, Translat_reg, Peptidase_S77, cREC_REC, UvsY, DnaJ, Phage_T4_gp19, DNA_pol_B_exo1, SegE_GIY-YIG, T4_gp9_10, Gp7_5th, RNaseH_C, dCMP_cyt_deam_1, UvdE, SLT, Thymidylat_synt
+# Top 2 matches for MF448340.fasta (229929 bp, 412 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MF448340|Aeromonas_phage_AS_zj-Ceceduovirus_aszj-Ceceduovirus-Straboviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	0.9730324423963136	1.0	1.0	1	1	0.9935791529540714	Closely related
+JX123262|Aeromonas_phage_CC2-Ceceduovirus_cc2-Ceceduovirus-Straboviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9194057812499999	0.8663966820276492	0.9863013698630136	0.992032580204926	0.9648711943793911	0.9921723633507809	0.9376969557059233	Closely related
+# Query: MG592615.fasta
+# Domains: Lipase_GDSL_2, DNA_pol_B_2, DUF87, P2_N
+# Top 2 matches for MG592615.fasta (10611 bp, 22 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MG592615|Vibrio_phage_1_249_A__10N_261_55_B9-Livvievirus_viph1249a-Livvievirus-Autolykiviridae--Tectiliviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MG592402|Vibrio_phage_1_020_O__10N_222_48_A2-Paulavirus_viph1020o-Paulavirus-Autolykiviridae--Tectiliviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0	0.09796272727272727	0.8571428571428572	0.8553269620074384	0.9545454545454546	0.9976494922903347	0.44719554044503423	Distantly related
+# Query: MG649966.fasta
+# Domains: Fer4_12, RNA_ligase, HAD_SAK_2, NAPRTase, 5_3_exonuc_N, Radical_SAM, Peptidase_M15_3, Terminase_6N, Ribonuc_red_sm, Metallophos_2, Phage_capsid, ResIII, NMN_transporter, Helicase_C, Terminase_6C, Peptidase_S78, Phage_tube_2, DNA_pol_A, zf-CHC2, DNA_ligase_OB, ATP-cone, NRDD, YqeY, Band_7, Pribosyltran_N, Ribonuc_red_lgN, DTP-pb9_A-dom_N, NADAR, Nuc_deoxyrib_tr, Ig_3, AAA_33, dUTPase, DnaB_C, BRCT, DNA_ligase_aden, Macro, RNase_H, HD_4, PC4, Phage_portal, Toprim_2, DNAG_N, Thy1, GST_N_3, RNA_lig_T4_1, Phage-tail_3, Phage_holin_T, DNMK, HNH, DUF4326, 5_3_exonuc, Metallophos, Rv2179c-like, DNA_pol_A_exo1, Ribonuc_red_lgC, DTP-pb9_B-dom, Phage_connect_1
+# Top 2 matches for MG649966.fasta (128241 bp, 186 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MG649966|Vibrio_phage_Ceto-Cetovirus_ceto-Cetovirus-Demerecviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	0.9945754716981133	1.0	1.0	1	1	0.9987084456429245	Closely related
+MT460516|Vibrio_phage_Quinn-Thalassavirus_quinn-Thalassavirus-Demerecviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.8651902857142858	0.604048349056604	0.9174311926605505	0.9788253314525299	0.989247311827957	0.9956566152790449	0.8472254982984624	Closely related
+# Query: MG966533.fasta
+# Domains: DUF3653, Phage_GPA, P2_N, PM2_P3
+# Top 2 matches for MG966533.fasta (10584 bp, 19 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MG966533|Pseudoalteromonas_phage_Cr39582-Corticovirus_Cr39582-Corticovirus-Corticoviridae-Vinavirales-Tectiliviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+AF155037|Pseudoalteromonas_phage_PM2-Corticovirus_PM2-Corticovirus-Corticoviridae-Vinavirales-Tectiliviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.9128574999999999	0.8914378947368421	0.8571428571428572	0.9559955463039164	1	0.952286470143613	0.9134847148533389	Closely related
+# Query: MH045556.fasta
+# Domains: TerL_ATPase, Peptidase_S78, DUF6884, Phage_portal, HTH_17, HTH_3
+# Top 2 matches for MH045556.fasta (17451 bp, 24 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MH045556|Microbacterium_phage_BonaeVitae-Bonaevitae_bonaevitae-Bonaevitaevirus-Orlajensenviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MT498065|Microbacterium_phage_PoRanda-Paopuvirus_poranda-Paopuvirus-Orlajensenviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.7933479999999999	0.5533520833333333	0.5882352941176471	0.9131740809612359	1	0.9966304968589378	0.7436163017315951	Closely related
+# Query: MH447526.fasta
+# Domains: ResIII, GDP_Man_Dehyd, Helicase_C
+# Top 2 matches for MH447526.fasta (37311 bp, 62 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MH447526|Sulfolobus_filamentous_virus_1-Alphalipothrixvirus_SFV1-Alphalipothrixvirus-Lipothrixviridae-Ligamenvirales-Tokiviricetes-Taleaviricota-Zilligvirae-Adnaviria-Viruses-dsDNA	1.0	0.9847928125000001	1.0	1.0	1	1	0.9963792410728769	Closely related
+AM087122|Acidianus_filamentous_virus_7-Acidianus_filamentous_virus_7-Betalipothrixvirus-Lipothrixviridae-Ligamenvirales-Tokiviricetes-Taleaviricota-Zilligvirae-Adnaviria-Viruses-dsDNA	0	0.023399218750000006	0.36363636363636365	0.8729444114951205	0.9193548387096774	0.988850473050843	0.3341873778809864	Distantly related
+# Query: MH576973.fasta
+# Domains: RNA_ligase, NAPRTase, Pribosyltran, DnaB, RlaP, Phage_integrase, SSB, Amidase_2, Big_2, Phage_int_SAM_3, DUF2828, DUF4031, Lsr2, P22_CoatProtein, AAA_33, DnaB_C, NLPC_P60, DUF4417, Cutinase, RNase_H_2, Whib, Phage_prot_Gp6, CLP_protease, DUF3310, HNH_3, Metallophos, HTH_17, ERF, HTH_26
+# Top 2 matches for MH576973.fasta (70183 bp, 104 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MH576973|Mycobacterium_phage_Bromden-Bromdenvirus_bromden-Bromdenvirus-Vilmaviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	0.9902743396226414	1.0	1.0	1	1	0.9976843665777455	Closely related
+MN234187|Mycobacterium_phage_DyoEdafos-Bromdenvirus_dyoedafos-Bromdenvirus-Vilmaviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.8638906250000001	0.7256744339622644	0.8620689655172413	0.9490940349119755	0.8125	0.9048165433308408	0.8398614490991272	Closely related
+# Query: MH779501.fasta
+# Domains: Phage_cap_E, Whib, Phage_prot_Gp6, DNA_pol3_alpha, AAA_24, Peptidase_C39_2, PHP, HNH, DNA_pol3_finger, PDDEXK_1, SNF2-rel_dom, Prim-Pol, HTH_17, Transglycosylas, D5_N, Helicase_C
+# Top 2 matches for MH779501.fasta (68190 bp, 90 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MH779501|Gordonia_phage_Emianna-Foxborovirus_emianna-Foxborovirus-Zierdtviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MH727547|Gordonia_phage_Foxboro-Foxborovirus_foxboro-Foxborovirus-Zierdtviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9656433333333334	0.9273187777777778	1.0	0.9918724302536831	0.9777777777777777	0.9938847338319402	0.9693100699530697	Closely related
+# Query: MH999279.fasta
+# Domains: Lipase_GDSL_2, phi29_gp9_C, Podovirus_Gp16, DNA_pol_B_2, Pectate_lyase_3, Peptidase_M23, Phage_connector, Amidase_3
+# Top 2 matches for MH999279.fasta (18212 bp, 22 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MH999279|Clostridium_phage_CPD2-Gregsiragusavirus_CPD2-Gregsiragusavirus-Guelinviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9463325	0.9376241666666667	1.0	1.0	1	1	0.9698150396731466	Closely related
+KY996523|Clostridium_phage_CPS1-Gregsiragusavirus_CPS1-Gregsiragusavirus-Guelinviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9219012499999999	0.8016370833333335	0.9411764705882353	0.9662957501005497	0.88	0.9540573104929541	0.9008211124029486	Closely related
+# Query: MK032723.fasta
+# Domains: Gemini_AL1
+# Top 2 matches for MK032723.fasta (2161 bp, 3 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MK032723|Genomoviridae_sp_-Gemycircularvirus_abati1-Gemycircularvirus-Genomoviridae-Geplafuvirales-Repensiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA_+___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MK032696|Genomoviridae_sp_-Gemykibivirus_abati1-Gemykibivirus-Genomoviridae-Geplafuvirales-Repensiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA_+___	0.90323	0.14851333333333336	0.6666666666666667	0.8643446379468378	0.6666666666666666	0.9782707107288365	0.6539643474655986	Related
+# Query: MK064567.fasta
+# Domains: Glycos_transf_1, zf-C2H2_6
+# Top 2 matches for MK064567.fasta (20424 bp, 38 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MK064567|Sulfolobus_polyhedral_virus_2-Alphaportoglobovirus_SPV2-Alphaportoglobovirus-Portogloboviridae------Viruses-dsDNA	0.9195457142857142	1.0	1.0	1.0	1	1	0.9770130612015027	Closely related
+KY780159|Sulfolobus_polyhedral_virus_1-Sulfolobus_alphaportoglobovirus_1-Alphaportoglobovirus-Portogloboviridae------Viruses-dsDNA	0.9332663636363637	0.9435044736842103	1.0	0.9838090551181102	0.9743589743589743	0.9901096748922836	0.9622559685198522	Closely related
+# Query: MK310226.fasta
+# Domains: DUF6884, PIN_2, VAPB_antitox, Dit_like, Baseplate_J, AAA_31, HNH, Phage_tail_S, DUF5817, AAA_16, Phage_Mu_F, Y1_Tnp, HTH_IclR, Phage_integrase, PhageMin_Tail, OrfB_Zn_ribbon
+# Top 2 matches for MK310226.fasta (55145 bp, 82 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MK310226|Halobacterium_phage_ChaoS9-Chaovirus_ChaoS9-Chaovirus-Vertoviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.94834	0.9484511111111111	1.0	1.0	1	1	0.9729664550166044	Closely related
+MK450543|Natrialba_phage_PhiCh1-Myohalovirus_phiCh1-Myohalovirus-Vertoviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.879868	0.2652172222222222	0.47619047619047616	0.9265132980127788	0.8913043478260869	0.9428590968933267	0.6673839861099815	Related
+# Query: MK360902.fasta
+# Domains: Herpes_UL31, DNA_pack_C, Viral_alk_exo, Herpes_UL3, Ribonuc_red_sm, Herpes_ICP4_N, Herpes_ori_bp, Herpes_glycop, Herpes_gE_N, Herpes_VP19C, Marek_A, Herpes_gE, Herpes_gI, Herpes_glycoH_C, Fusion_gly_K, Herpes_UL49_5, Peptidase_S21, Glycoprotein_B, Herpes_UL4, Ribonuc_red_lgN, Gene66, Herpes_UL51, Herpes_Helicase, Herpes_UL14, Herpes_glycop_H, Herpes_env, Herpes_UL24, dUTPase, Marek_SORF3, Herpes_UL52, Herpes_UL20, Herpes_UL49_2, Herpes_UL16, Herpes_teg_N, Herpes_UL17, Herpes_MCP, Herpes_UL7, Herpes_UL69, Herpes_V23, PRTP, Herpes_UL25, Herpes_UL1, Herpes_UL6, Herpes_UL46, Pkinase, DNA_pol_B_exo1, Herpes_UL21, UL45, DNA_pack_N, Herpes_UL47, Viral_DNA_bp, Herpes_glycop_D, Glycoprot_B_PH1, Herpes_TK, Glycoprot_B_PH2, Ribonuc_red_lgC, UDG, DNA_pol_B, Herpes_UL36
+# Top 2 matches for MK360902.fasta (141537 bp, 85 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MK360902|cacatuid_alphaherpesvirus_2-Iltovirus_cacatuidalpha2-Iltovirus-Orthoherpesviridae-Herpesvirales-Herviviricetes-Peploviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.97861125	1.0	1.0	1.0	1	1	0.9938889285653174	Closely related
+AY372243|psittacid_alphaherpesvirus_1__Pacheco's_disease_virus-Iltovirus_psittacidalpha1-Iltovirus-Orthoherpesviridae-Herpesvirales-Herviviricetes-Peploviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.76428	0.48578882352941183	0.9830508474576272	0.761178297831819	0.7870370370370371	0.8681919950927772	0.7463156413913026	Closely related
+# Query: MK372342.fasta
+# Domains: Abc1-like, Tape_meas_lam_C, Helicase_C, Terminase_6C, Phage_lysozyme, Phage_min_tail, DUF6453, DUF3799, DUF3987, DUF1799, DUF2213, GP3_package, NLPC_P60, Lambda_tail_I, Phage_TAC_4, Lipase_GDSL_2, TMP_2, DUF1983, Prok-JAB, Phage-tail_3, DUF2184, HNH_3, VRR_NUC, Phage_tail_3, DUF4054, ERF, DUF4128, Phage_tail_L, Prim_Zn_Ribbon
+# Top 2 matches for MK372342.fasta (46553 bp, 75 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MK372342|Escherichia_phage_vB_EcoS_IME542-Christensenvirus_IME542-Christensenvirus-Drexlerviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	0.9124986363636364	1.0	1.0	1	1	0.9791663419996754	Closely related
+MG050172|Escherichia_phage_DTL-Loudonvirus_DTL-Loudonvirus-Drexlerviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.8314955555555557	0.6376254545454548	0.9655172413793104	0.974285683351198	0.96	0.984125620260778	0.850769154378411	Closely related
+# Query: MK570053.fasta
+# Domains: DNA_pol_A_exo1, DNA_pol_B_2, PCNA_N, PCNA_C
+# Top 2 matches for MK570053.fasta (27548 bp, 48 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MK570053|Nitrosopumilus_spindle_shaped_virus_1-Nitmarvirus_NSV1-Nitmarvirus-Thaspiviridae------Viruses-dsDNA	0.91203	1.0	1.0	1.0	1	1	0.9748657142605799	Closely related
+MK570054|Nitrosopumilus_spindle_shaped_virus_1-Nitmarvirus_NSV1-Nitmarvirus-Thaspiviridae------Viruses-dsDNA	0.89712	0.9982618750000002	1.0	0.9971331107562781	0.9795918367346939	0.9992020311933261	0.9678006862573714	Closely related
+# Query: MN190158.fasta
+# Domains: Parvo_NS1, Phospholip_A2_4, Denso_VP4
+# Top 2 matches for MN190158.fasta (6089 bp, 3 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MN190158|Asterias_forbesi_associated_densovirus-Aquambidensovirus_asteroid2-Aquambidensovirus-Parvoviridae-Piccovirales-Quintoviricetes-Cossaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA_+___	0.9715485714285715	1.0	1.0	1.0	1	1	0.9918710204000343	Closely related
+MT341473|Clinch_densovirus_1-Pefuambidensovirus_unionid1-Pefuambidensovirus-Parvoviridae-Piccovirales-Quintoviricetes-Cossaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA_+___	0	0.33536666666666665	1.0	0.8809937456567061	0.75	0.8916078173755954	0.5100677325254361	Related
+# Query: MN850594.fasta
+# Domains: DUF3383, YqaJ, Abc1-like, Ribonuc_red_sm, Gp138_N, Phage_holin_3_1, Terminase_6C, Toprim, DNA_pol_A, AAA_25, Dit_like, DUF2213, dUTPase, Laminin_G_3, RNA_pol, Thy1, Peptidase_M15_4, DUF2612, Phage_TAC_15, DUF2184, Hydrolase_2, DUF4054, SLT
+# Top 2 matches for MN850594.fasta (52092 bp, 72 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MN850594|Escherichia_phage_flopper-Carltongylesvirus_flopper-Carltongylesvirus-Chaseviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.8479533333333333	1.0	1.0	1.0	1	1	0.9565580951946533	Closely related
+MF044458|Escherichia_phage_ST32-Carltongylesvirus_ST32-Carltongylesvirus-Chaseviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9444865217391304	0.8753184722222221	1.0	0.984122154823252	0.9230769230769231	0.9811647705869058	0.9439617415647136	Closely related
+# Query: MN988521.fasta
+# Domains: DUF559, 5_3_exonuc_N, HATPase_c, DUF4815, GIY-YIG, PS_pyruv_trans, Ribonuc_red_sm, ResIII, RNase_T, Epimerase, Phage_base_V, RNA_pol_Rpb1_5, Toprim, DNA_ligase_OB, AAA_5, DNA_pol_A, DHFR_1, Glyco_hydro_19, UDG, NUDIX, DUF3850, DUF72, Peptidase_S77, vWA-TerF-like, TROVE, Helicase_C_2, RNA_pol_Rpb1_1, HNH_5, HIRAN, NUMOD3, dUTPase, DNA_pol_B_thumb, Hydrolase, YfbR-like, DNA_topoisoIV, RNA_pol_Rpb1_2, DUF475, DNA_ligase_aden, R2K_3, ALP_N, TelA, PC4, TerD, MreB-like_C, HHH_8, Toprim_2, Phage_lysozyme2, 2OG-FeII_Oxy_3, HTH_3, Big_13, Thy1, PRTase_3, GPW_gp25, Adenylsucc_synt, Amidase_3, Lipase_GDSL_2, Phage_sheath_1, DUF4326, Metallophos, dCMP_cyt_deam_1, Rv2179c-like, RNA_pol_Rpb1_3, Phage_sheath_1C, DNA_gyraseB_C, Ribonuc_red_lgC, PAAR_motif, SNase
+# Top 2 matches for MN988521.fasta (207623 bp, 366 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MN988521|Rhizobium_phage_RHph_TM30-Cuauhnahuacvirus_TM30-Cuauhnahuacvirus-Kleczkowskaviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	0.9905455376344084	1.0	1.0	1	1	0.9977489375329023	Closely related
+MN988525|Rhizobium_phage_RHph_Y65-Cuauhnahuacvirus_Y65-Cuauhnahuacvirus-Kleczkowskaviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9593424999999999	0.9131437096774196	0.962962962962963	0.9941752445480385	1	0.9961372294976953	0.9596327792205963	Closely related
+# Query: MN988532.fasta
+# Domains: Pyr_excise, GLF, HAD_SAK_2, 5_3_exonuc_N, HATPase_c, DUF4815, Terminase_6N, Ribonuc_red_sm, Gp23, NAD_binding_8, DNA_ligase_A_M, E1_FCCH, ResIII, RNase_T, Terminase_6C, Amidase_2, Toprim, DHFR_1, Tn7_TnsA-like_N, Glutaredoxin, UvsW_N, Peptidase_S77, GapR_DNA-bd, Helicase_C_2, NUMOD3, DNA_ligase_OB_2, Peptidase_S74, Phage_30_3, DnaB_C, Sigma70_r4_2, Portal_Gp20, DNA_topoisoIV, VWA_2, gp32, Sigma70_r2, PhoH, Gp5_OB, UvsY, AAA, MethyltransfD12, ProQ, DNA_pol_B, Gp44_lid, DNA_pol_B_exo1, T4-gp15_tss, Gp6-like_1st, CHAP, DNA_gyraseB, YAcAr, Metallophos, dCMP_cyt_deam_1, PDDEXK_1, Trypsin_2, T4_neck-protein, Ribonuc_red_lgC, Thymidylat_synt, T4_baseplate
+# Top 2 matches for MN988532.fasta (154206 bp, 253 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MN988532|Rhizobium_phage_RHph_I1_9-Trinifflemingvirus_I19-Trinifflemingvirus-Pootjesviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.969612	0.9708506037735848	1.0	1.0	1	1	0.9843773818449473	Closely related
+MN988534|Rhizobium_phage_RHph_N34-Trinifflemingvirus_N34-Trinifflemingvirus-Pootjesviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9113927906976744	0.790509660377358	0.9391304347826087	0.987360841008925	1	0.9974384913686887	0.9112832285731598	Closely related
+# Query: MT181534.fasta
+# Domains: RNA_helicase, Viral_Rep
+# Top 2 matches for MT181534.fasta (2085 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MT181534|Marmot_associated_feces_virus_4-Menegrothvirus_gilly-Menegrothvirus-Naryaviridae-Rivendellvirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA_+___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+OM869595|dipodfec_virus_UA04Rod_5913-Cyclovirus_rotte-Cyclovirus-Circoviridae-Cirlivirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA_+_	0	0.13781000000000002	1.0	0.7432890278863695	1	0.8431654676258993	0.4648610735706942	Distantly related
+# Query: MT293418.fasta
+# Domains: RNA_helicase, Viral_Rep
+# Top 2 matches for MT293418.fasta (1876 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MT293418|Entamoeba_associated_CRESS_DNA_virus_4-Angainorvirus_turin-Angainorvirus-Nenyaviridae-Rohanvirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA_+___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MH617639|Circoviridae_sp_-Galvornvirus_isengard-Galvornvirus-Nenyaviridae-Rohanvirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA_+___	0.7832399999999999	0.426665	1.0	0.7698924731182796	1	0.6748201438848921	0.7532029790378133	Closely related
+# Query: MT663534.fasta
+# Domains: ResIII, SNF2-rel_dom, DUF5901, SWIB, Toprim, Glutaredoxin, FtsJ, Thioredoxin, MutS_I, dUTPase, DNA_topoisoIV, RNA_pol_Rpb2_3, 2OG-FeII_Oxy_3, DUF1643, HTH_OrfB_IS605, D5_N, PDZ_2, Pox_A22, Topoisom_bac, Peptidase_C14, RNA_pol_Rpb2_1, HNH, Ribonuc_red_lgC, RNA_pol_Rpb2_5, F-box, DNA_pol_B_palm, Lipase_3, Poly_A_pol_cat, Ribonuc_red_lgN, RNA_pol_Rpb2_7, RNA_pol_Rpb2_6, DUF5759, AAA, Ribonucleas_3_3, mRNA_cap_enzyme, mRNA_G-N7_MeTrfase, DNMK, Evr1_Alr, DNA_pol_B, Glycos_transf_1, TOPRIM_C, TTL, TBP, MutS_III, DUF2827, DNA_pol_lambd_f, ABC1, UCH, Pox_VLTF3, DUF5761, DUF5832, Ephrin_rec_like, PhoH, Capsid_NCLDV, dsrm, Pkinase, DnaJ_C, Capsid_N, DNA_gyraseB, Patatin, HATPase_c, Helicase_C, ATP-cone, Glyco_transf_25, WLM, NUDIX, DUF5760, Ank_2, DNA_pol_B_thumb, Laminin_G_3, DUF5871, XTBD, DnaJ, DUF5767, DNA_pol_B_exo1, RNA_pol_Rpb2_2, zf-RING_2, Trypsin_2, MutS_V, RNA_pol_Rpb2_4, OrfB_Zn_ribbon
+# Top 2 matches for MT663534.fasta (186217 bp, 160 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MT663534|Pyramimonas_orientalis_virus_01B-Heliosvirus_raunefjordenense-Heliosvirus-Allomimiviridae-Imitervirales-Megaviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.9589439024390243	0.9544477906976743	1.0	1.0	1	1	0.9774239222841563	Closely related
+AY261361|African_swine_fever_virus-African_swine_fever_virus-Asfivirus-Asfarviridae-Asfuvirales-Pokkesviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0	0.015003895348837209	0.35761589403973515	0.8608780091112639	0.9876543209876543	0.9925644415069399	0.33599953169989893	Distantly related
+# Query: MT711976.fasta
+# Domains: HHH_6, MazG, RNA_ligase, Acetyltransf_1, PHP, LysM, Toprim_4, RlaP, Phage_capsid, Peptidase_M23, DUF3307, PhageMin_Tail, Peptidase_S78, zf-CHC2, Cas_Cas4, RuvC, VWA, Lsr2, AAA_28, Thioredoxin, RecA_C, DNA_pol3_finger, NADAR, TROVE, vWA-TerF-like, AAA_33, KOW, cREC_REC, DnaB_C, NLPC_P60, DNA_pol3_alpha, Whib, Laminin_G_3, RecA, CTP_transf_like, GT4-conflict, Phage_portal, Thy1, DUF732, RNA_lig_T4_1, DUF2637, Ferritin, HTH_11, HNH, HNH_3, Metallophos, dCMP_cyt_deam_1, Rv2179c-like, Phage_r1t_holin, KTSC
+# Top 2 matches for MT711976.fasta (133697 bp, 245 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MT711976|Streptomyces_phage_Coruscant-Coruscantvirus_coruscant-Coruscantvirus-Stanwilliamsviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	0.9881141137123748	1.0	1.0	1	1	0.9971700270755068	Closely related
+KM652554|Streptomyces_phage_Jay2jay-Samistivirus_jay2jay-Samistivirus-Stanwilliamsviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.8182149999999999	0.26160020066889655	0.8712871287128713	0.947609104040835	0.8816326530612245	0.998758386500819	0.7289185964304614	Closely related
+# Query: MT732432.fasta
+# Domains: RtcB, RNase_H_2, DNA_pol_A, DUF1064, DNA_pol_B_exo2, Pribosyltran, Cpn10, Metallophos, PDDEXK_1, dGTP_diPhyd_N, Prim-Pol, Resolvase, RyR, Amidase_3, Cpn60_TCP1
+# Top 2 matches for MT732432.fasta (72979 bp, 90 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MT732432|Cellulophaga_phage_Calle_1-Callevirus_Calle-Callevirus-Pervagoviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	0.9544616494845363	1.0	1.0	1	1	0.989157535595893	Closely related
+KC821614|Cellulophaga_phage_phi38_1-Callevirus_phi38una-Callevirus-Pervagoviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.94069	0.8577342268041239	0.9333333333333333	0.986577965321256	1	0.9939023554721221	0.9342752723474349	Closely related
+# Query: MT732435.fasta
+# Domains: zf-CHC2, DUF5675, Toprim_2, DUF6712, DNAG_N, Arm-DNA-bind_5, Phage_int_SAM_5, GerE, DUF4468, Peptidase_S49, Phage_integrase
+# Top 2 matches for MT732435.fasta (42624 bp, 50 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MT732435|Cellulophaga_phage_Ingeline_1-Ingelinevirus_ingeline-Ingelinevirus-Duneviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KC821620|Cellulophaga_phage_phi18_3-Baltivirus_phi18tres-Baltivirus-Pachyviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.89381	0.0571208	0.13793103448275867	0.7462498136961802	0.44642857142857145	0.5966154836722982	0.4727814387713264	Distantly related
+# Query: MT732450.fasta
+# Domains: DUF2786, SWIM, HAD_SAK_2, 5_3_exonuc_N, HATPase_c, UDPG_MGDP_dh_N, Ribonuc_red_sm, SMC_N, DNA_ligase_A_M, ResIII, Epimerase, Helicase_C, DegT_DnrJ_EryC1, Toprim, DNA_pol_A, Peptidase_M10, NUDIX, YfbR-like, Peptidase_S74, DnaB_C, Portal_Gp20, OmpA, DNA_topoisoIV, BACON, RecA, Baseplate_J, cpYpsA, UDPG_MGDP_dh, UDPG_MGDP_dh_C, Amidase_3, PRA-PH, DNA_gyraseB, 2_5_RNA_ligase2, Metallophos, DNA_gyraseB_C, Ribonuc_red_lgC, Thymidylat_synt
+# Top 2 matches for MT732450.fasta (124169 bp, 194 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MT732450|Maribacter_phage_Colly_1-Mollyvirus_colly-Mollyvirus-Molycolviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9220600000000001	0.9949238775510205	1.0	1.0	1	1	0.976522827966553	Closely related
+MT732451|Maribacter_phage_Molly_1-Mollyvirus_molly-Mollyvirus-Molycolviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9475021052631579	0.9391729081632655	0.9866666666666667	0.9940727583975953	0.97	0.9957817073659729	0.9640735153171034	Closely related
+# Query: MT732458.fasta
+# Domains: PcfJ, DUF1367, Muramidase, GIY-YIG, FUR, Phage_capsid, MT-A70, PhageMin_Tail, NA37, PcfK, NUMOD4, NUMOD1, Phage_portal, RecT, Bac_DnaA_C, DUF3127, DUF1351, PRA-PH, HNH, HNH_3, Terminase_2
+# Top 2 matches for MT732458.fasta (47186 bp, 76 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MT732458|Polaribacter_phage_Danklef_1-Freyavirus_danklef-Freyavirus-Forsetiviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9746866666666666	1.0	1.0	1.0	1	1	0.9927676190403865	Closely related
+MT732463|Polaribacter_phage_Freya_1-Freyavirus_freya-Freyavirus-Forsetiviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9450911111111111	0.6549456578947367	0.75	0.9622633230215669	0.8552631578947368	0.9320137328868732	0.8321240465146968	Closely related
+# Query: MT732475.fasta
+# Domains: DUF2586, AAA_25, KilA-N, HNH_3, AAA_22, CLP_protease, DUF6046, Phage_holin_4_1, Phage_Mu_Gp36, Peptidase_S24, Phage_Mu_F, MethyltransfD12, Amidase_2, PhageMin_Tail, DUF935
+# Top 2 matches for MT732475.fasta (39649 bp, 64 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MT732475|Winogradskyella_phage_Peternella_1-Peternellavirus_peternella-Peternellavirus-Winoviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MN812207|vB_FspS_hattifnatt9_1-Hattifnattvirus_hattifnatt-Hattifnattvirus---Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0	0.005485555555555555	0.24242424242424243	0.842861669095748	0.927536231884058	0.9902393502988726	0.303381979628885	Distantly related
+# Query: MW343794.fasta
+# Domains: Fer4_12, RNA_ligase, NAPRTase, Radical_SAM, Phage_endo_I, Pribosyltran, Terminase_6N, Helic-prim_T7_N, DUF5309, DNA_ligase_A_M, NMN_transporter, T4_Rnl2_C, TerC, zf-dskA_traR, Terminase_6C, ATP-cone, NRDD, DNA_pol_A, DCD, Pribosyltran_N, Thioredoxin, NUDIX, DnaB_C, Sigma70_r4_2, RimK, Sigma70_r2, Toprim_2, TerD, GGACT, COOH-NH2_lig, GATase_6, DUF3310, RtcB, Ferritin, Peptidase_M15_4, Hydrolase_2, DNA_pol_A_exo1
+# Top 2 matches for MW343794.fasta (75106 bp, 109 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MW343794|Cronobacter_phage_A24-Crifsvirus_A24-Crifsvirus-Grimontviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	0.9950699099099098	1.0	1.0	1	1	0.9988261690266385	Closely related
+JN882286|Cronobacter_phage_vB_CsaP_GAP52-Crifsvirus_GAP52-Crifsvirus-Grimontviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.8909868421052632	0.9049565765765771	0.9487179487179487	0.9843736612821374	0.9732142857142857	0.9800994375644322	0.9307249868191595	Closely related
+# Query: MW980066.fasta
+# Domains: PriCT_1, Big_2, DNA_pol_A, vRNAP_dom, DUF2201_N, AAA_24, DUF2201, UvrD_C_2, RNA_pol, Muramidase, PG_binding_1, AAA_30, Phage_gp49_66, vRNAP_plug, DHFR_2, Thymidylat_synt
+# Top 2 matches for MW980066.fasta (77178 bp, 95 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MW980066|Rhizobium_phage_RHEph16-Acanvirus_Rheph16-Acanvirus-Schitoviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MN988497|Rhizobium_phage_RHph_Y2_6-Acanvirus_Y26-Acanvirus-Schitoviridae--Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9244189473684211	0.827785157894737	1.0	0.9882947660882652	0.9405940594059405	0.9854942922082897	0.9293812468098089	Closely related
+# Query: MZ130479.fasta
+# Domains: Sipho_Gp157, Metallophos, AAA_30, Phage_gp49_66, DNA_ligase_A_M, DUF932, dUTPase, RepL
+# Top 2 matches for MZ130479.fasta (96466 bp, 83 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MZ130479|uncultured_phage_cr36_1-Jahgtovirus_gastrointestinalis-Jahgtovirus-Intestiviridae-Crassvirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MT774377|uncultured_phage_cr107_1-Jahgtovirus_intestinihominis-Jahgtovirus-Intestiviridae-Crassvirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9101190909090907	0.8065192771084339	0.875	0.9823650307232177	0.9397590361445783	0.9722285572118674	0.8948644120852949	Closely related
+# Query: MZ130489.fasta
+# Domains: DUF3310, DUF2829, Sipho_Gp157, BACON, Flg_new, Flg_new_2, ART-PolyVal, AAA_30, DNA_ligase_A_M, Hom_end_hint, LAGLIDADG_3, DUF932, Thy1, UDG
+# Top 2 matches for MZ130489.fasta (95815 bp, 93 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MZ130489|uncultured_phage_cr2_1-Junduvirus_communis-Junduvirus-Crevaviridae-Crassvirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	0.9885606315789475	1.0	1.0	1	1	0.9972763408532197	Closely related
+MZ130487|uncultured_phage_cr25_1-Junduvirus_copri-Junduvirus-Crevaviridae-Crassvirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.8224245454545454	0.6326909473684212	0.8148148148148149	0.9585903268852907	0.956989247311828	0.9866200490528623	0.8158871806983727	Closely related
+# Query: MZ130499.fasta
+# Domains: zf-CHC2, NUMOD4, NUMOD1, AAA_24, DUF3799, Sigma70_r2, HNH_3, Metallophos, Toprim_2, dGTP_diPhyd_N, AAA, Phage_head_fibr, dUTPase, DnaB_C, Sigma70_r4_2
+# Top 2 matches for MZ130499.fasta (97706 bp, 176 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MZ130499|uncultured_phage_cr35_1-Afonbuvirus_coli-Afonbuvirus-Suoliviridae-Crassvirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MT774401|uncultured_phage_cr6_1-Afonbuvirus_faecalis-Afonbuvirus-Suoliviridae-Crassvirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.9453884615384616	0.6280912500000002	0.9090909090909091	0.9795512551121862	0.9602272727272727	0.9970933207786625	0.8716834423144607	Closely related
+# Query: MZ334526.fasta
+# Domains: DUF6884, MCM, N6_N4_Mtase, DUF6378, MCM_OB, DUF2961, ParE_toxin, MCM_lid, Terminase_6N, HNH_3, PAPS_reduct, HTH_5
+# Top 2 matches for MZ334526.fasta (36603 bp, 67 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MZ334526|Halorubrum_tailed_virus_29-Dpdavirus_HRTV29-Dpdavirus-Haloferuviridae-Kirjokansivirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KC292023|Halorubrum_tailed_virus_4-Saldibavirus_HRTV4-Saldibavirus-Haloferuviridae-Kirjokansivirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.792285	0.32544343283582083	0.1333333333333333	0.9498472047456409	1	0.9759309346228451	0.6066539549904135	Related
+# Query: OM154946.fasta
+# Domains: RNA_helicase
+# Top 2 matches for OM154946.fasta (5608 bp, 6 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+OM154946|Avonheates_virus_SG_61-Aberdnavirus_waitai-Aberdnavirus-Bacilladnaviridae-Baphyvirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA_+___	0.9918666666666667	1.0	1.0	1.0	1	1	0.9976761904738667	Closely related
+AB781089|Chaetoceros_setoensis_DNA_virus-Diatodnavirus_chaese-Diatodnavirus-Bacilladnaviridae-Baphyvirales-Arfiviricetes-Cressdnaviricota-Shotokuvirae-Monodnaviria-Viruses-ssDNA	0	0.10471333333333332	1.0	0.8938625633852072	1	0.9609321453050035	0.48409935701366236	Related
+# Query: ON649701.fasta
+# Domains: Phage_tube_2, Peptidase_M10, Laminin_G_3, N6_N4_Mtase, MCM, Radical_SAM, HK97-gp10_like, MCM_lid, BppU_N, Glycos_transf_2, SPASM, Dam
+# Top 2 matches for ON649701.fasta (38245 bp, 66 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+ON649701|Nitrososphaeria_virus_YSH_922147-Mathaucavirus_yangshanense-Mathaucavirus-Yangangviridae-Juravirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+ON649699|Nitrososphaeria_virus_YSH_462411-Nohelivirus_yangshanense-Nohelivirus-Yangangviridae-Juravirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.8635066666666668	0.14073030303030304	0.42105263157894735	0.9055873083702793	0.9041095890410958	0.9581644659432605	0.6215260770073417	Related
+# Query: OP413841.fasta
+# Domains: DNA_pol_B_2
+# Top 2 matches for OP413841.fasta (10775 bp, 19 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+OP413841|Methanophagales_virus_PBV266-Antichaacvirus_pescaderoense-Antichaacvirus-Chaacviridae-Coyopavirales-Tectiliviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+OP548099|Methanophagales_virus_PBV304-Homochaacvirus_pescaderoense-Homochaacvirus-Chaacviridae-Coyopavirales-Tectiliviricetes-Preplasmiviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.80472	0.44717421052631573	1.0	0.8896925858951176	0.95	0.997869975921467	0.7919589898130669	Closely related
+# Query: OP880252.fasta
+# Domains: Fer4_12, RNA_ligase, DUF2201, N6_N4_Mtase, Glyco_transf_4, Radical_SAM, Glycos_transf_1, GATase_4, DNA_ligase_A_M, SPASM, PhageMin_Tail, NRDD, Peptidase_S78, ATPase, DUF2201_N, DUF2190, DUF2341, ERCC4, RadC, dUTPase, Arc_trans_TRASH, Laminin_G_3, Glyco_transf_7C, CLP_protease, AAA, PhoU_div, DNA_pol_B_exo1, Metallophos, DUF1599, Glycos_transf_2, DNA_pol_B
+# Top 2 matches for OP880252.fasta (71795 bp, 105 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+OP880252|Methanophagales_virus_GBV301-Kukulkanvirus_guaymasense-Kukulkanvirus-Ekchuahviridae-Nakonvirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	1.0	0.9705337272727274	1.0	1.0	1	1	0.992984220782027	Closely related
+OP880253|Methanophagales_virus_GBV302-Kukulkanvirus_mexicoense-Kukulkanvirus-Ekchuahviridae-Nakonvirales-Caudoviricetes-Uroviricota-Heunggongvirae-Duplodnaviria-Viruses-dsDNA	0.7654966666666666	0.46465290909090884	0.7666666666666666	0.925009846396219	0.963302752293578	0.891298680339164	0.741706901777243	Closely related
+# Query: OP880254.fasta
+# Domains: CarboxypepD_reg, zf-FCS, HTH_45, Resolvase
+# Top 2 matches for OP880254.fasta (25580 bp, 47 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+OP880254|Methanophagales_virus_GBV303-Demiitzamnavirus_mexicoense-Demiitzamnavirus-Itzamnaviridae------Viruses-dsDNA	1.0	0.9710792	1.0	1.0	1	1	0.9931140952408495	Closely related
+OP413839|Methanophagales_virus_PBV082-Pletoitzamnavirus_pescaderoense-Pletoitzamnavirus-Itzamnaviridae------Viruses-dsDNA	0.8095358333333333	0.5175702	0.08333333333333337	0.6684578905651759	0.6438356164383562	0.5235044921515257	0.5521404160009558	Related
+# Query: U18466.fasta
+# Domains: v110, L1R_F9L, YqaJ, Bcl-2, Ribonuc_red_sm, T5orf172, Herpes_ori_bp, DNA_ligase_A_M, ResIII, SNF2-rel_dom, Helicase_C, PP1c_bdg, RNA_pol_Rpb6, polyprenyl_synt, zf-FCS, RNA_pol_Rpb1_5, TOPRIM_C, Poly_A_pol_cat, RNA_pol_Rpb5_C, BIR, FtsJ, ERCC4, Ribonuc_red_lgN, NUDIX, RNA_pol_Rpb1_1, Thymidylate_kin, Pox_VLTF3, RNA_pol_Rpb2_7, Ank_2, RNA_pol_Rpb2_6, RNA_pol_N, DNA_pol_B_thumb, dUTPase, RNA_pol_Rpb1_2, Herpes_UL52, DNA_topoisoIV, UK, ASFV_J13L, RNA_pol_Rpb1_4, DEAD, TFIIS_C, ASFV_360, RNA_pol_Rpb2_3, DUF5906, Capsid_NCLDV, UQ_con, DUF249, Peptidase_C48, RNA_pol_L_2, D5_N, TK, A2L_zn_ribbon, NTP_transf_2, Aminotran_5, Bac_DNA_binding, Ank, ASFV_p27, RNA_pol_Rpb2_1, DNA_pol_B_exo1, mRNA_G-N7_MeTrfase, RNA_pol_Rpb2_2, UL45, Pkinase, AP_endonuc_2, PriCT_2, RNA_pol_Rpb1_7, RNA_pol_Rpb1_3, Evr1_Alr, Ribonuc_red_lgC, RNA_pol_Rpb2_4, DNA_pol_B
+# Top 2 matches for U18466.fasta (170101 bp, 150 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+U18466|African_swine_fever_virus-African_swine_fever_virus-Asfivirus-Asfarviridae-Asfuvirales-Pokkesviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.9324704313725493	0.5811306140350877	1.0	1.0	1	1	0.8809750313734901	Closely related
+KM102979|African_swine_fever_virus-African_swine_fever_virus-Asfivirus-Asfarviridae-Asfuvirales-Pokkesviricetes-Nucleocytoviricota-Bamfordvirae-Varidnaviria-Viruses-dsDNA	0.9293429729729734	0.663282426900585	1.0	0.9630850904105087	0.8928571428571429	0.9299913616830503	0.8808300424325725	Closely related
+# Query: X07234.fasta
+# Domains: DUF5658, Phage_integr_3, zf-C2H2_2, B277, SSV1_D-63, DUF5493, VP1_VP3, HTH_24, DUF5517, SSV1_ORF_D-335, C166, RHH_1, VirArc_Nuclease, DUF5489, DUF5461, F-112
+# Top 2 matches for X07234.fasta (15465 bp, 33 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+X07234|sulfolobus_spindle_shaped_virus_1-Sulfolobus_spindle_shaped_virus_1-Alphafusellovirus-Fuselloviridae------Viruses-dsDNA	1.0	0.9731920000000001	1.0	1.0	1	1	0.9936171428596958	Closely related
+EU030938|sulfolobus_spindle_shaped_virus_4-Sulfolobus_spindle_shaped_virus_4-Alphafusellovirus-Fuselloviridae------Viruses-dsDNA	0.76333	0.36403771428571424	0.8666666666666667	0.9125318689939204	0.7878787878787878	0.9786614936954413	0.7218499960163213	Closely related
+# Query: X58839.fasta
+# Domains: 
+# Top 2 matches for X58839.fasta (4491 bp, 8 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+X58839|Acholeplasma_phage_MV_L1-Plectrovirus_L51-Plectrovirus-Plectroviridae-Tubulavirales-Faserviricetes-Hofneiviricota-Loebvirae-Monodnaviria-Viruses-ssDNA_+_	1.0	1.0	0	1.0	1	1	0.80952381	Closely related
+M17988|Spiroplasma_phage_4-Spiromicrovirus_SpV4-Spiromicrovirus-Microviridae-Petitvirales-Malgrandaviricetes-Phixviricota-Sangervirae-Monodnaviria-Viruses-ssDNA	0	0	0	0.8434763081068942	0.875	0.9844132709864173	0.2507067714922778	Similar genomes
+# Query: X60322.fasta
+# Domains: Phage_C, Phage_GPA, Microvir_H, Phage_F, Phage_G, gpD
+# Top 2 matches for X60322.fasta (6087 bp, 10 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+X60322|Escherichia_phage_alpha3-Alphatrevirus_alpha3-Alphatrevirus-Microviridae-Petitvirales-Malgrandaviricetes-Phixviricota-Sangervirae-Monodnaviria-Viruses-ssDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+X60323|Escherichia_phage_phiK-Alphatrevirus_phiK-Alphatrevirus-Microviridae-Petitvirales-Malgrandaviricetes-Phixviricota-Sangervirae-Monodnaviria-Viruses-ssDNA	0.9034099999999999	0.803572	1.0	0.9449465899753492	0.9	0.9996715388405321	0.9082300623291479	Closely related
+# Query: X74475.fasta
+# Domains: PPV_E2_N, PPV_E1_N, PPV_E1_C, PPV_E2_C, Late_protein_L1, E6, PPV_E1_DBD, E7, Late_protein_L2
+# Top 2 matches for X74475.fasta (7961 bp, 7 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+X74475|human_papillomavirus_32-Alphapapillomavirus_1-Alphapapillomavirus-Papillomaviridae-Zurhausenvirales-Papovaviricetes-Cossaviricota-Shotokuvirae-Monodnaviria-Viruses-dsDNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+M73236|human_papillomavirus_42-Alphapapillomavirus_1-Alphapapillomavirus-Papillomaviridae-Zurhausenvirales-Papovaviricetes-Cossaviricota-Shotokuvirae-Monodnaviria-Viruses-dsDNA	0.8392900000000001	0.5654	0.9411764705882353	0.9417842741935484	0.8571428571428571	0.994473056148725	0.8172170226836486	Closely related

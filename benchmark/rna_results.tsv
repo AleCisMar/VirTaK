@@ -1,0 +1,498 @@
+# Query: AB006783.fasta
+# Domains: Birna_VP2, Birna_VP1_thumb, Birna_RdRp_palm, Birna_VP4, Birna_RdRp_C, Birna_VP3
+# Top 2 matches for AB006783.fasta (5712 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AB006783|AY129662|yellowtail_ascites_virus-Aquabirnavirus_ascitae-Aquabirnavirus-Birnaviridae----Orthornavirae-Riboviria-Viruses-dsRNA	1.0	0.6666666666666666	1.0	1.0	1	1	0.9206349206666666	Closely related
+AF078668|AF078669|infectious_pancreatic_necrosis_virus-Aquabirnavirus_salmonidae-Aquabirnavirus-Birnaviridae----Orthornavirae-Riboviria-Viruses-dsRNA	0.853245	0.62025	1.0	0.9322048536143017	1	0.9712633905798334	0.8565999024223063	Closely related
+# Query: AB010300.fasta
+# Domains: Flexi_CP, Vmethyltransf, Plant_vir_prot, Viral_helicase1, RdRP_2, Allexi_40kDa, Viral_NABP
+# Top 2 matches for AB010300.fasta (8660 bp, 6 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AB010300|garlic_virus_A-Garlic_virus_A-Allexivirus-Alphaflexiviridae-Tymovirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.8571428571428571	1.0	1.0	1	1	0.9659863945714284	Closely related
+AJ292230|garlic_virus_E-Garlic_virus_E-Allexivirus-Alphaflexiviridae-Tymovirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.78474	0.4605828571428571	0.9230769230769231	0.9235359503890481	0.8333333333333334	0.9758660508083141	0.7674667879824514	Closely related
+# Query: AB368492.fasta
+# Domains: RdRP_4
+# Top 2 matches for AB368492.fasta (10360 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AB368492|AB438027|AB438028|AB438029|Alternaria_alternata_virus_1-Alternavirus_alternariae-Alternavirus-Alternaviridae-Ghabrivirales-Chrymotiviricetes-Duplornaviricota-Orthornavirae-Riboviria-Viruses-dsRNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+HE588144|HE588145|HE588146|HE647818|Aspergillus_foetidus_dsRNA_mycovirus-Alternavirus_aspergilli-Alternavirus-Alternaviridae-Ghabrivirales-Chrymotiviricetes-Duplornaviricota-Orthornavirae-Riboviria-Viruses-dsRNA	0	0.31888	1.0	0.9126864262790259	0.6666666666666666	0.9541351998526432	0.5057108480201477	Related
+# Query: AB469874.fasta
+# Domains: Peptidase_C3, RdRP_1, RNA_helicase, CRPV_capsid, Dicistro_VP4
+# Top 2 matches for AB469874.fasta (9467 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AB469874|Chaetoceros_socialis_f__radians_RNA_virus_01-Chaetoceros_socialis_forma_radians_RNA_virus_1-Bacillarnavirus-Marnaviridae-Picornavirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.5	1.0	1.0	1	1	0.880952381	Closely related
+EF198241|Marine_RNA_virus_JP_A-Jericarnavirus_A-Sogarnavirus-Marnaviridae-Picornavirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.3095675	0.8888888888888888	0.9064555811092688	1	0.975599450723566	0.5142075831249079	Related
+# Query: AB620061.fasta
+# Domains: RdRP_4
+# Top 2 matches for AB620061.fasta (17081 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AB620061|AB620062|AB620063|AB620064|Rosellinia_necatrix_quadrivirus_1-Rosellinia_necatrix_quadrivirus_1-Quadrivirus-Quadriviridae-Ghabrivirales-Chrymotiviricetes-Duplornaviricota-Orthornavirae-Riboviria-Viruses-dsRNA	0.928736	1.0	1.0	1.0	1	1	0.9796388571224959	Closely related
+AB744677|AB744678|AB744679|AB744680|Rosellinia_necatrix_quadrivirus_1-Rosellinia_necatrix_quadrivirus_1-Quadrivirus-Quadriviridae-Ghabrivirales-Chrymotiviricetes-Duplornaviricota-Orthornavirae-Riboviria-Viruses-dsRNA	0.883095	0.780555	1.0	0.9480178292056558	1	0.9860078449739477	0.9062574443838328	Closely related
+# Query: AF039063.fasta
+# Domains: 
+# Top 2 matches for AF039063.fasta (2514 bp, 1 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AF039063|Saccharomyces_20S_RNA_narnavirus-Saccharomyces_20S_RNA_narnavirus-Narnavirus-Narnaviridae-Wolframvirales-Amabiliviricetes-Lenarviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	0	1.0	1	1	0.80952381	Closely related
+U90136|Saccharomyces_23S_RNA_narnavirus-Saccharomyces_23S_RNA_narnavirus-Narnavirus-Narnaviridae-Wolframvirales-Amabiliviricetes-Lenarviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.31989	0	0.8612706056677163	1	0.8695952957454168	0.33585033888806476	Distantly related
+# Query: AF102884.fasta
+# Domains: Viral_helicase1, RdRP_2, Vmethyltransf
+# Top 2 matches for AF102884.fasta (6625 bp, 1 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AF102884|Nudaurelia_capensis_beta_virus-Nudaurelia_capensis_beta_virus-Betatetravirus-Alphatetraviridae-Hepelivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+AY594352|AY594353|Dendrolimus_punctatus_virus-Dendrolimus_punctatus_virus-Omegatetravirus-Alphatetraviridae-Hepelivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.31622	0.8571428571428572	0.852445540484998	0.3333333333333333	0.829888513090317	0.43159824895758647	Distantly related
+# Query: AF150629.fasta
+# Domains: Rhv, Peptidase_C3G, RdRP_1, RNA_helicase, CRPV_capsid, Dicistro_VP4
+# Top 2 matches for AF150629.fasta (9491 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AF150629|acute_bee_paralysis_virus-Aparavirus_apisacutum-Aparavirus-Dicistroviridae-Picornavirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.5	1.0	1.0	1	1	0.880952381	Closely related
+AY275710|Kashmir_bee_virus-Aparavirus_kashmirense-Aparavirus-Dicistroviridae-Picornavirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.75067	0.3625875	1.0	0.9276353876111784	1	0.996535069298614	0.7664951776983895	Closely related
+# Query: AF314662.fasta
+# Domains: Flexi_CP, Peptidase_C23, Vmethyltransf, Plant_vir_prot, Viral_helicase1, RdRP_2, TGBp3
+# Top 2 matches for AF314662.fasta (7352 bp, 5 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AF314662|banana_mild_mosaic_virus-Banmivirus_BanMMV-Banmivirus-Betaflexiviridae-Tymovirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+JX277553|Rubus_canadensis_virus_1-Rubus_canadensis_virus_1-Foveavirus-Betaflexiviridae-Tymovirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.343562	1.0	0.8794181446982263	1	0.882804995196926	0.5351842582526274	Related
+# Query: AF418294.fasta
+# Domains: Sigma_1_2, Reovirus_L2_4th, Reovirus_L2_N, Reovirus_L2_MT2, Reovirus_L2_8th, Reovirus_L2_MT1, Reovirus_L2_GTase, RdRP_5, Reovirus_Mu2, Reovirus_M2, Reovirus_L2_7th
+# Top 2 matches for AF418294.fasta (23025 bp, 11 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AF418294|AF418295|AF418296|AF418297|AF418298|AF418299|AF418300|AF418301|AF418302|AF418303|AF418304|chum_salmon_reovirus__aquareovirus_A-Aquareovirus_A-Aquareovirus-Spinareoviridae-Reovirales-Resentoviricetes-Duplornaviricota-Orthornavirae-Riboviria-Viruses-dsRNA	0.9951	1.0	1.0	1.0	1	1	0.9985999999985999	Closely related
+HM989930|HM989931|HM989932|HM989933|HM989934|HM989935|HM989936|HM989937|HM989938|HM989939|HM989940|Scophthalmus_maximus_reovirus__aquareovirus_E-Aquareovirus_E-Aquareovirus-Spinareoviridae-Reovirales-Resentoviricetes-Duplornaviricota-Orthornavirae-Riboviria-Viruses-dsRNA	0.76515	0.8307345454545455	1.0	0.9551190653529399	0.9166666666666666	0.957300848162315	0.8762173382712884	Closely related
+# Query: AJ012005.fasta
+# Domains: Vmethyltransf, Viral_helicase1, Viral_P18, RdRP_2, 3A, Vmethyltransf_C, TMV_coat
+# Top 2 matches for AJ012005.fasta (10717 bp, 6 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AJ012005|AJ012006|Chinese_wheat_mosaic_virus-Chinese_wheat_mosaic_virus-Furovirus-Virgaviridae-Martellivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.75	1.0	1.0	1	1	0.9404761904999999	Closely related
+AJ132578|AJ132579|oat_golden_stripe_virus-Oat_golden_stripe_virus-Furovirus-Virgaviridae-Martellivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.8255800000000001	0.6345700000000001	1.0	0.9382809901648691	1	0.9651954838107679	0.8526842120726724	Closely related
+# Query: AJ309022.fasta
+# Domains: Vmethyltransf, Viral_helicase1, Tymo_coat, Salyut, RdRP_2, Peptidase_C21
+# Top 2 matches for AJ309022.fasta (7564 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AJ309022|grapevine_fleck_virus-Maculavirus_vitis-Maculavirus-Tymoviridae-Tymovirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MN714643|Sorghum_almum_marafivirus-Marafivirus_sorghi-Marafivirus-Tymoviridae-Tymovirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.85586	0.178185	1.0	0.7965829439252337	0.25	0.8114754098360656	0.6536813925724814	Related
+# Query: AY640317.fasta
+# Domains: Pneumo_ncap, Pneumovirus_M2, Mononeg_RNA_pol, Pneumo_att_G, Mononeg_mRNAcap, zf-CCCH, Methyltrans_Mon_2nd, Pneumo_phosprot, Sh_2, Fusion_gly, Pneumo_matrix
+# Top 2 matches for AY640317.fasta (13373 bp, 8 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AY640317|avian_metapneumovirus-Metapneumovirus_avis-Metapneumovirus-Pneumoviridae-Mononegavirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+HG934339|avian_metapneumovirus-Metapneumovirus_avis-Metapneumovirus-Pneumoviridae-Mononegavirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0.77795	0.7328425	1.0	0.9447390038085282	0.8888888888888888	0.9968691762951919	0.8543226888126331	Closely related
+# Query: AY654892.fasta
+# Domains: 30K_MP_C_Ter, 30K_MP_core, Nucleocap_ssRNA
+# Top 2 matches for AY654892.fasta (11280 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+AY654892|AY654893|AY654894|citrus_psorosis_virus-Ophiovirus_citri-Ophiovirus-Aspiviridae-Serpentovirales-Milneviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KJ704366|KJ704367|KJ704368|blueberry_mosaic_associated_virus-Ophiovirus_vaccinii-Ophiovirus-Aspiviridae-Serpentovirales-Milneviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0	0.292715	1.0	0.9318832283915284	1	0.9835207951870258	0.5353688321638094	Related
+# Query: BK014417.fasta
+# Domains: Mononeg_RNA_pol, Mononeg_mRNAcap
+# Top 2 matches for BK014417.fasta (11682 bp, 6 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+BK014417|Armillaria_mellea_negative_strand_RNA_virus_2-Auricularimonavirus_armillariae-Auricularimonavirus-Mymonaviridae-Mononegavirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MT447187|Bondarzewia_berkeleyi_negative_strand_RNA_virus_1-Auricularimonavirus_bondarzewiae-Auricularimonavirus-Mymonaviridae-Mononegavirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0	0.10314666666666668	1.0	0.8773555761507569	1	0.9401643554185927	0.4803792577214897	Related
+# Query: D84410.fasta
+# Domains: Benyvirus_P25, Benyvirus_14KDa, Plant_vir_prot, Viral_helicase1, Peptidase_C36, RdRP_2, BNYVV_TGB3, BNYVV_p31, TMV_coat
+# Top 2 matches for D84410.fasta (15918 bp, 11 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+D84410|D84411|D84412|D84413|D63936|beet_necrotic_yellow_vein_virus-Beet_necrotic_yellow_vein_virus-Benyvirus-Benyviridae-Hepelivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.89613	1.0	1.0	1.0	1	1	0.9703228571131799	Closely related
+JF513082|JF513083|EU410955|FJ424610|beet_soil_borne_mosaic_virus-Beet_soil_borne_mosaic_virus-Benyvirus-Benyviridae-Hepelivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.810515	0.545050909090909	1.0	0.9427703960040482	0.8181818181818182	0.9264354818444528	0.8085454691236502	Closely related
+# Query: DQ126101.fasta
+# Domains: Peptidase_S74
+# Top 2 matches for DQ126101.fasta (25573 bp, 13 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+DQ126101|DQ126102|DQ126103|DQ126104|DQ126105|DQ126106|DQ126107|DQ126108|DQ126109|DQ126110|DQ126111|Micromonas_pusilla_reovirus-Micromonas_pusilla_reovirus-Mimoreovirus-Sedoreoviridae-Reovirales-Resentoviricetes-Duplornaviricota-Orthornavirae-Riboviria-Viruses-dsRNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+AB102674|AB098022|AB102675|AB073276|AB098023|AB073277|AB073278|AB073279|AB073280|AB073281|AB073282|AB073283|Rosellinia_necatrix_mycoreovirus_3-Mycoreovirus_3-Mycoreovirus-Spinareoviridae-Reovirales-Resentoviricetes-Duplornaviricota-Orthornavirae-Riboviria-Viruses-dsRNA	0	0	0	0.8893709327548807	1	0.9684432800218981	0.2684074325572476	Similar genomes
+# Query: DQ898157.fasta
+# Domains: CoV_Methyltr_2, Macro, Viral_helicase1, RdRP_1, Spike_torovirin, Methyltransf_25, CoV_NSP15_C
+# Top 2 matches for DQ898157.fasta (26660 bp, 5 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+DQ898157|white_bream_virus-White_bream_virus-Bafinivirus-Tobaniviridae-Nidovirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+GU002364|fathead_minnow_nidovirus-Fathead_minnow_nidovirus_1-Bafinivirus-Tobaniviridae-Nidovirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.7548699999999999	0.4644399999999999	0.7142857142857143	0.9273697472763656	1	0.9759133172267369	0.7365040675355042	Closely related
+# Query: EF120984.fasta
+# Domains: RdRP_1
+# Top 2 matches for EF120984.fasta (4036 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+EF120984|EF120985|Curvularia_thermal_tolerance_virus-Curvularia_orthocurvulavirus_1-Orthocurvulavirus-Curvulaviridae-Durnavirales-Duplopiviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-dsRNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MH536648|MH536649|Trichoderma_harzianum_bipartite_mycovirus_1-Trichoderma_harzianum_orthocurvulavirus_1-Orthocurvulavirus-Curvulaviridae-Durnavirales-Duplopiviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-dsRNA	0	0.3858	1.0	0.8839251129761136	0.75	0.9224479682854311	0.5239630144154062	Related
+# Query: EF442780.fasta
+# Domains: RdRP_1
+# Top 2 matches for EF442780.fasta (3437 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+EF442780|southern_tomato_virus-Amalgavirus_lycopersici-Amalgavirus-Amalgaviridae-Durnavirales-Duplopiviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-dsRNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+HQ128706|rhododendron_virus_A-Amalgavirus_rhododendri-Amalgavirus-Amalgaviridae-Durnavirales-Duplopiviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-dsRNA	0	0.389845	1.0	0.8912219305920094	1	0.9970904858888565	0.5533324415493135	Related
+# Query: EF580100.fasta
+# Domains: Mitovir_RNA_pol
+# Top 2 matches for EF580100.fasta (2804 bp, 1 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+EF580100|Botrytis_cinerea_mitovirus_1-Duamitovirus_boci1-Duamitovirus-Mitoviridae-Cryppavirales-Howeltoviricetes-Lenarviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.3333333333333333	1.0	1.0	1	1	0.8412698413333333	Closely related
+AM087550|Ophiostoma_mitovirus_3b-Duamitovirus_opno3b-Duamitovirus-Mitoviridae-Cryppavirales-Howeltoviricetes-Lenarviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.95324	0.32070333333333334	1.0	0.8982456140350877	1	0.8316690442225392	0.8023505977343139	Closely related
+# Query: EU489061.fasta
+# Domains: RdRP_1
+# Top 2 matches for EU489061.fasta (3792 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+EU489061|EU489062|beet_cryptic_virus_1-Beet_cryptic_virus_1-Alphapartitivirus-Partitiviridae-Durnavirales-Duplopiviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-dsRNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+AY705784|AY705785|white_clover_cryptic_virus_1-White_clover_cryptic_virus_1-Alphapartitivirus-Partitiviridae-Durnavirales-Duplopiviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-dsRNA	0.7677700000000001	0.70453	1.0	0.9231389411448535	1	0.9662447257383966	0.8507110260890424	Closely related
+# Query: FJ215863.fasta
+# Domains: Matrix, HN, Paramyxo_ncap, Soyouz_module, Mononeg_RNA_pol, Mononeg_mRNAcap, Fusion_gly, Paramyx_P_V_C
+# Top 2 matches for FJ215863.fasta (15342 bp, 7 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+FJ215863|avian_paramyxovirus_8-Metaavulavirus_delawarense-Metaavulavirus-Paramyxoviridae-Mononegavirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+HM147142|avian_paramyxovirus_10-Metaavulavirus_falklandense-Metaavulavirus-Paramyxoviridae-Mononegavirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0	0.49124999999999996	1.0	0.941348402182385	0.875	0.9926242236024845	0.57251997264558	Related
+# Query: FJ899675.fasta
+# Domains: Fungal_virus_P2_N, RdRP_4
+# Top 2 matches for FJ899675.fasta (10244 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+FJ899675|FJ899676|FJ899677|Anthurium_mosaic_associated_virus-Alphachrysovirus_anthurii-Alphachrysovirus-Chrysoviridae-Ghabrivirales-Chrymotiviricetes-Duplornaviricota-Orthornavirae-Riboviria-Viruses-dsRNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KJ418374|KJ418375|KJ418376|Persea_americana_chrysovirus-Alphachrysovirus_perseae-Alphachrysovirus-Chrysoviridae-Ghabrivirales-Chrymotiviricetes-Duplornaviricota-Orthornavirae-Riboviria-Viruses-dsRNA	0	0.43155	1.0	0.9138478600594848	0.75	0.9385982038266302	0.5398996085543959	Related
+# Query: HG975302.fasta
+# Domains: RdRP_1, Methyltransf_25
+# Top 2 matches for HG975302.fasta (7740 bp, 5 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+HG975302|HG975303|HG975304|HG975305|Aspergillus_fumigatus_tetramycovirus_1-Aspergillus_fumigatus_polymycovirus_1-Polymycovirus-Polymycoviridae-----Riboviria-Viruses-dsRNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+LC553675|LC553676|LC553677|LC553678|Aspergillus_fumigatus_polymycovirus_1-Aspergillus_fumigatus_polymycovirus_1-Polymycovirus-Polymycoviridae-----Riboviria-Viruses-dsRNA	0.92582	0.967322	1.0	0.9600569689907426	1	0.9996124031007751	0.9653006337890643	Closely related
+# Query: HQ010042.fasta
+# Domains: Peptidase_C24, Peptidase_C37, Calici_coat, RdRP_1, RNA_helicase
+# Top 2 matches for HQ010042.fasta (7908 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+HQ010042|chicken_calicivirus-Bavaria_virus-Bavovirus-Caliciviridae-Picornavirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.6666666666666666	1.0	1.0	1	1	0.9206349206666666	Closely related
+JQ347522|turkey_calicivirus-Nacovirus_A-Nacovirus-Caliciviridae-Picornavirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.20643666666666668	0.8888888888888888	0.8726057333847538	1	0.9681335356600911	0.4844614105125888	Related
+# Query: HQ871931.fasta
+# Domains: RdRP_3, Chropara_Vmeth
+# Top 2 matches for HQ871931.fasta (5904 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+HQ871931|Lake_Sinai_virus_1-Lake_Sinai_virus_1-Sinaivirus-Sinhaliviridae-Nodamuvirales-Magsaviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+HQ888865|Lake_Sinai_virus_2-Lake_Sinai_virus_2-Sinaivirus-Sinhaliviridae-Nodamuvirales-Magsaviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.744705	0.7534975	1.0	0.9247712639783124	1	0.9989847715736041	0.857572193439808	Closely related
+# Query: J02020.fasta
+# Domains: 
+# Top 2 matches for J02020.fasta (247 bp, 0 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+J02020|avocado_sunblotch_viroid-Avocado_sunblotch_viroid-Avsunviroid-Avsunviroidae------Viruses-ssRNA	1.0	0	0	1.0	0	1	0.476190477	Related
+AF447788|citrus_dwarfing_viroid-Citrus_dwarfing_viroid-Apscaviroid-Pospiviroidae------Viruses-ssRNA	0	0	0	0.5778611632270169	0	0.8458904109589042	0.12283209091146007	Not related
+# Query: JN635296.fasta
+# Domains: Peptidase_C27, Rubi_NSP_C, Macro, Rubella_E2, Viral_helicase1, RdRP_2, Rubella_E1, Rubella_Capsid
+# Top 2 matches for JN635296.fasta (9761 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+JN635296|rubella_virus-Rubivirus_rubellae-Rubivirus-Matonaviridae-Hepelivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.5	1.0	1.0	1	1	0.880952381	Closely related
+M15240|rubella_virus-Rubivirus_rubellae-Rubivirus-Matonaviridae-Hepelivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.91747	0.481035	1.0	0.9651073423169545	1	0.9998975619750051	0.8478673613982438	Closely related
+# Query: JQ659256.fasta
+# Domains: Bunya_RdRp, L_thumb_ring_vir, L_protein_N, Bunya_nucleocap, Bunya_G2, Bunya_G1
+# Top 2 matches for JQ659256.fasta (11204 bp, 3 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+JQ659256|JQ659257|JQ659258|Herbert_virus-Herbevirus_herberti-Herbevirus-Peribunyaviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	0.75	1.0	1.0	1	1	0.9404761904999999	Closely related
+KF590574|KF590573|KF590572|Ta_virus-Herbevirus_taiense-Herbevirus-Peribunyaviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0.7553799999999999	0.5411275	1.0	0.9532995810055865	1	0.955157715260017	0.8120463789156172	Closely related
+# Query: JX045649.fasta
+# Domains: RNA_replicase_B, Levi_coat, Phage_mat-A
+# Top 2 matches for JX045649.fasta (3523 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+JX045649|Enterobacteria_phage_C_1_INW_2012-Cunavirus_pretoriense-Cunavirus-Fiersviridae-Norzivirales-Leviviricetes-Lenarviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+DQ836063|Pseudomonas_phage_PRR1-Perrunavirus_olsenii-Perrunavirus-Fiersviridae-Norzivirales-Leviviricetes-Lenarviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.3435925	1.0	0.8871650211565585	0.75	0.9860061572907921	0.5174030341368012	Related
+# Query: JX065209.fasta
+# Domains: BDV_M, Mononeg_RNA_pol, Mononeg_mRNAcap, BDV_G, BDV_P24, BDV_P40
+# Top 2 matches for JX065209.fasta (8915 bp, 5 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+JX065209|parrot_bornavirus_4-Orthobornavirus_alphapsittaciforme-Orthobornavirus-Bornaviridae-Mononegavirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+EU781967|parrot_bornavirus_2-Orthobornavirus_alphapsittaciforme-Orthobornavirus-Bornaviridae-Mononegavirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0.81258	0.9345680000000002	1.0	0.9445099029344106	1	0.9998878295008413	0.9229398827210975	Closely related
+# Query: KF534749.fasta
+# Domains: Methyltrans_Mon_1st, Rhabdo_glycop, Mononeg_RNA_pol, Mononeg_mRNAcap, Rhabdo_ncap, Methyltrans_Mon_2nd
+# Top 2 matches for KF534749.fasta (11876 bp, 6 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KF534749|Puerto_Almendras_virus-Almendravirus_almendras-Almendravirus-Rhabdoviridae-Mononegavirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KC994644|Arboretum_virus-Almendravirus_arboretum-Almendravirus-Rhabdoviridae-Mononegavirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0	0.40043999999999996	1.0	0.9447584789311408	1	0.9668238464129336	0.5620618703797305	Related
+# Query: KF848980.fasta
+# Domains: Bunya_RdRp, Tenui_N, L_protein_N, Phlebovirus_G1, L_PA-C-like, Phlebo_G2_C, Phlebovirus_G2
+# Top 2 matches for KF848980.fasta (11392 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KF848980|KF848981|KF848982|Hunter_Island_virus-Bandavirus_albatrossense-Bandavirus-Phenuiviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KJ740148|KJ740147|KJ740146|Heartland_virus-Bandavirus_heartlandense-Bandavirus-Phenuiviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0	0.5319625	1.0	0.9313931130921168	1	0.9894042035782525	0.5925426684523852	Related
+# Query: KJ125489.fasta
+# Domains: AAA_30, AAA_12, Peptidase_C107
+# Top 2 matches for KJ125489.fasta (19917 bp, 6 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KJ125489|Casuarina_virus-Alphamesonivirus_4-Alphamesonivirus-Mesoniviridae-Nidovirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.8571428571428571	1.0	1.0	1	1	0.9659863945714284	Closely related
+KC807171|Karang_Sari_virus-Alphamesonivirus_2-Alphamesonivirus-Mesoniviridae-Nidovirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.7649866666666667	0.5800057142857142	1.0	0.9403527735468973	1	0.9577783120942535	0.8223231049084148	Closely related
+# Query: KM817609.fasta
+# Domains: Methyltrans_Mon_2nd, Mononeg_RNA_pol, Mononeg_mRNAcap
+# Top 2 matches for KM817609.fasta (9152 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KM817609|KM817608|W_hn_louse_fly_virus_7-Boscovirus_hippoboscidae-Boscovirus-Chuviridae-Jingchuvirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KM817607|KM817606|W_hn_louse_fly_virus_6-Boscovirus_hypoboscidae-Boscovirus-Chuviridae-Jingchuvirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0	0.24513000000000001	1.0	0.9310079225352113	1	0.9909309440559441	0.5242668908043708	Related
+# Query: KP325401.fasta
+# Domains: HCV_NS1, Peptidase_S29, HCV_NS4a, HCV_NS5a_C, HCV_NS5a_1b, HCV_NS2, RdRP_3, HCV_env, HCV_core, Flavi_DEAD, HCV_NS4b, HCV_NS5a_1a
+# Top 2 matches for KP325401.fasta (9531 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KP325401|non_primate_hepacivirus-Hepacivirus_equi-Hepacivirus-Flaviviridae-Amarillovirales-Flasuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.6666666666666666	1.0	1.0	1	1	0.9206349206666666	Closely related
+AF009606|hepatitis_C_virus_genotype_1a-Hepacivirus_hominis-Hepacivirus-Flaviviridae-Amarillovirales-Flasuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.15651333333333334	0.9230769230769231	0.8476344478639611	1	0.9880779597760729	0.4764693170593355	Related
+# Query: KP710246.fasta
+# Domains: 
+# Top 2 matches for KP710246.fasta (12741 bp, 6 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KP710246|KP710264|KP710267|Ferak_virus-Feravirus_ferakinum-Feravirus-Phasmaviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	1.0	0	1.0	1	1	0.80952381	Closely related
+KM817675|KX650646|KX650647|S_nxi_water_strider_virus_2-Sawastrivirus_sanxiaense-Sawastrivirus-Phasmaviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0	0.26862	0	0.8787772721969431	0.8333333333333334	0.9805294751423734	0.3155537125798348	Distantly related
+# Query: KT861481.fasta
+# Domains: Bunya_RdRp, Emaravirus_P4
+# Top 2 matches for KT861481.fasta (14150 bp, 5 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KT861481|KT861482|KT861483|KT861484|KT861485|Actinidia_chlorotic_ringspot_associated_virus-Emaravirus_actinidiae-Emaravirus-Fimoviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+AM941711|FM864225|FM991954|FM992851|HE803826|HE803827|fig_mosaic_virus-Emaravirus_fici-Emaravirus-Fimoviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0.7066899999999999	0.327184	0.6666666666666667	0.9393112853733379	0.8333333333333334	0.9295756142425436	0.6646144193668033	Related
+# Query: KU297983.fasta
+# Domains: PLRV_ORF5, RdRP_4, Peptidase_S39, Luteo_coat
+# Top 2 matches for KU297983.fasta (5726 bp, 5 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KU297983|alfalfa_enamovirus_1-Alfalfa_enamovirus_1-Enamovirus-Solemoviridae-Sobelivirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+HM439775|pea_enation_mosaic_virus_1-Pea_enation_mosaic_virus_1-Enamovirus-Solemoviridae-Sobelivirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.7838299999999999	0.789998	1.0	0.9382002801120448	1	0.9961578763534754	0.8792251769331646	Closely related
+# Query: KX589065.fasta
+# Domains: Vmethyltransf, Viral_helicase1, RdRP_2, SP2_M, SP2
+# Top 2 matches for KX589065.fasta (6660 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KX589065|little_egret_hepatitis_E_virus-Avihepevirus_egretti-Avihepevirus-Hepeviridae-Hepelivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.6666666666666666	1.0	1.0	1	1	0.9206349206666666	Closely related
+MW249011|Desmodus_bat_hepatitis_E_virus-Chirohepevirus_desmodi-Chirohepevirus-Hepeviridae-Hepelivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.5226166666666666	0.9090909090909091	0.9108836369110341	1	0.9957957957957958	0.5703758891327972	Related
+# Query: KX884063.fasta
+# Domains: RdRP_1
+# Top 2 matches for KX884063.fasta (3598 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KX884063|KX884062|B_ih_i_picobirnavirus_7-Orthopicobirnavirus_beihaiense-Orthopicobirnavirus-Picobirnaviridae-Durnavirales-Duplopiviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-dsRNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+LC195294|LC195295|pepper_cryptic_virus_2-Pepper_cryptic_virus_2-Deltapartitivirus-Partitiviridae-Durnavirales-Duplopiviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-dsRNA	0	0.142855	1.0	0.8757255543979758	1	0.8713173985547527	0.4863223360028898	Related
+# Query: KX884416.fasta
+# Domains: Mononeg_RNA_pol, Mononeg_mRNAcap
+# Top 2 matches for KX884416.fasta (13741 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KX884416|Hb_i_coleoptera_virus_3-Ollusvirus_coleopteri-Ollusvirus-Aliusviridae-Jingchuvirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	0.8	1.0	1.0	1	1	0.9523809524	Closely related
+BK059311|Rhagovelia_obesa_mononega_like_virus-Ollusvirus_rhagoveliae-Ollusvirus-Aliusviridae-Jingchuvirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0	0.284552	1.0	0.9285486103716324	1	0.9517246155977283	0.5314347829306173	Related
+# Query: KY357509.fasta
+# Domains: Viral_helicase1, RdRP_2, EryCIII-like_C
+# Top 2 matches for KY357509.fasta (12730 bp, 1 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+KY357509|Agaricus_bisporus_endornavirus_1-Agaricus_bisporus_alphaendornavirus_1-Alphaendornavirus-Endornaviridae-Martellivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.3333333333333333	1.0	1.0	1	1	0.8412698413333333	Closely related
+MF362666|Helianthus_annuus_endornaviru-Helianthus_annuus_alphaendornavirus-Alphaendornavirus-Endornaviridae-Martellivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.28758333333333336	0.8	0.8188556614452113	1	0.8681715883516333	0.4744121540562241	Distantly related
+# Query: L00163.fasta
+# Domains: Ilar_coat, Vmethyltransf, Viral_helicase1, RdRP_2, Bromo_MP
+# Top 2 matches for L00163.fasta (8276 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+L00163|X01572|K02703|alfalfa_mosaic_virus-Alfalfa_mosaic_virus-Alfamovirus-Bromoviridae-Martellivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.9429320000000001	1.0	1.0	1.0	1	1	0.983694857126552	Closely related
+AF278534|AF278535|U57046|Prunus_necrotic_ringspot_virus-Prunus_necrotic_ringspot_virus-Ilarvirus-Bromoviridae-Martellivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.43419	1.0	0.8893158155676748	1	0.9523924601256646	0.561489995297495	Related
+# Query: L13218.fasta
+# Domains: RdRP_4
+# Top 2 matches for L13218.fasta (6277 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+L13218|Giardia_lamblia_virus-Giardia_lamblia_virus-Giardiavirus-Totiviridae-Ghabrivirales-Chrymotiviricetes-Duplornaviricota-Orthornavirae-Riboviria-Viruses-dsRNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MK584816|MK584819|Neofusicoccum_parvum_chrysovirus_1-Betachrysovirus_neofusicocci-Betachrysovirus-Chrysoviridae-Ghabrivirales-Chrymotiviricetes-Duplornaviricota-Orthornavirae-Riboviria-Viruses-dsRNA	0	0	1.0	0.8162067871868062	1	0.9892828999211978	0.4494239646116428	Distantly related
+# Query: L29010.fasta
+# Domains: DUF3525, Peptidase_C8
+# Top 2 matches for L29010.fasta (12507 bp, 3 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+L29010|Cryphonectria_hypovirus_2-Alphahypovirus_americanum-Alphahypovirus-Hypoviridae-Durnavirales-Duplopiviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+M57938|Cryphonectria_hypovirus_1-Alphahypovirus_cryphonectriae-Alphahypovirus-Hypoviridae-Durnavirales-Duplopiviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA	0.764915	0.5609999999999999	0.8	0.9213759213759214	1	0.9821737081828177	0.7781329273047424	Closely related
+# Query: LC006253.fasta
+# Domains: RdRP_1
+# Top 2 matches for LC006253.fasta (6310 bp, 1 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+LC006253|yado_kari_virus_1-Alphayadokarivirus_ichibani-Alphayadokarivirus-Yadokariviridae-Yadokarivirales--Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+HE588148|Aspergillus_foetidus_slow_virus_2-Alphayadokarivirus_nibani-Alphayadokarivirus-Yadokariviridae-Yadokarivirales--Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.51138	1.0	0.7307305292815456	1	0.5759112519809826	0.5392858490763018	Related
+# Query: LC413502.fasta
+# Domains: Mitovir_RNA_pol
+# Top 2 matches for LC413502.fasta (1671 bp, 1 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+LC413502|Pyricularia_oryzae_ourmia_like_virus_2-Betascleroulivirus_pyriculariae-Betascleroulivirus-Botourmiaviridae-Ourlivirales-Miaviricetes-Lenarviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+LC413501|Pyricularia_oryzae_ourmia_like_virus_1-Pyricularia_penoulivirus-Penoulivirus-Botourmiaviridae-Ourlivirales-Miaviricetes-Lenarviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.28291	1.0	0.7622227522060577	1	0.660996835443038	0.4934388135271444	Related
+# Query: LC519840.fasta
+# Domains: zf-C2H2, RdRP_1
+# Top 2 matches for LC519840.fasta (10814 bp, 8 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+LC519840|LC519843|LC519844|LC519845|LC519846|LC519847|LC519848|LC519849|LC519850|hadaka_virus_1-Hadakavirus_nanga-Hadakavirus-Hadakaviridae---Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.9498733333333332	1.0	1.0	1.0	1	1	0.9856780952237731	Closely related
+LC592214|LC592215|LC592216|LC592217|LC592218|LC592219|LC592220|LC592221|LC592222|LC592223|hadaka_virus_1-Hadakavirus_nanga-Hadakavirus-Hadakaviridae---Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.820574	0.6336425	0.6666666666666667	0.8573132903841565	0.8888888888888888	0.7506594474524504	0.7551762030557917	Closely related
+# Query: LT221868.fasta
+# Domains: Viral_helicase1, RdRP_2, RBDV_coat, Vmethyltransf
+# Top 2 matches for LT221868.fasta (7726 bp, 3 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+LT221868|LT221869|privet_leaf_blotch_associated_virus-Idaeovirus_ligustri-Idaeovirus-Mayoviridae-Martellivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+S51557|S55890|raspberry_bushy_dwarf_virus-Idaeovirus_rubi-Idaeovirus-Mayoviridae-Martellivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.3479933333333333	1.0	0.919898655232898	0.75	0.9941755112606783	0.5235161018996739	Related
+# Query: M14008.fasta
+# Domains: HLH, Myc-LZ, Myc_N
+# Top 2 matches for M14008.fasta (2630 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+M14008|avian_carcinoma_Mill_Hill_virus_2-Avian_carcinoma_Mill_Hill_virus_2-Alpharetrovirus-Retroviridae-Ortervirales-Revtraviricetes-Artverviricota-Pararnavirae-Riboviria-Viruses-ssRNA_RT	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+AF033809|avian_myelocytomatosis_virus_29-Avian_myelocytomatosis_virus_29-Alpharetrovirus-Retroviridae-Ortervirales-Revtraviricetes-Artverviricota-Pararnavirae-Riboviria-Viruses-ssRNA_RT	0.94748	0.454435	0.75	0.839095744680851	0.6666666666666666	0.7753537735849056	0.7420490163630278	Closely related
+# Query: M17461.fasta
+# Domains: Peptidase_U40, NTPase_P4, RdRP_1, P1
+# Top 2 matches for M17461.fasta (13387 bp, 17 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+M17461|M17462|M12921|Pseudomonas_phage_phi6-Cystovirus_phi6-Cystovirus-Cystoviridae-Mindivirales-Vidaverviricetes-Duplornaviricota-Orthornavirae-Riboviria-Viruses-dsRNA	0.9789466666666667	1.0	1.0	1.0	1	1	0.9939847618987465	Closely related
+KJ957164|KJ957165|KJ957166|Pseudomonas_phage_phiNN-Cystovirus_phiNN-Cystovirus-Cystoviridae-Mindivirales-Vidaverviricetes-Duplornaviricota-Orthornavirae-Riboviria-Viruses-dsRNA	0.82294	0.5699782352941176	1.0	0.9472379736377633	1	0.9908119817733623	0.8390503370820539	Closely related
+# Query: M32662.fasta
+# Domains: RVT_1, rve, Integrase_H2C2, Baculo_F, RT_RNaseH
+# Top 2 matches for M32662.fasta (7510 bp, 3 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+M32662|Trichoplusia_ni_TED_virus-Trichoplusia_ni_TED_virus-Errantivirus-Metaviridae-Ortervirales-Revtraviricetes-Artverviricota-Pararnavirae-Riboviria-Viruses-ssRNA_RT	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+X52938|Commelina_yellow_mottle_virus-Badnavirus_maculacommelinae-Badnavirus-Caulimoviridae-Ortervirales-Revtraviricetes-Artverviricota-Pararnavirae-Riboviria-Viruses-dsDNA_RT	0	0.10770333333333333	0.4444444444444444	0.8226505702661242	1	0.9972037283621837	0.3705452325900348	Distantly related
+# Query: MF041809.fasta
+# Domains: RdRP_1, RNA_helicase
+# Top 2 matches for MF041809.fasta (11851 bp, 5 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MF041809|Lasius_neglectus_virus_1-Lasius_neglectus_virus_1-Sopolycivirus-Polycipiviridae-Picornavirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MF041810|Myrmica_scabrinodis_virus_1-Myrmica_scabrinodis_virus_1-Sopolycivirus-Polycipiviridae-Picornavirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.555454	1.0	0.9446199199831543	1	0.9958823529411764	0.6003339098847928	Related
+# Query: MF319185.fasta
+# Domains: Filo_VP24, Transcript_VP30, Mononeg_RNA_pol, Mononeg_mRNAcap, VP40, Filo_VP35, Ebola_NP, Filo_glycop
+# Top 2 matches for MF319185.fasta (19043 bp, 11 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MF319185|Bombali_virus-Orthoebolavirus_bombaliense-Orthoebolavirus-Filoviridae-Mononegavirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+AF086833|Ebola_virus-Orthoebolavirus_zairense-Orthoebolavirus-Filoviridae-Mononegavirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0.76866	0.5281536363636363	1.0	0.9106748078745132	0.7272727272727273	0.9955889303156016	0.7826136662342287	Closely related
+# Query: MF324848.fasta
+# Domains: Arteri_Gl, Arteri_GP4, Viral_helicase1, Peptidase_S32, Arteri_nsp7a, PRRSV_2b, RdRP_1, Peptidase_C33, Arteri_nucleo, Peptidase_C31, CoV_NSP15_C
+# Top 2 matches for MF324848.fasta (13766 bp, 10 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MF324848|Olivier's_shrew_virus_1-Muarterivirus_afrigant-Muarterivirus-Arteriviridae-Nidovirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KP026921|African_pouched_rat_arterivirus-Lambdaarterivirus_afriporav-Lambdaarterivirus-Arteriviridae-Nidovirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.104799	0.9565217391304348	0.9146379688642775	0.9	0.9206179362000936	0.46736256167374796	Distantly related
+# Query: MF327529.fasta
+# Domains: VP4_2, Rhv, Peptidase_C3, RdRP_1, RNA_helicase
+# Top 2 matches for MF327529.fasta (8029 bp, 1 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MF327529|ailurivirus_A1__aimelvirus_1-Ailurivirus_A-Ailurivirus-Picornaviridae-Picornavirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.3333333333333333	1.0	1.0	1	1	0.8412698413333333	Closely related
+AF361253|equine_rhinitis_B_virus_2-Erbovirus_A-Erbovirus-Picornaviridae-Picornavirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.3514266666666666	1.0	0.8755639990501068	1	0.9102142614216076	0.5378114088624196	Related
+# Query: MF375883.fasta
+# Domains: Viral_helicase1, RdRP_2, DEAD, Vmethyltransf
+# Top 2 matches for MF375883.fasta (9221 bp, 3 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MF375883|Entoleuca_gammaflexivirus_1-Gammaflexivirus_EntGFV_1-Gammaflexivirus-Gammaflexiviridae-Tymovirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.75	1.0	1.0	1	1	0.9404761904999999	Closely related
+MK605686|Entoleuca_gammaflexivirus_2-Xylavirus_EntGFV_2-Xylavirus-Gammaflexiviridae-Tymovirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.4316875	1.0	0.9023479188900747	0.75	0.9680839895013124	0.5396935829528513	Related
+# Query: MF469033.fasta
+# Domains: Bunya_NS-S_2, Bunya_RdRp, Tospo_nucleocap, 3A, Bunya_G1
+# Top 2 matches for MF469033.fasta (16398 bp, 5 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MF469033|MF469034|MF469035|Alstroemeria_yellow_spot_virus-Orthotospovirus_alstroemeriflavi-Orthotospovirus-Tospoviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+FJ623474|AF214014|AF001387|iris_yellow_spot_virus-Orthotospovirus_iridimaculaflavi-Orthotospovirus-Tospoviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+___	0.7857099999999999	0.793886	1.0	0.9552724315532665	1	0.9746210995542348	0.8821013520477766	Closely related
+# Query: MG489864.fasta
+# Domains: Methyltrans_Mon_2nd, Mononeg_RNA_pol, Mononeg_mRNAcap
+# Top 2 matches for MG489864.fasta (12434 bp, 6 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MG489864|Lepeophtheirus_salmonis_negative_stranded_RNA_virus_1-Hexartovirus_lepeophtheiri-Hexartovirus-Artoviridae-Mononegavirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KX431032|Pteromalus_puparum_negative_strand_RNA_virus_1-Peropuvirus_pteromali-Peropuvirus-Artoviridae-Mononegavirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0	0.12372666666666665	1.0	0.8866899180793252	0.8333333333333334	0.9835933730094901	0.47280776777915057	Distantly related
+# Query: MG599866.fasta
+# Domains: Arena_RNA_pol
+# Top 2 matches for MG599866.fasta (10994 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MG599866|MG599868|MG599867|W_nl_ng_frogfish_arenavirus_2-Antennavirus_hirsutum-Antennavirus-Arenaviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MG599863|MG599865|MG599864|W_nl_ng_frogfish_arenavirus_1-Antennavirus_striale-Antennavirus-Arenaviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+___	0	0.234705	1.0	0.9014392580602826	1	0.9248759148649786	0.5144151754133209	Related
+# Query: MG781152.fasta
+# Domains: SP24, Vmethyltransf, Viral_helicase1, RdRP_2, 3A
+# Top 2 matches for MG781152.fasta (15087 bp, 8 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MG781152|MG781153|MG781154|MG781155|Tea_plant_necrotic_ring_blotch_virus-Blunervirus_camelliae-Blunervirus-Kitaviridae-Martellivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.9766066666666667	1.0	1.0	1.0	1	1	0.9933161904695067	Closely related
+JN651148|JN651149|JN651150|JN651151|blueberry_necrotic_ring_blotch_virus-Blunervirus_vaccinii-Blunervirus-Kitaviridae-Martellivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.24061875000000002	1.0	0.9276691883750385	0.75	0.9382912441174521	0.49639964549050797	Related
+# Query: MH206615.fasta
+# Domains: Vmethyltransf, Viral_helicase1, Closter_coat, RdRP_2, Viral_Hsp90, HSP70
+# Top 2 matches for MH206615.fasta (13398 bp, 8 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MH206615|air_potato_ampelovirus_1-Air_potato_ampelovirus_1-Ampelovirus-Closteroviridae-Martellivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+FJ467503|grapevine_leafroll_associated_virus_4-Grapevine_leafroll_associated_virus_4-Ampelovirus-Closteroviridae-Martellivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.26987375	1.0	0.9167585041510543	1	0.968763557483731	0.5270670388046443	Related
+# Query: MH384837.fasta
+# Domains: RVT_1, RVP, DUF1319, zf-CCHC, RT_RNaseH
+# Top 2 matches for MH384837.fasta (7178 bp, 3 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MH384837|Aglaonema_bacilliform_virus-Badnavirus_aglaonemae-Badnavirus-Caulimoviridae-Ortervirales-Revtraviricetes-Artverviricota-Pararnavirae-Riboviria-Viruses-dsDNA_RT	1.0	0.75	1.0	1.0	1	1	0.9404761904999999	Closely related
+AF347695|citrus_yellow_mosaic_virus-Badnavirus_tessellocitri-Badnavirus-Caulimoviridae-Ortervirales-Revtraviricetes-Artverviricota-Pararnavirae-Riboviria-Viruses-dsDNA_RT	0	0.4863375	1.0	0.8877876586789764	1	0.9495965074745336	0.5735546179904248	Related
+# Query: MH395371.fasta
+# Domains: DEAD, Poty_PP, RdRP_1, Peptidase_C6, Peptidase_C4, Poty_coat, Helicase_C
+# Top 2 matches for MH395371.fasta (9434 bp, 1 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MH395371|areca_palm_necrotic_ringspot_virus-Areca_palm_necrotic_ringspot_virus-Arepavirus-Potyviridae-Patatavirales-Stelpaviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.25	1.0	1.0	1	1	0.8214285714999998	Closely related
+MH330686|areca_palm_necrotic_spindle_spot_virus-Areca_palm_necrotic_spindle_spot_virus-Arepavirus-Potyviridae-Patatavirales-Stelpaviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.74953	0.19039750000000003	1.0	0.94672674264511	0.5	0.9996821023630391	0.6804299920358281	Related
+# Query: MH477287.fasta
+# Domains: Mononeg_RNA_pol, Mononeg_mRNAcap, BDV_P40
+# Top 2 matches for MH477287.fasta (9851 bp, 5 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MH477287|Formica_fusca_virus_1-Formivirus_angliae-Formivirus-Nyamiviridae-Mononegavirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MF287670|Formica_exsecta_virus_4-Formivirus_finnoniae-Formivirus-Nyamiviridae-Mononegavirales-Monjiviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0.78274	0.712898	1.0	0.9283141393130739	1	0.9984796270018245	0.8592548592373558	Closely related
+# Query: MK861116.fasta
+# Domains: Bunya_G2, Bunya_RdRp, Bunya_G1, L_thumb_ring_vir
+# Top 2 matches for MK861116.fasta (11530 bp, 5 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MK861116|MK861117|MK861118|European_shore_crab_virus_1-Lincruvirus_europense-Lincruvirus-Cruliviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MH717874|MH717875|MH717876|Chinese_mitten_crab_virus_1-Lincruvirus_sinense-Lincruvirus-Cruliviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0.7159	0.49028599999999994	1.0	0.9223871228085908	0.8	0.9362532523850824	0.7642973628753748	Closely related
+# Query: MN031239.fasta
+# Domains: HDV_ag
+# Top 2 matches for MN031239.fasta (1735 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MN031239|Chinese_fire_belly_newt_virus_1-Daazvirus_cynopis-Daazvirus-Kolmioviridae-----Ribozyviria-Viruses-ssRNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+AX741164|hepatitis_D_virus_6-Deltavirus_carense-Deltavirus-Kolmioviridae-----Ribozyviria-Viruses-ssRNA___	0	0	1.0	0.7758823529411765	1	0.9723342939481268	0.442856254660856	Distantly related
+# Query: MN148891.fasta
+# Domains: RdRP_1, RNA_helicase, Como_LCP, Como_SCP
+# Top 2 matches for MN148891.fasta (9806 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MN148891|MN148892|Andean_potato_mottle_virus-Comovirus_andesense-Comovirus-Secoviridae-Picornavirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.6666666666666666	1.0	1.0	1	1	0.9206349206666666	Closely related
+MK990555|MK990556|pepper_mild_mosaic_virus-Comovirus_capsici-Comovirus-Secoviridae-Picornavirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.7294799999999999	0.4042133333333333	0.8888888888888888	0.9402578722967072	1	0.9866408321435856	0.7505198415071139	Closely related
+# Query: MN510769.fasta
+# Domains: Bunya_RdRp, Hanta_nucleocap
+# Top 2 matches for MN510769.fasta (12613 bp, 5 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MN510769|MN510770|MN510771|Bern_perch_virus-Actinovirus_bernense-Actinovirus-Hantaviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+MK602177|MK602178|MK602179|MK602180|MK602181|pear_chlorotic_leaf_spot_associated_virus-Emaravirus_pyri-Emaravirus-Fimoviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0	0.053164	0.6666666666666667	0.7186338289962825	0.8333333333333334	0.952571558039423	0.36702982748563884	Distantly related
+# Query: MN560974.fasta
+# Domains: Helicase_C, RdRP_1, DEAD
+# Top 2 matches for MN560974.fasta (6179 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MN560974|Botryosphaeria_dothidea_fusarivirus_1-Alphafusarivirus_botryospheriae-Alphafusarivirus-Fusariviridae-Durnavirales-Duplopiviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KY906214|Neofusicoccum_luteum_fusarivirus_1-Alphafusarivirus_neofusicocci-Alphafusarivirus-Fusariviridae-Durnavirales-Duplopiviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.40559	1.0	0.9105258919223645	1	0.9895900064061499	0.5594817941433505	Related
+# Query: MT663548.fasta
+# Domains: CoV_NSP9, CoV_ExoN, CoV_NSP7, CoV_RPol_N, CoV_NSP13_1B, CoV_NSP13_stalk, CoV_nucleocap, CoV_NSP8, CoV_S2_C, CoV_NSP13_ZBD, CoV_NSP4_C, CoV_NSP2_C, CoV_NSP3_C, RdRP_1, Corona_NS3b, CoV_M, CoV_Methyltr_2, CoV_S1_C, CoV_S2, Macro, CoV_peptidase, Peptidase_C30, AAA_12, CoV_NSP15_C, AAA_30, CoV_NSP15_N, CoV_NSP4_N, CoV_NSP6, CoV_NSP10, CoV_NSP2_N, CoV_NSP15_M, CoV_S1
+# Top 2 matches for MT663548.fasta (29097 bp, 8 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MT663548|bat_alphacoronavirus_isolate_AMA_L_F-Alphacoronavirus_AMALF-Alphacoronavirus-Coronaviridae-Nidovirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.8888888888888888	1.0	1.0	1	1	0.9735449735555555	Closely related
+KJ473809|BtNv_AlphaCoV_SC2013-Nyctalus_velutinus_alphacoronavirus_SC_2013-Alphacoronavirus-Coronaviridae-Nidovirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.740305	0.3922899999999999	0.9846153846153847	0.944930899883954	1	0.954840705227343	0.7681607115535884	Closely related
+# Query: MT907511.fasta
+# Domains: AAA_19, Bunya_G1, Peptidase_C62
+# Top 2 matches for MT907511.fasta (29110 bp, 4 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MT907511|Macrobrachium_rosenbergii_Golda_virus-Nimanivirus_lahi-Nimanivirus-Roniviridae-Nidovirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.6666666666666666	1.0	1.0	1	1	0.9206349206666666	Closely related
+EU487200|yellow_head_virus-Okavirus_flavicapitis-Okavirus-Roniviridae-Nidovirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.305695	0.5714285714285714	0.8447441093139189	0.8	0.9159051872208863	0.4221108000196536	Distantly related
+# Query: MW281483.fasta
+# Domains: RdRP_1, RNA_helicase
+# Top 2 matches for MW281483.fasta (18144 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MW281483|MW548506|Acheta_domesticus_Iflavirus-Iflavirus_achedomestici-Iflavirus-Iflaviridae-Picornavirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.9249066666666667	0.9610099999999999	1.0	1.0	1	1	0.9692614285536865	Closely related
+JN052073|JN052074|chocolate_lily_virus_A-Sadwavirus_fritillariae-Sadwavirus-Secoviridae-Picornavirales-Pisoniviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.07416249999999999	1.0	0.7411724137931035	1	0.5993716931216931	0.43779530601767475	Distantly related
+# Query: MW315101.fasta
+# Domains: Bunya_RdRp, Nairo_nucleo
+# Top 2 matches for MW315101.fasta (18571 bp, 3 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+MW315101|MW315107|"Beij_nairovirus__Gakugsa"-Norwavirus_beijiense-Norwavirus-Nairoviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KU925470|KU925471|KU925472|Hughes_virus-Orthonairovirus_bushkeyense-Orthonairovirus-Nairoviridae-Bunyavirales-Ellioviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0	0.30355333333333334	0.5714285714285714	0.8796941514601014	1	0.9873458618275807	0.4490432984669188	Distantly related
+# Query: U73745.fasta
+# Domains: Alpha_E2_glycop, ToMV_Hel_N, Macro, Peptidase_C9, Viral_helicase1, Vmethyltransf, Alpha_E1_glycop, Alpha_E3_glycop, RdRP_2, nsP3_ZBD, Peptidase_S3
+# Top 2 matches for U73745.fasta (11488 bp, 3 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+U73745|Barmah_Forest_virus-Barmah_Forest_virus-Alphavirus-Togaviridae-Martellivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+AY702913|getah_virus-Getah_virus-Alphavirus-Togaviridae-Martellivirales-Alsuviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.84758	0.6488166666666667	1.0	0.9058991807897361	1	0.990601017504527	0.8589458044113057	Closely related
+# Query: V00603.fasta
+# Domains: Flu_PB2_7th, Neur, Flu_PB1, Flu_PB2_1st, Flu_PA, Flu_PB2_5th, Flu_NP, Flu_M1_C, Flu_PB2_4th, Flu_PB2_3rd, Flu_M1, Flu_PB2_6th, Hemagglutinin, Flu_NS1, Flu_PB2_2nd
+# Top 2 matches for V00603.fasta (13595 bp, 8 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+V00603|J02151|V01106|V01088|J02147|J02146|V01099|J02150|influenza_A_virus-Alphainfluenzavirus_influenzae-Alphainfluenzavirus-Orthomyxoviridae-Articulavirales-Insthoviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+M14880|AF101982|AF102017|K00423|K01395|J02095|J02094|J02096|influenza_B_virus-Betainfluenzavirus_influenzae-Betainfluenzavirus-Orthomyxoviridae-Articulavirales-Insthoviricetes-Negarnaviricota-Orthornavirae-Riboviria-Viruses-ssRNA___	0	0.33607750000000003	0.9032258064516129	0.9049014004001144	0.8888888888888888	0.9402448302095581	0.5107627395753302	Related
+# Query: X02396.fasta
+# Domains: Peptidase_A6, Noda_Vmethyltr
+# Top 2 matches for X02396.fasta (4506 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+X02396|X00956|black_beetle_virus-Black_beetle_virus-Alphanodavirus-Nodaviridae-Nodamuvirales-Magsaviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	0.6666666666666666	1.0	1.0	1	1	0.9206349206666666	Closely related
+X77156|X15959|Flock_House_virus-Flock_House_virus-Alphanodavirus-Nodaviridae-Nodamuvirales-Magsaviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.9325199999999999	0.6192133333333333	1.0	0.9642222222222222	1	0.9995563442768411	0.8849242703740945	Closely related
+# Query: X60213.fasta
+# Domains: DNA_pol_viral_N, RVT_1, DNA_pol_viral_C, Hepatitis_core
+# Top 2 matches for X60213.fasta (3027 bp, 2 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+X60213|duck_hepatitis_B_virus-Duck_hepatitis_B_virus-Avihepadnavirus-Hepadnaviridae-Blubervirales-Revtraviricetes-Artverviricota-Pararnavirae-Riboviria-Viruses-dsDNA_RT	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+AF111000|snow_goose_hepatitis_B_virus-Duck_hepatitis_B_virus-Avihepadnavirus-Hepadnaviridae-Blubervirales-Revtraviricetes-Artverviricota-Pararnavirae-Riboviria-Viruses-dsDNA_RT	0.8950499999999999	0.901165	1.0	0.9336641852770885	1	0.9990089197224975	0.9369584035673713	Closely related
+# Query: X99487.fasta
+# Domains: 
+# Top 2 matches for X99487.fasta (306 bp, 0 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+X99487|apple_dimple_fruit_viroid-Apple_dimple_fruit_viroid-Apscaviroid-Pospiviroidae------Viruses-ssRNA	1.0	0	0	1.0	0	1	0.476190477	Related
+MN734702|plum_viroid_I-Apscaviroid_plvd_I-Apscaviroid-Pospiviroidae------Viruses-ssRNA	0.77922	0	0	0.7467532467532467	0.0	0.9683544303797469	0.3754254373953287	Distantly related
+# Query: Y15936.fasta
+# Domains: SP2_M, Astro_VPg, RdRP_1, Astro_capsid_N
+# Top 2 matches for Y15936.fasta (7003 bp, 3 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+Y15936|avastrovirus_1-Avastrovirus_1-Avastrovirus-Astroviridae-Stellavirales-Stelpaviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+AB033998|avastrovirus_2-Avastrovirus_2-Avastrovirus-Astroviridae-Stellavirales-Stelpaviricetes-Pisuviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0	0.40606666666666663	0.8571428571428572	0.8964326812428078	1	0.9891475082107668	0.5303500147648985	Related
+# Query: Z69910.fasta
+# Domains: RdRP_3, 3A
+# Top 2 matches for Z69910.fasta (4019 bp, 3 CDS):
+Virus	Blastn ANI	Blastp AAI	Domain Count Similarity	Kmer Similarity	CDS proportion	Length Proportion	Score	Prediction
+Z69910|groundnut_rosette_virus-Umbravirus_arachidis-Umbravirus-Tombusviridae-Tolivirales-Tolucaviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	1.0	1.0	1.0	1.0	1	1	1.0	Closely related
+KJ918748|Ethiopian_tobacco_bushy_top_virus-Umbravirus_ethiopiaense-Umbravirus-Tombusviridae-Tolivirales-Tolucaviricetes-Kitrinoviricota-Orthornavirae-Riboviria-Viruses-ssRNA_+_	0.78046	0.7082866666666666	1.0	0.9056374041154268	1	0.9487724268177526	0.851898951003364	Closely related
