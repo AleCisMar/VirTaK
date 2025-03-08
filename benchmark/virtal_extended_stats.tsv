@@ -1,0 +1,21 @@
+	Counts									%									Cumulative %							
+DNA	Genus	Family	Order	Class	Phylum	Kingdom	Realm	Not related	Sum	Genus	Family	Order	Class	Phylum	Kingdom	Realm	Not related	Sum	Genus	Family	Order	Class	Phylum	Kingdom	Realm	Not related
+Closely related	55	12	0	0	0	0	0	0	67	82.08955224	17.91044776	0	0	0	0	0	0	100	82.08955224	100	100	100	100	100	100	0
+Related	7	13	1	1	0	0	0	0	22	31.81818182	59.09090909	4.545454545	4.545454545	0	0	0	0	100	31.81818182	90.90909091	95.45454545	100	100	100	100	0
+Distantly related	2	6	2	3	2	0	0	1	16	12.5	37.5	12.5	18.75	12.5	0	0	6.25	100	12.5	50	62.5	81.25	93.75	93.75	93.75	6.25
+Similar genomes	0	0	0	0	0	0	1	1	2	0	0	0	0	0	0	50	50	100	0	0	0	0	0	0	50	50
+Not related	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+																										
+RNA	Genus	Family	Order	Class	Phylum	Kingdom	Realm	Not related	Sum	Genus	Family	Order	Class	Phylum	Kingdom	Realm	Not related	Sum	Genus	Family	Order	Class	Phylum	Kingdom	Realm	Not related
+Closely related	32	0	0	0	0	0	0	0	32	100	0	0	0	0	0	0	0	100	100	100	100	100	100	100	100	0
+Related	23	11	1	0	0	0	0	0	35	65.71428571	31.42857143	2.857142857	0	0	0	0	0	100	65.71428571	97.14285714	100	100	100	100	100	0
+Distantly related	3	7	4	0	0	0	0	0	14	21.42857143	50	28.57142857	0	0	0	0	0	100	21.42857143	71.42857143	100	100	100	100	100	0
+Similar genomes	0	0	1	0	0	0	0	0	1	0	0	100	0	0	0	0	0	100	0	0	100	100	100	100	100	0
+Not related	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	100	100	0	0	0	0	0	0	0	100
+																										
+All	Genus	Family	Order	Class	Phylum	Kingdom	Realm	Not related	Sum	Genus	Family	Order	Class	Phylum	Kingdom	Realm	Not related	Sum	Genus	Family	Order	Class	Phylum	Kingdom	Realm	Not related
+Closely related	87	12	0	0	0	0	0	0	99	87.87878788	12.12121212	0	0	0	0	0	0	100	87.87878788	100	100	100	100	100	100	0
+Related	30	24	2	1	0	0	0	0	57	52.63157895	42.10526316	3.50877193	1.754385965	0	0	0	0	100	52.63157895	94.73684211	98.24561404	100	100	100	100	0
+Distantly related	5	13	6	3	2	0	0	1	30	16.66666667	43.33333333	20	10	6.666666667	0	0	3.333333333	100	16.66666667	60	80	90	96.66666667	96.66666667	96.66666667	3.333333333
+Similar genomes	0	0	1	0	0	0	1	1	3	0	0	33.33333333	0	0	0	33.33333333	33.33333333	100	0	0	33.33333333	33.33333333	33.33333333	33.33333333	66.66666667	33.33333333
+Not related	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	100	100	0	0	0	0	0	0	0	100
