@@ -46,11 +46,13 @@ conda install pfam_scan --channel Bioconda
 If you find problems during the instalation try using `mamba` for faster and more reliable dependency resolution:
 ```
 conda remove -n VirTaK --all # if necessary
-conda create -n VirTaK python=3.9 -c conda-forge mamba
+conda create -n VirTaK python=3.9
 conda activate VirTaK
+conda install -c conda-forge mamba
 mamba install biopython numpy pandas scipy prodigal hmmer blast
-mamba install pfam_scan --channel Bioconda
+mamba install pfam_scan --c Bioconda
 ```
+Any conflicting dependency should be able to be installed individually such as pfam_scan
 
 ### Prepare VirTaK scripts
 To add execution permissions to VirTaK scripts:
